@@ -1,0 +1,1 @@
+// Declare here global variables that belong to the main source file

@@ -1,0 +1,6 @@
+﻿  main.cpp
+d:\my developments\programs\windowtop\windowtop\include\jobs\jobs_cpp\main\initialize.root_win.h(22): error C2440: '=': cannot convert from 'const char [20]' to 'LPCWSTR'
+  d:\my developments\programs\windowtop\windowtop\include\jobs\jobs_cpp\main\initialize.root_win.h(22): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\my developments\programs\windowtop\windowtop\include\jobs\jobs_cpp\main\main.cpp(41): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const char [20]' to 'LPCWSTR'
+  d:\my developments\programs\windowtop\windowtop\include\jobs\jobs_cpp\main\main.cpp(41): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\my developments\programs\windowtop\windowtop\include\jobs\jobs_cpp\main\main.cpp(67): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
