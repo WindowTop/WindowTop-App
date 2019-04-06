@@ -10,9 +10,9 @@ https://windowtop.info/
 * Set window to be dark
 
 ## Paid Features
-* Smart dark mode
-* Full aero effect
-* Save window configuration
+Removed, Not supported.
+To make it supported again:
+https://windowtop.info/support-project/
 
 ## Usage
 You can use the software in 2 ways:
