@@ -6,10 +6,10 @@ Opt("TrayMenuMode", 3) ; The default tray menu items will not be shown and items
 
 	#AutoIt3Wrapper_Icon=Resources\Icon.ico
 
-	#AutoIt3Wrapper_Res_Description=v3.0.6
+	#AutoIt3Wrapper_Res_Description=v3.0.8
 ;~ 	#AutoIt3Wrapper_Res_Fileversion=0
 ;~ 	#AutoIt3Wrapper_Res_ProductVersion=0
-	#AutoIt3Wrapper_Res_LegalCopyright=© 2017 BiGilSoft.com
+	#AutoIt3Wrapper_Res_LegalCopyright=© 2017-2019 gileli121@gmail.com
 ;~ 	#AutoIt3Wrapper_Res_Comment=WindowTop.info, sourceforge.net/projects/windowtop/ , BiGilSoft.com
 
 
@@ -18,16 +18,11 @@ Opt("TrayMenuMode", 3) ; The default tray menu items will not be shown and items
 		#AutoIt3Wrapper_Res_File_Add=Resources\Images\WinBar\Buttons\Type A\set_dark.png, rt_rcdata, img_set_dark
 		#AutoIt3Wrapper_Res_File_Add=Resources\Images\WinBar\Buttons\Type A\set_opacity.png, rt_rcdata, img_set_opacity
 		#AutoIt3Wrapper_Res_File_Add=Resources\Images\WinBar\Buttons\Type A\set_shrink.png, rt_rcdata, img_set_shrink
-		#AutoIt3Wrapper_Res_File_Add=Resources\Images\WinBar\Buttons\Type A\set_aero.png, rt_rcdata, img_set_aero
 
 
 		#AutoIt3Wrapper_Res_File_Add=Resources\Images\save_win_config.png, rt_rcdata, save_win_config
 
-
 		#AutoIt3Wrapper_Res_File_Add=Changing log.txt, rt_rcdata, ChangingLog
-		#AutoIt3Wrapper_Res_File_Add=Resources\BoforeBuy.html, rt_rcdata, BeforeBuyHtmlText
-		#AutoIt3Wrapper_Res_File_Add=Resources\SuggestProVer.html, rt_rcdata, SuggestProVerText
-
 
 	#EndRegion
 
@@ -78,7 +73,7 @@ Opt("TrayMenuMode", 3) ; The default tray menu items will not be shown and items
 	#include 'Include_Third_Party\NotifyBox.au3'
 	#include 'Include_Third_Party\resources2.au3'
 	#include 'Include_Third_Party\GUIHyperLink.au3'
-	#include 'Include_Third_Party\Scrollbars\GUIScrollbars_Ex.au3'
+	#include 'Include_Third_Party\GUIScrollbars_Ex.au3'
 
 
 	#include 'Include\LowLevelFunctions.au3'
@@ -96,22 +91,19 @@ Opt("TrayMenuMode", 3) ; The default tray menu items will not be shown and items
 
 	; INCLUDE.GLOBALS
 	#include 'Include\Common.Globals.au3'
-	#include 'Include\ProFeatures.Globals.au3'
 	#include 'Include\aWins.Globals.au3'
 	#include 'Include\GUIMenuButton.Globals.au3'
 	#include 'Include\GUIMenuButton_WinOptions.Globals.au3'
 	#include 'Include\MaintainWins.Globals.au3'
 	#include 'Include\aExtraFuncCalls.Globals.au3'
-	#include 'Include\SoftHotKeys.Globals.au3'
 	#include 'Include\Tray.Globals.au3'
 	#include 'Include\OtherGUIs.Globals.au3'
 	#include 'Include\AppHelper.Globals.au3'
-	#include 'Include\SellSoftSys.Globals.au3'
 	#include 'Include\TriggerEvery.Globals.au3'
+	#include 'Include\SoftHotKeys.Globals.au3'
 
 	; INCLUDE
 	#include 'Include\Common.au3'
-	#include 'Include\ProFeatures.au3'
 	#include 'Include\aWins.au3'
 	#include 'Include\GUIMenuButton.au3'
 	#include 'Include\GUIMenuButton_WinOptions.au3'
@@ -121,7 +113,6 @@ Opt("TrayMenuMode", 3) ; The default tray menu items will not be shown and items
 	#include 'Include\Tray.au3'
 	#include 'Include\OtherGUIs.au3'
 	#include 'Include\AppHelper.au3'
-	#include 'Include\SellSoftSys.au3' ; <<< ----------
 	#include 'Include\TriggerEvery.au3'
 
 
@@ -133,30 +124,6 @@ Opt("TrayMenuMode", 3) ; The default tray menu items will not be shown and items
 #EndRegion
 
 
-
-#Region Test - for debuging only
-
-
-;~ ToolTip('exit on key')
-;~ HotKeySet('{ESC}',Exit1)
-
-
-;~ Func Exit1()
-;~ 	Exit
-;~ EndFunc
-
-
-;~ HotKeySet('{F1}','aWinsShow')
-
-;~ Func aWinsShow()
-;~ 	_ArrayDisplay($aWins)
-;~ EndFunc
-
-
-
-
-
-#EndRegion
 
 
 ; ___________________________________________________________
@@ -209,24 +176,7 @@ EndIf
 	EndIf
 #EndRegion
 
-#Region Show the user the windowtop website after install the software and run it first time ater install
-	If Not Number(GetSet('Other','first_install_'&$ProgramVersion_Text,0)) Then
-		ShellExecute('http://windowtop.info/')
-		IniWrite($ini,'Other','first_install_'&$ProgramVersion_Text,1)
-	EndIf
-#EndRegion
 
-
-
-; Make the user buy the software
-	SellSoftSys_Run()
-
-
-
-#Region Test area
-
-
-#EndRegion
 
 
 TriggerEvery_CallNextFunc()
@@ -256,14 +206,9 @@ TriggerEvery_CallNextFunc()
 
 
 
-
-
-
-
 #Region Create the tray menu
 
-	$Tray_ActivationState = TrayCreateItem(' ')
-	Tray_ActivationState_SetText()
+	$Tray_Donate_Button = TrayCreateItem('Donate to support the project')
 
     TrayCreateItem("") ; Create a separator line.
 
@@ -308,47 +253,7 @@ TriggerEvery_CallNextFunc()
 	$Tray_ToolBarOptions = TrayCreateItem('Toolbar options ...')
 
 
-	#Region WindowTop Pro section
-	$TrayMenu_WindowTopPro = TrayCreateMenu('WindowTop Pro')
-		$Tray_WTP_ActivationState = TrayCreateItem(' ',$TrayMenu_WindowTopPro)
-
-		If $SellSoftSys_hSuggestProGUI Then TrayItemSetState(-1,$TRAY_DISABLE)
-		Tray_WindowTopPro_ActivationState_SetText()
-
-		If Not $bIsInstalled Then _
-		$Tray_WTP_InstallProgramInfo = TrayCreateItem('Please install WindowTop in order to use *all* Pro features (click for more info)',$TrayMenu_WindowTopPro)
-
-
-		TrayCreateItem("",$TrayMenu_WindowTopPro) ; Create a separator line.
-
-		$Tray_WTP_DarkModePro = TrayCreateItem('Enable/Disable Dark Mode Pro',$TrayMenu_WindowTopPro)
-		If @OSVersion = 'WIN_10' Then
-			$Tray_WTP_SmartAero = TrayCreateItem('Enable/Disable Smart Aero',$TrayMenu_WindowTopPro)
-		Else
-			$Tray_WTP_SmartAero = TrayCreateItem('Enable/Disable Smart Aero (Windows 10 only)',$TrayMenu_WindowTopPro)
-			TrayItemSetState($Tray_WTP_SmartAero,$TRAY_DISABLE)
-		EndIf
-
-		$Tray_WTP_SaveWinConfig = TrayCreateItem('Save window configuration...',$TrayMenu_WindowTopPro)
-
-
-		$Tray_WTP_MoreToCome = TrayCreateItem('More to come...',$TrayMenu_WindowTopPro)
-		TrayItemSetState(-1,$TRAY_DISABLE)
-		TrayCreateItem("",$TrayMenu_WindowTopPro) ; Create a separator line.
-
-		$Tray_WTP_ReportProbem = TrayCreateItem("Report a problem...",$TrayMenu_WindowTopPro)
-
-		If $bIsInstalled And $SellSoftSys_bIsActivated Then
-			If $ProFe_bDarkMode Then TrayItemSetState($Tray_WTP_DarkModePro,$TRAY_CHECKED)
-			If @OSVersion = 'WIN_10' And $ProFe_bSmartAero Then TrayItemSetState($Tray_WTP_SmartAero,$TRAY_CHECKED)
-		Else
-			TrayItemSetState($Tray_WTP_DarkModePro,$TRAY_DISABLE)
-			TrayItemSetState($Tray_WTP_SmartAero,$TRAY_DISABLE)
-		EndIf
-
-
-
-
+	#Region WindowTop Pro section - REMOVED
 	#EndRegion
 
 	TrayCreateItem("") ; Create a separator line.
@@ -417,16 +322,7 @@ TriggerEvery_CallNextFunc()
 						Case $GUIMeBu_SaveWinSettings
 							;ConsoleWrite('$GUIMeBu_SaveWinSettings, active window: '& $GUIMenuButton_iActiveWin_old &' (L: '&@ScriptLineNumber&')'&@CRLF)
 
-							If $SellSoftSys_bIsActivated Then
-								aWins_SaveSettings($GUIMenuButton_iActiveWin_old,True)
-								If Not @error Then
-									ToolTipTimeOut('Configuration saved for '&$aWins[$GUIMenuButton_iActiveWin_old][$C_aWins_idx_ProcessName],3000)
-								Else
-									ToolTipTimeOut('Error saving configuration for '&$aWins[$GUIMenuButton_iActiveWin_old][$C_aWins_idx_ProcessName],3000)
-								EndIf
-							Else
-								FeatureOnlyProMSG(True)
-							EndIf
+							FeatureOnlyProMSG(True)
 					EndSwitch
 
 			EndSwitch
@@ -435,9 +331,12 @@ TriggerEvery_CallNextFunc()
 		; React to tray events
 			Switch TrayGetMsg()
 
+				Case $Tray_Donate_Button
+					ShellExecute("https://windowtop.info/support-project/")
+
 				Case $Tray_About_Button ; Display a message box about the AutoIt version and installation path of the AutoIt executable.
 					_NotifyBox(64, "About WindowTop",'Version: '&$ProgramVersion_Text & @CRLF &@CRLF& _
-							'Project pages:'&@CRLF&@CRLF&'WindowTop.info'&@CRLF&'sourceforge.net/projects/WindowTop'&@CRLF&@CRLF& _
+							'Project pages:'&@CRLF&@CRLF&'WindowTop.info'&@CRLF&'https://github.com/gileli121/WindowTop'&@CRLF&@CRLF& _
 							'developed by gileli121@gmail.com / bigilsoft.com')
 
 				Case $Tray_MorePrograms_Button
@@ -557,64 +456,8 @@ TriggerEvery_CallNextFunc()
 			#EndRegion
 			#EndRegion
 
-			#Region WindowTop Pro
+			#Region WindowTop Pro - REMOVED
 			#Region
-				Case $Tray_ActivationState
-
-
-					If Not $SellSoftSys_bIsActivated Or $SellSoftSys_bIsTrailMode Then
-						SellSoftSys_SuggestProGUI(True,'Activate WindowTop Pro for commercial environment and for Pro features',False)
-						aExtraFuncCalls_AddFunc(SellSoftSys_SuggestProGUI)
-					EndIf
-
-
-				Case $Tray_WTP_ActivationState
-					If Not $SellSoftSys_bIsActivated Or $SellSoftSys_bIsTrailMode Then
-
-						If $SellSoftSys_bIsTrailMode Then
-							$tmp = 'Activate WindowTop Pro, '&$C_SellSoftSys_iTrialModeMaxDays-$SellSoftSys_iTrialModeDaysDiff&' days left'
-						Else
-							$tmp = 'Activate WindowTop Pro / Start '&$C_SellSoftSys_iTrialModeMaxDays&' days trial'
-						EndIf
-
-						SellSoftSys_SuggestProGUI(True,$tmp,False)
-						aExtraFuncCalls_AddFunc(SellSoftSys_SuggestProGUI)
-
-					EndIf
-				Case $Tray_WTP_InstallProgramInfo
-					_NotifyBox(64, 'Please Install WindowTop', _
-						'WindowTop comes with pro features that can work only if WindowTop is installed.'&@CRLF&@CRLF& _
-						"The pro features that can't work when the software is not installed are: Dark Mode Pro and Smart Aero." & @CRLF&@CRLF& _
-						'Please Install WindowTop if you want to use these features.'&@CRLF&@CRLF& _
-						'Download the installer from: windowtop.info ')
-
-				Case $Tray_WTP_DarkModePro
-					If $ProFe_bDarkMode Then
-						TrayItemSetState($Tray_WTP_DarkModePro,$TRAY_UNCHECKED)
-						ProFe_EnableDisableDarkMode(0)
-					Else
-						TrayItemSetState($Tray_WTP_DarkModePro,$TRAY_CHECKED)
-						ProFe_EnableDisableDarkMode(1)
-					EndIf
-				Case $Tray_WTP_SmartAero
-					If $ProFe_bSmartAero Then
-						TrayItemSetState($Tray_WTP_SmartAero,$TRAY_UNCHECKED)
-						ProFe_EnableDisableSmartAero(0)
-					Else
-						TrayItemSetState($Tray_WTP_SmartAero,$TRAY_CHECKED)
-						ProFe_EnableDisableSmartAero(1)
-					EndIf
-
-
-				Case $Tray_WTP_SaveWinConfig
-					SaveWinConfigGUI(True)
-
-
-				Case $Tray_WTP_ReportProbem
-					ShellExecute('https://windowtop.info/contact/')
-
-
-
 
 			#EndRegion
 			#EndRegion

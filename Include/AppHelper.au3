@@ -239,13 +239,6 @@ Func AppHelper_Commander_ActionDecider($hCallerGUI, $iActionID, $sActionData, $i
 
 
 
-			If $ProFe_bDarkMode And $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] Then
-				aWins_ToggleColorEffect($iIndex,1)
-			ElseIf $ProFe_bSmartAero And $aWins[$iIndex][$C_aWins_idx_opacityactive] Then
-				aWins_SmartAero_OnOff($iIndex,True)
-			EndIf
-
-
 		Case $C_AppHelper_Commander_Action_GetCppSoldierInfo
 
 			If StringLeft($sActionData,2) <> '0x' Then $sActionData = '0x'&$sActionData

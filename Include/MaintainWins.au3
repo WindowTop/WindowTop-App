@@ -30,7 +30,7 @@ Func MaintainWins()
 
 
 	; Set the timer for refresh rate
-		If Not $ProFe_bDarkMode And $aWins[0][$C_aWins_idx_hMask_hMag_active] Then $g_mw_hMag_update_timerdiff = TimerDiff($g_mw_hMag_update_timer)
+		If $aWins[0][$C_aWins_idx_hMask_hMag_active] Then $g_mw_hMag_update_timerdiff = TimerDiff($g_mw_hMag_update_timer)
 
 
 	; Update $MousePos_aPos[0] , $MousePos_aPos[1] , $MousePos_IsNew
@@ -53,7 +53,7 @@ Func MaintainWins()
 
 
 
-		If Not $ProFe_bDarkMode And $bRunFeatureInThislProcess Then
+		If $bRunFeatureInThislProcess Then
 		; If dark mode is on, redraw it as dark....
 			If $aWins[$a][$C_aWins_idx_hMask_hMag_active] And Not $aWins[$a][$C_aWins_idx_Shrink_hGUI] And _
 			(BitAND(WinGetState($aWins[$a][$C_aWins_idx_hWin]), $WIN_STATE_ACTIVE) Or $g_mw_IsNewWinPos Or $aWins[$a][$C_aWins_idx_IsTop] Or _ ; BitAND(WinGetState($aWins[1][$C_aWins_idx_hWin]), $WIN_STATE_ACTIVE) isnted of $a = 1
@@ -84,7 +84,7 @@ Func MaintainWins()
 ;~ 	$g_mw_hMag_update_timerdiff >= $g_mw_hMag_update_refreshrate Then _
 ;~ 		$g_mw_hMag_update_timer = TimerInit()
 
-	If Not $ProFe_bDarkMode And $aWins[0][$C_aWins_idx_hMask_hMag_active] And _
+	If $aWins[0][$C_aWins_idx_hMask_hMag_active] And _
 			$g_mw_hMag_update_timerdiff >= $g_mw_hMag_update_refreshrate Then $g_mw_hMag_update_timer = TimerInit()
 
 

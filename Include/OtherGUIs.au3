@@ -204,7 +204,7 @@ Func ClickTrWarning($hWindow = Null,$iOpactyType = Null)
 					Case 1
 						If Not $aWins[$iIndex][$C_aWins_idx_opacityactive] Then aWins_Opacity_OnOff($iIndex,True)
 					Case 2
-						If Not $aWins[$iIndex][$C_aWins_idx_aeroactive] Then aWins_SmartAero_OnOff($iIndex,True)
+						; If Not $aWins[$iIndex][$C_aWins_idx_aeroactive] Then aWins_SmartAero_OnOff($iIndex,True) REMOVED
 				EndSwitch
 
 			EndIf
@@ -705,8 +705,7 @@ Func FeatureOnlyProMSG($bStart = False)
 		$hGUI = GUICreate("", 616, 147)
 		GUICtrlCreateLabel("Sorry, this feature is available for the pro version only.", 30, 20, 548, 32)
 		GUICtrlSetFont(-1, 17, 400, 0, "Tahoma")
-		$ActivateOr30Days_Button = GUICtrlCreateButton("Activate or start "&$C_SellSoftSys_iTrialModeMaxDays&" days trial", 31, 77, 367, 47)
-		GUICtrlSetFont(-1, 12, 400, 0, "Tahoma")
+
 		$Close_Button = GUICtrlCreateButton("Close", 427, 77, 158, 47)
 		GUICtrlSetFont(-1, 12, 400, 0, "Tahoma")
 		GUISetState(@SW_SHOW)
@@ -720,10 +719,6 @@ Func FeatureOnlyProMSG($bStart = False)
 
 
 	Switch $Software_MSG[0]
-		Case $ActivateOr30Days_Button
-			SellSoftSys_SuggestProGUI(True)
-			aExtraFuncCalls_AddFunc(SellSoftSys_SuggestProGUI)
-
 		Case $Close_Button, $GUI_EVENT_CLOSE
 			GUIDelete($hGUI)
 			$hGUI = Null

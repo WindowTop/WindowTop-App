@@ -1,4 +1,8 @@
-﻿v3.0.6:
+﻿v3.0.8:
+* Removed all pro features. program is only on FREE mode.
+* Released Source Code of the FREE version (All Autoit code)
+* Potentially discontinued. read more: https://windowtop.info/support-project/
+v3.0.6:
 * Optimized: RAM usage dropped 23MB-30MB to 5MB-6MB (80% less memory usage), without affecting CPU usage
 * Fixed: Shrink feature - In Windows 10, user can't use properly the shrink feature when multiple desktops open
 When multiple multiple desktops open and some window shrinked in the first desktop, when shrinking second window

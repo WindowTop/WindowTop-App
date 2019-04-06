@@ -486,30 +486,30 @@ EndFunc   ;==>ShowMenu
 
 Func AskForSurvey($bStart = False)
 
+	#cs
+		TODO: Ask
+	#ce
+
 	Local Static $hGUI, $Continue_Button, $Close_Button, $DoNotShow_Checkbox, $bNotShowAgain
 
 	If $bStart Then
 
 
-		If $SellSoftSys_bIsActivated Or $SellSoftSys_bIsTrailMode Or Not Number(GetSet('Messages','AskForSurvey',1)) Then
+		If Not Number(GetSet('Messages','AskForSurvey',1)) Then
+
 			TriggerEvery_RemoveCurrentFunc()
 			TriggerEvery_CallNextFunc()
 			Return
 		EndIf
 
-
-
 		Local $iDaysPassed
-		If $SellSoftSys_TrialRegisterTime Then
-			$iDaysPassed = $SellSoftSys_iTrialModeDaysDiff
+
+		$iFirstUseTimeDaysDiff = GetSet('Main','FirstUseTime','')
+		If $iFirstUseTimeDaysDiff Then
+			$iDaysPassed = _DateDiff ('d', $iFirstUseTimeDaysDiff, _NowCalc())
 		Else
-			$iFirstUseTimeDaysDiff = GetSet('Main','FirstUseTime','')
-			If $iFirstUseTimeDaysDiff Then
-				$iDaysPassed = _DateDiff ('d', $iFirstUseTimeDaysDiff, _NowCalc())
-			Else
-				IniWrite($ini,'Main','FirstUseTime',_NowCalc())
-				$iDaysPassed = 0
-			EndIf
+			IniWrite($ini,'Main','FirstUseTime',_NowCalc())
+			$iDaysPassed = 0
 		EndIf
 
 		If $iDaysPassed < 45 Then

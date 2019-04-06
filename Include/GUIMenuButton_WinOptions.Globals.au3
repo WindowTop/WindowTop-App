@@ -3,9 +3,7 @@
 	Global  $GUMe_WinOptions_hgui = -1, _
 			$GUMe_WinOptions_hgui_hgraphic, _
 			$GUMe_WiOpt_OpacityGUI, _
-			$GUMe_WiOpt_Opacity_SliderCtrl, _
-			$GUMe_WiOpt_AeroGUI
-
+			$GUMe_WiOpt_Opacity_SliderCtrl
 
 ; X and Y sizes
 	Global $GUMe_WinOptions_x_size = 240
@@ -55,29 +53,20 @@
 				$GUMe_WinOptions_bl_img_opacity, _
 				$GUMe_WinOptions_bl_img_dark, _
 				$GUMe_WinOptions_bl_img_shrink, _
-				$GUMe_WinOptions_bl_img_clickthrough, _
-				$GUMe_WinOptions_bl_img_aero
+				$GUMe_WinOptions_bl_img_clickthrough
 
 				If @Compiled Then
 					$GUMe_WinOptions_bl_img_top = 'img_set_top'
 					$GUMe_WinOptions_bl_img_opacity = 'img_set_opacity'
 					$GUMe_WinOptions_bl_img_dark = 'img_set_dark'
 					$GUMe_WinOptions_bl_img_shrink = 'img_set_shrink'
-					$GUMe_WinOptions_bl_img_aero = 'img_set_aero'
-
-
-
 
 				Else
 					$GUMe_WinOptions_bl_img_top = @ScriptDir&'\Resources\Images\WinBar\Buttons\Type A\set_top.png'
 					$GUMe_WinOptions_bl_img_opacity = @ScriptDir&'\Resources\Images\WinBar\Buttons\Type A\set_opacity.png'
 					$GUMe_WinOptions_bl_img_dark = @ScriptDir&'\Resources\Images\WinBar\Buttons\Type A\set_dark.png'
 					$GUMe_WinOptions_bl_img_shrink = @ScriptDir&'\Resources\Images\WinBar\Buttons\Type A\set_shrink.png'
-					$GUMe_WinOptions_bl_img_aero = @ScriptDir&'\Resources\Images\WinBar\Buttons\Type A\set_aero.png'
 				EndIf
-
-
-
 
 ; No neame
 	Global Const $C_GUMe_WinOptions_aButtons_idx_CtrlId = 0
@@ -102,14 +91,4 @@
 
 
 	Global $GUMeBu_WinOptions_ActiveBkColor
-
-
-
-
-
-
-
-
-
-
 

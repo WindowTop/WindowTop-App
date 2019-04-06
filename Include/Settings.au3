@@ -44,14 +44,7 @@ Func Settings_Load()
 
 
 	#Region Pro Features
-		If $bIsInstalled And ($SellSoftSys_bIsActivated Or $SellSoftSys_bIsTrailMode) Then
-
-			$ProFe_bDarkMode = Number(GetSet('ProFeatures','DarkMode',0))
-			If @OSVersion = 'WIN_10' Then $ProFe_bSmartAero = Number(GetSet('ProFeatures','SmartAero',0))
-
-			Settings_LoadProFeaturesSettings()
-
-		EndIf
+		; REMOVED
 	#EndRegion
 
 
@@ -66,37 +59,11 @@ Func Settings_Load()
 
 EndFunc
 
-Func Settings_LoadProFeaturesSettings()
-		$ProFe_SmartAero_BackgroundBlur = Number(GetSet('ProFeatures','SmartAero_BackgroundBlur',$C_ProFe_def_SmartAero_BackgroundBlur))
-		$ProFe_SmartAero_BkBrightness = Number(GetSet('ProFeatures','SmartAero_BkBrightness',$C_ProFe_def_SmartAero_BkBrightness))
-		$ProFe_SmartAero_OnlyDesktop = Number(GetSet('ProFeatures','SmartAero_OnlyDesktop',$C_ProFe_def_SmartAero_OnlyDesktop))
-		$ProFe_SmartAero_Background = Number(GetSet('ProFeatures','SmartAero_Background',$C_ProFe_def_SmartAero_Background))
-		$ProFe_SmartAero_DarkBackground = Number(GetSet('ProFeatures','SmartAero_DarkBackground',$C_ProFe_def_SmartAero_DarkBackground))
-		$ProFe_SmartAero_Images = Number(GetSet('ProFeatures','SmartAero_Images',$C_ProFe_def_SmartAero_Images))
-		$ProFe_SmartAero_Texts = Number(GetSet('ProFeatures','SmartAero_Texts',$C_ProFe_def_SmartAero_Texts))
 
-
-		$ProFe_SmartAero_BackgroundBlur_old = $ProFe_SmartAero_BackgroundBlur
-		$ProFe_SmartAero_BkBrightness_old = $ProFe_SmartAero_BkBrightness
-		$ProFe_SmartAero_OnlyDesktop_old = $ProFe_SmartAero_OnlyDesktop
-		$ProFe_SmartAero_Background_old = $ProFe_SmartAero_Background
-		$ProFe_SmartAero_DarkBackground_old = $ProFe_SmartAero_DarkBackground
-		$ProFe_SmartAero_Images_old = $ProFe_SmartAero_Images
-		$ProFe_SmartAero_Texts_old = $ProFe_SmartAero_Texts
-
-EndFunc
 
 Func Settings_Save()
 	#Region Pro Features
-		If $ProFe_bSmartAero Then
-			If $ProFe_SmartAero_BackgroundBlur <> $ProFe_SmartAero_BackgroundBlur_old Then IniWrite($ini,'ProFeatures','SmartAero_BackgroundBlur',$ProFe_SmartAero_BackgroundBlur)
-			If $ProFe_SmartAero_BkBrightness <> $ProFe_SmartAero_BkBrightness_old Then IniWrite($ini,'ProFeatures','SmartAero_BkBrightness',$ProFe_SmartAero_BkBrightness)
-			If $ProFe_SmartAero_OnlyDesktop <> $ProFe_SmartAero_OnlyDesktop_old Then IniWrite($ini,'ProFeatures','SmartAero_OnlyDesktop',$ProFe_SmartAero_OnlyDesktop)
-			If $ProFe_SmartAero_Background <> $ProFe_SmartAero_Background_old Then IniWrite($ini,'ProFeatures','SmartAero_Background',$ProFe_SmartAero_Background)
-			If $ProFe_SmartAero_DarkBackground <> $ProFe_SmartAero_DarkBackground_old Then IniWrite($ini,'ProFeatures','SmartAero_DarkBackground',$ProFe_SmartAero_DarkBackground)
-			If $ProFe_SmartAero_Images <> $ProFe_SmartAero_Images_old Then IniWrite($ini,'ProFeatures','SmartAero_Images',$ProFe_SmartAero_Images)
-			If $ProFe_SmartAero_Texts <> $ProFe_SmartAero_Texts_old Then IniWrite($ini,'ProFeatures','SmartAero_Texts',$ProFe_SmartAero_Texts)
-		EndIf
+		; REMOVED
 	#EndRegion
 
 

@@ -15,13 +15,11 @@ Func aWins_UpdateNewWinPos($iIndex);,$x_pos,$y_pos,$x_size,$y_size)
 		$aWins[$iIndex][$C_aWins_idx_x_size] = $aPos[2]
 		$aWins[$iIndex][$C_aWins_idx_y_size] = $aPos[3]
 
-		If Not $ProFe_bDarkMode Then
-			If $bRunFeatureInThislProcess Or $bIsExternalProcess Then
-				Local $layer_pos = CreateLayerForWin_ReturnValidPos($aWins[$iIndex][$C_aWins_idx_hWin],$aPos)
-				If $aWins[$iIndex][$C_aWins_idx_hMask] Then WinMove($aWins[$iIndex][$C_aWins_idx_hMask],'',$layer_pos[0],$layer_pos[1],$layer_pos[2],$layer_pos[3])
-				If $aWins[$iIndex][$C_aWins_idx_hMask_hMag] Then WinMove($aWins[$iIndex][$C_aWins_idx_hMask_hMag],'',0,0,$layer_pos[2],$layer_pos[3])
-				If $aWins_Shrink_LastGUI And _WinIsOnTop($aWins[$iIndex][$C_aWins_idx_hWin]) Then WinSetOnTop($aWins_Shrink_LastGUI,Null,True)
-			EndIf
+		If $bRunFeatureInThislProcess Or $bIsExternalProcess Then
+			Local $layer_pos = CreateLayerForWin_ReturnValidPos($aWins[$iIndex][$C_aWins_idx_hWin],$aPos)
+			If $aWins[$iIndex][$C_aWins_idx_hMask] Then WinMove($aWins[$iIndex][$C_aWins_idx_hMask],'',$layer_pos[0],$layer_pos[1],$layer_pos[2],$layer_pos[3])
+			If $aWins[$iIndex][$C_aWins_idx_hMask_hMag] Then WinMove($aWins[$iIndex][$C_aWins_idx_hMask_hMag],'',0,0,$layer_pos[2],$layer_pos[3])
+			If $aWins_Shrink_LastGUI And _WinIsOnTop($aWins[$iIndex][$C_aWins_idx_hWin]) Then WinSetOnTop($aWins_Shrink_LastGUI,Null,True)
 		EndIf
 
 
@@ -195,29 +193,6 @@ Func aWins_Remove($iIndex)
 
 	If Not $bIsExternalProcess Then
 
-
-
-		If $AppHelper_CPP_Soldier_hCommunicationGUI Then
-			; Tell to the C++ exe that this window was deleted
-
-			If ($ProFe_bDarkMode And $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active]) Or $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-
-				Local $iTotal = $aWins[0][$C_aWins_idx_aeroactive]
-				If $ProFe_bDarkMode Then $iTotal += $aWins[0][$C_aWins_idx_hMask_hMag_active]
-
-				If $iTotal = 1 Then
-					ProcessClose($AppHelper_CPP_Soldier_iPid)
-					$AppHelper_CPP_Soldier_iPid = Null
-					$AppHelper_CPP_Soldier_hCommunicationGUI = Null
-				Else
-					Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_WinDeleted, _
-					$aWins[$iIndex][$C_aWins_idx_hWin])
-				EndIf
-
-			EndIf
-
-		EndIf
-
 	; Update the number of windows with opacity ...
 		If $aWins[$iIndex][$C_aWins_idx_aeroactive] Then $aWins[0][$C_aWins_idx_aeroactive] -= 1
 
@@ -292,45 +267,6 @@ Func aWins_LoadSettings($iIndex)
 	#EndRegion
 
 
-	#Region load window other settings
-		If $SellSoftSys_bIsActivated Then
-			If Number(StrDB_Ini_Read(Null,'settop',0,1)) Then aWins_SetOnTop($iIndex,True)
-
-
-
-
-			If Number(StrDB_Ini_Read(Null,'opa',0,1)) Then
-
-				$aWins[$iIndex][$C_aWins_idx_opacitylevel] = Number(StrDB_Ini_Read(Null,'opa_level',0,1))
-				aWins_Opacity_OnOff($iIndex,True)
-
-			EndIf
-
-
-			If Number(StrDB_Ini_Read(Null,'darkmode',0,1)) Then
-				aWins_ToggleColorEffect($iIndex,1)
-				WinActivate($aWins[$iIndex][$C_aWins_idx_hWin])
-			EndIf
-
-			If $ProFe_bSmartAero Then
-				If Number(StrDB_Ini_Read(Null,'aero',0,1)) Then
-					$aWins[$iIndex][$C_aWins_idx_aero_blur] = Number(StrDB_Ini_Read(Null,'aero_blur',$ProFe_SmartAero_BackgroundBlur,1))
-					$aWins[$iIndex][$C_aWins_idx_aero_bkBrightness] = Number(StrDB_Ini_Read(Null,'aero_brightness',$ProFe_SmartAero_BkBrightness,1))
-					$aWins[$iIndex][$C_aWins_idx_aero_onlyDesktop] = Number(StrDB_Ini_Read(Null,'aero_onlydesktop',$ProFe_SmartAero_OnlyDesktop,1))
-
-
-					$aWins[$iIndex][$C_aWins_idx_aero_background] = Number(StrDB_Ini_Read(Null,'aero_bk',$ProFe_SmartAero_Background,1))
-					$aWins[$iIndex][$C_aWins_idx_aero_darkBackground] = Number(StrDB_Ini_Read(Null,'aero_darkbk',$ProFe_SmartAero_DarkBackground,1))
-					$aWins[$iIndex][$C_aWins_idx_aero_images] = Number(StrDB_Ini_Read(Null,'aero_imgs',$ProFe_SmartAero_Images,1))
-					$aWins[$iIndex][$C_aWins_idx_aero_texts] = Number(StrDB_Ini_Read(Null,'aero_txts',$ProFe_SmartAero_Texts,1))
-					aWins_SmartAero_OnOff($iIndex,True)
-				EndIf
-			EndIf
-
-
-
-		EndIf
-	#EndRegion
 
 	StrDB_UnLoad() ; Unload it (to clean memory)
 
@@ -373,27 +309,6 @@ Func aWins_SaveSettings($iIndex, $bSaveOtherSettings = False)
 			Else
 				StrDB_Ini_Write(Null, 'darkmode','0')
 			EndIf
-
-
-			If $ProFe_bSmartAero Then
-				If $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-					StrDB_Ini_Write(Null, 'aero','1')
-
-					StrDB_Ini_Write(Null, 'aero_blur',$aWins[$iIndex][$C_aWins_idx_aero_blur])
-					StrDB_Ini_Write(Null, 'aero_brightness',$aWins[$iIndex][$C_aWins_idx_aero_bkBrightness])
-					StrDB_Ini_Write(Null, 'aero_onlydesktop',$aWins[$iIndex][$C_aWins_idx_aero_onlyDesktop])
-
-					StrDB_Ini_Write(Null, 'aero_bk',$aWins[$iIndex][$C_aWins_idx_aero_background])
-					StrDB_Ini_Write(Null, 'aero_darkbk',$aWins[$iIndex][$C_aWins_idx_aero_darkBackground])
-					StrDB_Ini_Write(Null, 'aero_imgs',$aWins[$iIndex][$C_aWins_idx_aero_images])
-					StrDB_Ini_Write(Null, 'aero_txts',$aWins[$iIndex][$C_aWins_idx_aero_texts])
-
-				Else
-					StrDB_Ini_Write(Null, 'aero','0')
-				EndIf
-			EndIf
-
-
 
 
 			$bChanged = True
@@ -635,108 +550,69 @@ EndFunc   ;==>_Area_Average_Colour
 		If $iEnableEffect And $aWins[$iIndex][$C_aWins_idx_opacityactive] Then aWins_Opacity_OnOff($iIndex,False)
 
 
-
-		If Not $ProFe_bDarkMode Then
-
-
-			If $iEnableEffect And $aWins[$iIndex][$C_aWins_idx_aeroactive] Then aWins_SmartAero_OnOff($iIndex, False)
-
-			If $bRunFeatureInThislProcess Or $bIsExternalProcess Then
+		If $bRunFeatureInThislProcess Or $bIsExternalProcess Then
 
 
-				_MagnifierInit()
-
-
-
-				If $iEnableEffect Then
-
-
-
-
-					If Not BitAND(WinGetState($aWins[$iIndex][$C_aWins_idx_hWin]), $WIN_STATE_MAXIMIZED) Then
-						Local $aPos[4] = [$aWins[$iIndex][$C_aWins_idx_x_pos],$aWins[$iIndex][$C_aWins_idx_y_pos],$aWins[$iIndex][$C_aWins_idx_x_size], _
-						$aWins[$iIndex][$C_aWins_idx_y_size]]
-					Else
-						Local $aPos[4] = [0,0,@DesktopWidth,@DesktopHeight]
-					EndIf
-
-
-
-					If Not $aWins[$iIndex][$C_aWins_idx_hMask_hMag] Then
-						If Not $aWins[$iIndex][$C_aWins_idx_hMask] Then
-	;~ 						Local $aPos[4] = [$aWins[$iIndex][$C_aWins_idx_x_pos],$aWins[$iIndex][$C_aWins_idx_y_pos],$aWins[$iIndex][$C_aWins_idx_x_size], _
-	;~ 						$aWins[$iIndex][$C_aWins_idx_y_size]]
-							$aWins[$iIndex][$C_aWins_idx_hMask] = CreateLayerForWin($aWins[$iIndex][$C_aWins_idx_hWin],$aPos,$aWins[$iIndex][$C_aWins_idx_hWin])
-						EndIf
-						$aWins[$iIndex][$C_aWins_idx_hMask_hMag] = _GuiCtrlCreateMagnify($aWins[$iIndex][$C_aWins_idx_hMask],$aPos[2],$aPos[3],0,0,False)
-
-		;~ 				_MagnifierSetScale($aWins[$iIndex][$C_aWins_idx_hMask_hMag], 1)
-
-					Else
-						WinMove($aWins[$iIndex][$C_aWins_idx_hMask_hMag],'',0,0,$aPos[2],$aPos[3])
-					EndIf
-
-					_MagnifierSetInvertColorsStyle($aWins[$iIndex][$C_aWins_idx_hMask_hMag],True)
-
-			;~ 		aWins_hMag_SetWindowFilter()
-
-					aWins_UpdateDisplayOutput($iIndex)
-					GUISetState(@SW_SHOWNOACTIVATE,$aWins[$iIndex][$C_aWins_idx_hMask])
-					$aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] = 1
-					$aWins[0][$C_aWins_idx_hMask_hMag_active] += 1
-
-				Else
-					GUIDelete($aWins[$iIndex][$C_aWins_idx_hMask])
-					$aWins[$iIndex][$C_aWins_idx_hMask_hMag] = 0
-					$aWins[$iIndex][$C_aWins_idx_hMask] = 0
-					$aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] = 0
-					$aWins[0][$C_aWins_idx_hMask_hMag_active] -= 1
-				EndIf
-
-			Else
-
-				AppHelper_CommanderAndSoldier_Init()
-				If @error Then Return SetError(1)
-
-				$tmp = Jobs_CallAction($AppHelper_Soldier_hCommunicationGUI, $C_AppHelper_Soldier_Action_SetDarkMode, _
-				$aWins[$iIndex][$C_aWins_idx_hWin]&'|'&$iEnableEffect)
-
-				If $tmp <> 'E' Then $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] = $iEnableEffect
-			EndIf
-		Else
+			_MagnifierInit()
 
 
 
 			If $iEnableEffect Then
 
-				AppHelper_CommanderAndCppSoldier_Init()
-				If @error Then 	Return SetError(2)
-				Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SetDarkMode, _
-				$aWins[$iIndex][$C_aWins_idx_hWin]&'|1')
-				If @error Then Return SetError(3)
-
-				If $aWins[$iIndex][$C_aWins_idx_aeroactive] Then aWins_SmartAero_OnOff($iIndex, False)
 
 
 
-
-				If Not $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] Then
-					$aWins[0][$C_aWins_idx_hMask_hMag_active] += 1
-					$aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] = 1
+				If Not BitAND(WinGetState($aWins[$iIndex][$C_aWins_idx_hWin]), $WIN_STATE_MAXIMIZED) Then
+					Local $aPos[4] = [$aWins[$iIndex][$C_aWins_idx_x_pos],$aWins[$iIndex][$C_aWins_idx_y_pos],$aWins[$iIndex][$C_aWins_idx_x_size], _
+					$aWins[$iIndex][$C_aWins_idx_y_size]]
+				Else
+					Local $aPos[4] = [0,0,@DesktopWidth,@DesktopHeight]
 				EndIf
+
+
+
+				If Not $aWins[$iIndex][$C_aWins_idx_hMask_hMag] Then
+					If Not $aWins[$iIndex][$C_aWins_idx_hMask] Then
+;~ 						Local $aPos[4] = [$aWins[$iIndex][$C_aWins_idx_x_pos],$aWins[$iIndex][$C_aWins_idx_y_pos],$aWins[$iIndex][$C_aWins_idx_x_size], _
+;~ 						$aWins[$iIndex][$C_aWins_idx_y_size]]
+						$aWins[$iIndex][$C_aWins_idx_hMask] = CreateLayerForWin($aWins[$iIndex][$C_aWins_idx_hWin],$aPos,$aWins[$iIndex][$C_aWins_idx_hWin])
+					EndIf
+					$aWins[$iIndex][$C_aWins_idx_hMask_hMag] = _GuiCtrlCreateMagnify($aWins[$iIndex][$C_aWins_idx_hMask],$aPos[2],$aPos[3],0,0,False)
+
+	;~ 				_MagnifierSetScale($aWins[$iIndex][$C_aWins_idx_hMask_hMag], 1)
+
+				Else
+					WinMove($aWins[$iIndex][$C_aWins_idx_hMask_hMag],'',0,0,$aPos[2],$aPos[3])
+				EndIf
+
+				_MagnifierSetInvertColorsStyle($aWins[$iIndex][$C_aWins_idx_hMask_hMag],True)
+
+		;~ 		aWins_hMag_SetWindowFilter()
+
+				aWins_UpdateDisplayOutput($iIndex)
+				GUISetState(@SW_SHOWNOACTIVATE,$aWins[$iIndex][$C_aWins_idx_hMask])
+				$aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] = 1
+				$aWins[0][$C_aWins_idx_hMask_hMag_active] += 1
 
 			Else
-
-				Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SetDarkMode, _
-				$aWins[$iIndex][$C_aWins_idx_hWin]&'|0')
-
-				If $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] Then
-					$aWins[0][$C_aWins_idx_hMask_hMag_active] -= 1
-					$aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] = 0
-				EndIf
-
+				GUIDelete($aWins[$iIndex][$C_aWins_idx_hMask])
+				$aWins[$iIndex][$C_aWins_idx_hMask_hMag] = 0
+				$aWins[$iIndex][$C_aWins_idx_hMask] = 0
+				$aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] = 0
+				$aWins[0][$C_aWins_idx_hMask_hMag_active] -= 1
 			EndIf
+
+		Else
+
+			AppHelper_CommanderAndSoldier_Init()
+			If @error Then Return SetError(1)
+
+			$tmp = Jobs_CallAction($AppHelper_Soldier_hCommunicationGUI, $C_AppHelper_Soldier_Action_SetDarkMode, _
+			$aWins[$iIndex][$C_aWins_idx_hWin]&'|'&$iEnableEffect)
+
+			If $tmp <> 'E' Then $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] = $iEnableEffect
 		EndIf
+
 
 	EndFunc
 
@@ -818,10 +694,7 @@ EndFunc   ;==>_Area_Average_Colour
 			;_WinAPI_SetWindowLong($aWins[$iIndex][$C_aWins_idx_hWin],$GWL_EXSTYLE,$aWins[$iIndex][$C_aWins_idx_PreviousExStyle]) ; v1
 			_WinAPI_SetWindowLong($aWins[$iIndex][$C_aWins_idx_hWin], $GWL_EXSTYLE, BitAND(_WinAPI_GetWindowLong($aWins[$iIndex][$C_aWins_idx_hWin], $GWL_EXSTYLE), BitNOT($WS_EX_TRANSPARENT))) ; v2
 
-			If $aWins[$iIndex][$C_aWins_idx_opacityactive] And Not $ProFe_bSmartAero Then _
-				aWins_Opacity_SetLevel($iIndex,$aWins[$iIndex][$C_aWins_idx_opacitylevel])
-
-
+			If $aWins[$iIndex][$C_aWins_idx_opacityactive] Then aWins_Opacity_SetLevel($iIndex,$aWins[$iIndex][$C_aWins_idx_opacitylevel])
 
 
 			$IsMaximized = BitAND(WinGetState($aWins[$iIndex][$C_aWins_idx_hWin]),32)
@@ -847,12 +720,7 @@ EndFunc   ;==>_Area_Average_Colour
 					WinMove($aWins[$iIndex][$C_aWins_idx_hWin],Null,$tmp[0],$tmp[1],$tmp[2],$tmp[3])
 
 					If $aWins[$iIndex][$C_aWins_idx_opacityactive] Then
-						If Not $ProFe_bSmartAero Then
-							aWins_Opacity_SetLevel($iIndex,$aWins[$iIndex][$C_aWins_idx_opacitylevel])
-						Else
-							WinSetTrans($aWins[$iIndex][$C_aWins_idx_hWin],Null,255)
-							aWins_SmartAero_OnOff($iIndex,True)
-						EndIf
+						aWins_Opacity_SetLevel($iIndex,$aWins[$iIndex][$C_aWins_idx_opacitylevel])
 					Else
 						WinSetTrans($aWins[$iIndex][$C_aWins_idx_hWin],Null,255)
 					EndIf
@@ -916,7 +784,6 @@ EndFunc   ;==>_Area_Average_Colour
 
 	Func aWins_Opacity_SetLevel($iIndex,$iOpacityLevel)
 
-		If $aWins[$iIndex][$C_aWins_idx_aeroactive] Then aWins_SmartAero_OnOff($iIndex,False)
 		If $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] Then aWins_ToggleColorEffect($iIndex,0)
 
 		WinSetTrans($aWins[$iIndex][$C_aWins_idx_hWin],'',Round(($iOpacityLevel/100)*255))
@@ -938,9 +805,7 @@ EndFunc   ;==>_Area_Average_Colour
 		$aWins[$iIndex][$C_aWins_idx_opacityactive] = $bMode
 		If $bMode Then
 
-			If $aWins[$iIndex][$C_aWins_idx_aeroactive] Then aWins_SmartAero_OnOff($iIndex,False)
 			If $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] Then aWins_ToggleColorEffect($iIndex,0)
-
 
 			If Not $aWins[$iIndex][$C_aWins_idx_opacitylevel] Then $aWins[$iIndex][$C_aWins_idx_opacitylevel] = 75
 			WinSetTrans($aWins[$iIndex][$C_aWins_idx_hWin],'',Round(($aWins[$iIndex][$C_aWins_idx_opacitylevel]/100)*255))
@@ -960,242 +825,6 @@ EndFunc   ;==>_Area_Average_Colour
 	EndFunc
 
 
-	Func aWins_SmartAero_OnOff($iIndex, $bMode = Default)
-
-
-		If $bMode = Default Then
-			If $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-				$bMode = False
-			Else
-				$bMode = True
-			EndIf
-		EndIf
-
-
-		If $bMode Then
-		; Init the c++
-			AppHelper_CommanderAndCppSoldier_Init()
-			If @error Then Return SetError(1)
-
-
-			If $aWins[$iIndex][$C_aWins_idx_opacityactive] Then aWins_Opacity_OnOff($iIndex,False)
-
-
-
-			;If $aWins[$iIndex][$C_aWins_idx_opacityactive] Then Return
-
-			aWins_SmartAero_LoadDefaults($iIndex)
-
-
-
-
-
-			;$aWins[$iIndex][$C_aWins_idx_aero_background] = 0.5
-			;$aWins[$iIndex][$C_aWins_idx_aero_blur] = 10
-			;$aWins[$iIndex][$C_aWins_idx_aero_texts] = 1
-
-			Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_Enable, _
-							$aWins[$iIndex][$C_aWins_idx_hWin]&','& _
-							$aWins[$iIndex][$C_aWins_idx_aero_blur]&','& _
-							$aWins[$iIndex][$C_aWins_idx_aero_bkBrightness]&','& _
-							$aWins[$iIndex][$C_aWins_idx_aero_onlyDesktop]&','& _
-							$aWins[$iIndex][$C_aWins_idx_aero_background]&','& _
-							$aWins[$iIndex][$C_aWins_idx_aero_darkBackground]&','& _
-							$aWins[$iIndex][$C_aWins_idx_aero_images]&','& _
-							$aWins[$iIndex][$C_aWins_idx_aero_texts])
-
-
-			If Not $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-				$aWins[$iIndex][$C_aWins_idx_aeroactive] = 1
-				$aWins[0][$C_aWins_idx_aeroactive] += 1
-			EndIf
-
-
-
-			If $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] Then aWins_ToggleColorEffect($iIndex, 0)
-
-
-
-		Else
-
-
-
-			Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_Disable, _
-							$aWins[$iIndex][$C_aWins_idx_hWin])
-
-
-			If $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-				$aWins[$iIndex][$C_aWins_idx_aeroactive] = 0
-				$aWins[0][$C_aWins_idx_aeroactive] -= 1
-			EndIf
-
-			If $aWins[$iIndex][$C_aWins_idx_IsClickThrough] Then aWins_ToggleClickThrough($iIndex, False)
-
-
-
-		EndIf
-
-
-
-
-	EndFunc
-
-	Func aWins_SmartAero_SetBkLevel($iIndex, $iLevel)
-
-
-		AppHelper_CommanderAndCppSoldier_Init()
-		If @error Then Return SetError(1)
-
-		$aWins[$iIndex][$C_aWins_idx_aero_background] = $iLevel
-
-		If Not $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-			aWins_SmartAero_OnOff($iIndex,True)
-			Return
-		EndIf
-
-
-		Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_SetBackgroundLevel, _
-							$aWins[$iIndex][$C_aWins_idx_hWin]&','&$iLevel)
-
-	EndFunc
-
-	Func aWins_SmartAero_EnableDisableDarkBk($iIndex,$iMode)
-
-
-		AppHelper_CommanderAndCppSoldier_Init()
-		If @error Then Return SetError(1)
-
-		$aWins[$iIndex][$C_aWins_idx_aero_darkBackground] = $iMode
-
-		If Not $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-			aWins_SmartAero_OnOff($iIndex,True)
-			Return
-		EndIf
-
-
-		Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_EnableDisableDarkBk, _
-							$aWins[$iIndex][$C_aWins_idx_hWin]&','&$iMode)
-
-
-
-	EndFunc
-
-
-	Func aWins_SmartAero_SetBkBrLevel($iIndex, $iLevel)
-
-
-		AppHelper_CommanderAndCppSoldier_Init()
-		If @error Then Return SetError(1)
-
-		$aWins[$iIndex][$C_aWins_idx_aero_bkBrightness] = $iLevel
-
-		If Not $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-			aWins_SmartAero_OnOff($iIndex,True)
-			Return
-		EndIf
-
-
-		Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_SetBrightnessLevel, _
-							$aWins[$iIndex][$C_aWins_idx_hWin]&','&$iLevel)
-
-	EndFunc
-
-	Func aWins_SmartAero_SetBlurLevel($iIndex, $iLevel)
-
-
-		AppHelper_CommanderAndCppSoldier_Init()
-		If @error Then Return SetError(1)
-
-		$aWins[$iIndex][$C_aWins_idx_aero_blur] = $iLevel
-
-
-		If Not $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-			aWins_SmartAero_OnOff($iIndex,True)
-			Return
-		EndIf
-
-
-		Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_SetBlurLevel, _
-							$aWins[$iIndex][$C_aWins_idx_hWin]&','&$iLevel)
-
-	EndFunc
-
-
-	Func aWins_SmartAero_SetImgLevel($iIndex, $iLevel)
-
-
-			AppHelper_CommanderAndCppSoldier_Init()
-			If @error Then Return SetError(1)
-
-			$aWins[$iIndex][$C_aWins_idx_aero_images] = $iLevel
-
-			If Not $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-				aWins_SmartAero_OnOff($iIndex,True)
-				Return
-			EndIf
-
-
-			Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_SetImagesLevel, _
-								$aWins[$iIndex][$C_aWins_idx_hWin]&','&$iLevel)
-
-
-	EndFunc
-
-	Func aWins_SmartAero_SetTextLevel($iIndex,$iLevel)
-
-
-		AppHelper_CommanderAndCppSoldier_Init()
-		If @error Then Return SetError(1)
-
-		$aWins[$iIndex][$C_aWins_idx_aero_texts] = $iLevel
-
-		If Not $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-			aWins_SmartAero_OnOff($iIndex,True)
-			Return
-		EndIf
-
-
-		Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_SetTextsLevel, _
-							$aWins[$iIndex][$C_aWins_idx_hWin]&','&$iLevel)
-
-
-	EndFunc
-
-
-	Func aWins_SmartAero_ShowOnlyDesktopMode($iIndex,$iIsTrue)
-
-
-
-		AppHelper_CommanderAndCppSoldier_Init()
-		If @error Then Return SetError(1)
-
-		$aWins[$iIndex][$C_aWins_idx_aero_onlyDesktop] = $iIsTrue
-
-		If Not $aWins[$iIndex][$C_aWins_idx_aeroactive] Then
-			aWins_SmartAero_OnOff($iIndex,True)
-			Return
-		EndIf
-
-
-		Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_SetShowOnlyDesktopMode, _
-							$aWins[$iIndex][$C_aWins_idx_hWin]&','&$iIsTrue)
-
-	EndFunc
-
-	Func aWins_SmartAero_LoadDefaults($iIndex)
-
-		If $aWins[$iIndex][$C_aWins_idx_aero_blur] = -1 Then $aWins[$iIndex][$C_aWins_idx_aero_blur] = $ProFe_SmartAero_BackgroundBlur
-		If $aWins[$iIndex][$C_aWins_idx_aero_bkBrightness] = -1 Then $aWins[$iIndex][$C_aWins_idx_aero_bkBrightness] = $ProFe_SmartAero_BkBrightness
-		If $aWins[$iIndex][$C_aWins_idx_aero_onlyDesktop] = -1 Then $aWins[$iIndex][$C_aWins_idx_aero_onlyDesktop] = $ProFe_SmartAero_OnlyDesktop
-
-
-		If $aWins[$iIndex][$C_aWins_idx_aero_background] = -1 Then $aWins[$iIndex][$C_aWins_idx_aero_background] = $ProFe_SmartAero_Background
-		If $aWins[$iIndex][$C_aWins_idx_aero_darkBackground] = -1 Then $aWins[$iIndex][$C_aWins_idx_aero_darkBackground] = $ProFe_SmartAero_DarkBackground
-		If $aWins[$iIndex][$C_aWins_idx_aero_images] = -1 Then $aWins[$iIndex][$C_aWins_idx_aero_images] = $ProFe_SmartAero_Images
-		If $aWins[$iIndex][$C_aWins_idx_aero_texts] = -1 Then $aWins[$iIndex][$C_aWins_idx_aero_texts] = $ProFe_SmartAero_Texts
-
-	EndFunc
-
 	Func aWins_Shrink($iIndex,$bMode = Default)
 
 		; $C_GuiShrink_xySize is 80
@@ -1211,31 +840,12 @@ EndFunc   ;==>_Area_Average_Colour
 		EndIf
 
 
-		If Not $bIsExternalProcess Then
-
-			If $bMode Then
-				If $ProFe_bDarkMode And $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] Then _
-				Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SetDarkMode, _
-					$aWins[$iIndex][$C_aWins_idx_hWin]&'|0')
-
-				If $ProFe_bSmartAero And $aWins[$iIndex][$C_aWins_idx_opacityactive] Then _
-					Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_Disable, _
-							$aWins[$iIndex][$C_aWins_idx_hWin])
-
-
-			EndIf
-
-
-		EndIf
-
-
-
 		If $bRunFeatureInThislProcess Or $bIsExternalProcess Then
 			If $bMode Then
 
 				If $aWins[$iIndex][$C_aWins_idx_Shrink_hGUI] Then Return
 
-				If $bIsExternalProcess Or Not $ProFe_bDarkMode Then
+				If $bIsExternalProcess Then
 					If $aWins[$iIndex][$C_aWins_idx_hMask] Then
 						WinSetState($aWins[$iIndex][$C_aWins_idx_hMask],Null,@SW_HIDE)
 						$aWins[$iIndex][$C_aWins_idx_hMask_bIsHidden] = True
@@ -1451,10 +1061,8 @@ EndFunc   ;==>_Area_Average_Colour
 ;~ 							$aWins[$iIndex][$C_aWins_idx_aero_images]&','& _
 ;~ 							$aWins[$iIndex][$C_aWins_idx_aero_texts])
 
-						If $ProFe_bDarkMode And $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] Then
+						If $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] Then
 							aWins_ToggleColorEffect($iIndex,1)
-						ElseIf $ProFe_bSmartAero And $aWins[$iIndex][$C_aWins_idx_opacityactive] Then
-							aWins_SmartAero_OnOff($iIndex,True)
 						EndIf
 
 
@@ -1473,29 +1081,6 @@ EndFunc   ;==>_Area_Average_Colour
 				If $tmp <> 'E' Then $aWins[$iIndex][$C_aWins_idx_Shrink_hGUI] = $bMode
 			EndIf
 
-		EndIf
-
-
-
-
-		If Not $bIsExternalProcess Then
-
-			If Not $bMode Then
-				If $ProFe_bDarkMode And $aWins[$iIndex][$C_aWins_idx_hMask_hMag_active] Then
-					Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SetDarkMode, _
-						$aWins[$iIndex][$C_aWins_idx_hWin]&'|1')
-				EndIf
-
-				If $ProFe_bSmartAero And $aWins[$iIndex][$C_aWins_idx_opacityactive] Then _
-					Jobs_CallAction($AppHelper_CPP_Soldier_hCommunicationGUI, $C_AppHelper_CPP_Soldier_Action_SmartAero_Enable, _
-							$aWins[$iIndex][$C_aWins_idx_hWin]&','& _
-							$aWins[$iIndex][$C_aWins_idx_aero_background]&','& _
-							$aWins[$iIndex][$C_aWins_idx_aero_images]&','& _
-							$aWins[$iIndex][$C_aWins_idx_aero_texts])
-
-
-
-			EndIf
 		EndIf
 
 

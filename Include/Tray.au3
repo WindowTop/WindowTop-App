@@ -37,49 +37,5 @@
 
 
 #Region Tray - WindowTop PRO
-
-	Func Tray_WindowTopPro_ActivationState_SetText()
-
-		;If $bIsInstalled Then
-			If Not $SellSoftSys_bIsActivated Then
-				If Not $SellSoftSys_TrialRegisterTime Then
-					TrayItemSetText($Tray_WTP_ActivationState,'Not activated, click to start '&$C_SellSoftSys_iTrialModeMaxDays& _
-					' days trial / buy and activate now')
-				Else
-					TrayItemSetText($Tray_WTP_ActivationState,'Not activated, click to buy and activate now')
-				EndIf
-			Else
-				If Not $SellSoftSys_bIsTrailMode Then
-					TrayItemSetText($Tray_WTP_ActivationState,'WindowTop Pro is activated')
-				Else
-					TrayItemSetText($Tray_WTP_ActivationState,'Activated for '&$C_SellSoftSys_iTrialModeMaxDays-$SellSoftSys_iTrialModeDaysDiff&' days, Click to change!')
-				EndIf
-			EndIf
-		;Else
-		;	TrayItemSetText($Tray_WTP_ActivationState,'Please install WindowTop in order to use *all* Pro features (click for more info)')
-
-		;EndIf
-	EndFunc
-
-	Func Tray_AllProFeaturesSetState($iState)
-		TrayItemSetState($Tray_WTP_DarkModePro,$iState)
-		If @OSVersion = 'WIN_10' Then TrayItemSetState($Tray_WTP_SmartAero,$iState)
-	EndFunc
-
-
-
-	Func Tray_ActivationState_SetText()
-		If $SellSoftSys_bIsActivated Then
-			If Not $SellSoftSys_bIsTrailMode Then
-				TrayItemSetText($Tray_ActivationState,'Activated for commercial environment')
-			Else
-				TrayItemSetText($Tray_ActivationState, 'Commercial environment for '&$C_SellSoftSys_iTrialModeMaxDays-$SellSoftSys_iTrialModeDaysDiff&' days, Click to change!')
-			EndIf
-		Else
-			TrayItemSetText($Tray_ActivationState,'For non-commercial environment (click to change)')
-		EndIf
-	EndFunc
-
-
-
+; REMOVED
 #EndRegion
