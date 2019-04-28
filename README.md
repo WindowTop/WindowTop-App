@@ -25,9 +25,7 @@ https://windowtop.info/
 * Set window to be dark
 
 ## Paid Features
-Removed, Not supported.
-To make it supported again:
-https://windowtop.info/support-project/
+Removed in source code
 
 ## Usage
 You can use the software in 2 ways:
