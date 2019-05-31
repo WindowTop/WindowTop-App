@@ -10,6 +10,9 @@ https://windowtop.info/
 
 > Only 64 bit version (Program is 64 bit only)
 
+## Download & Install Full Version
+Use the [Web Installer](https://github.com/gileli121/WindowTop-Web-Installer/releases/tag/05-31-19) to install the last version including the paid features.
+The installer will also download for you offline installer.
 
 ## Features
 * Set any window on top  [ALT+Z]
