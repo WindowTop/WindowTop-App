@@ -2,12 +2,6 @@
 Set window on top, make it dark, transparent and more
 https://windowtop.info/
 
-## Download
-
-[WindowTop (Portable)](https://github.com/gileli121/WindowTop/releases/download/v3.0.8-free/WindowTop.exe)
-
-[WindowTop Installer](https://github.com/gileli121/WindowTop/releases/download/v3.0.8-free/WindowTop.v3.0.8-free.-.setup.exe)
-
 ## Supported Systems
 * Windows 10
 * Windows 8
@@ -25,7 +19,8 @@ https://windowtop.info/
 * Set window to be dark
 
 ## Paid Features
-Removed in source code
+Removed in source code.
+The paid features are available in the binary only.
 
 ## Usage
 You can use the software in 2 ways:
