@@ -1,3 +1,0 @@
-
-
-Global $ChangingLog_hGUI
