@@ -11,28 +11,27 @@ https://windowtop.info/
 > Only 64 bit version (Program is 64 bit only)
 
 ## Download & Install Full Version
-Use the [Web Installer](https://github.com/gileli121/WindowTop-Web-Installer/releases/tag/05-31-19) to install the last version including the paid features.
+Use the [Web Installer](https://github.com/gileli121/WindowTop/releases/latest) to install the last version including the paid features.
 The installer will also download for you offline installer.
 
 ## Features
 * Set any window on top  [ALT+Z]
 * Set window to be transparent [ALT+A]
+* Activate Aero feature for current window [ALT+S]
 * Click through transparent window
 * Shrink window instead of minimizing it [ALT+Q]
-* Set window to be dark
+* Set window to be dark [ALT+W]
 
 ## Paid Features
-Removed in source code.
-The paid features are available in the binary only.
+> Removed in source code.
+> The paid features are available in the binary only.
 
 ## Usage
 You can use the software in 2 ways:
 1. Download Autoit and run the WindowTop.au3 file as it is
 2. Download compiled exe file of the software
 
-## Purchase and Support
-Removed, for now there is no option to purchase previous versions.
-But the option to purchase these previous versions will may be come back soon.
+
 
 ## NOTE
 This source code is provided to you for free in the hope that you will be able to be convinced that there is no any malicious code included.
