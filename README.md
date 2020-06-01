@@ -30,13 +30,21 @@ https://windowtop.info/
 
 * [A better shrink mode that allow PIP mode (Picture In Picture mode) for any window](https://windowtop.info/2020/05/08/how-to-watch-videos-while-working-pip-mode/)
 ![](https://windowtop.info/wp-content/uploads/shrink_preview_resize_3.gif)
+
 * [Smart transparency effect](https://windowtop.info/2020/05/07/how-to-make-your-ide-or-code-editor-with-transparent-background/)
+
 ![](https://windowtop.info/wp-content/uploads/image-8-1536x671.png)
+
 * A better dark mode that will ajust itself automatically
+
 ![](https://windowtop.info/wp-content/uploads/brizy/2573/assets/images/iW=561&iH=315&oX=3&oY=0&cW=555&cH=315/darkmode_pro_gif.gif)
+
 * Option to save window configuration 
+
 ![](https://windowtop.info/wp-content/uploads/brizy/2573/assets/images/iW=555&iH=373&oX=0&oY=30&cW=555&cH=313/save_win_config-1.png)
+
 * Option to balcklist or whitelist certial programs
+
 ![](https://windowtop.info/wp-content/uploads/brizy/2573/assets/images/iW=395&iH=441&oX=0&oY=0&cW=395&cH=441/blacklist2.png)
 
 ## Purchasing
