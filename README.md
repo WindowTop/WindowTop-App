@@ -29,7 +29,9 @@ https://windowtop.info/
 > The paid features are available in the binary only.
 
 * A better dark mode that will ajust itself automatically
+
  <summary>Click to expand!</summary>
+
 * Smart transparency effect
 * A better shrink mode that allow PIP mode (Picture In Picture mode) for any window
 * Option to save window configuration 
