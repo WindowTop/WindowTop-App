@@ -15,6 +15,19 @@ https://windowtop.info/
 
 [WindowTop v3.3.10 (For Windows 10, Windows 7)](https://github.com/gileli121/WindowTop/releases/v3.3.10) 
 
+## Note
+This source code is provided to you for free in the hope that you will be able to be convinced that there is not any malicious code included.  
+
+Because the software is written in Autoit and is very popular, I was not able to deal with the "suspicious program" concern that some users have. The thing that changed the game was the fact that google.com erroneously blocked the software's website due to the "suspicious program" concern.
+
+Read more about it:  
+https://www.autoitscript.com/forum/topic/34658-are-my-autoit-exes-really-infected/  
+https://www.autoitscript.com/wiki/AutoIt_and_Malware  
+https://www.google.com/search?q=autoit+virus+false+positive  
+
+The fact that the code is public does not mean that you allowed to do with it whatever you want.
+Read the license for more details.
+
 ## Free Features
 * Set window on top  [ALT+Z]
 * Set window to be transparent [ALT+A]
@@ -51,19 +64,6 @@ https://windowtop.info/
 You can purchase WindowTop from here:  
 https://windowtop.info/purchase/  
 You can start a 30 day trial before you decide if you want to purchase it.
-
-## Note
-This source code is provided to you for free in the hope that you will be able to be convinced that there is not any malicious code included.  
-
-Because the software is written in Autoit and is very popular, I was not able to deal with the "suspicious program" concern that some users have. The thing that changed the game was the fact that google.com erroneously blocked the software's website due to the "suspicious program" concern.
-
-Read more about it:  
-https://www.autoitscript.com/forum/topic/34658-are-my-autoit-exes-really-infected/  
-https://www.autoitscript.com/wiki/AutoIt_and_Malware  
-https://www.google.com/search?q=autoit+virus+false+positive  
-
-The fact that the code is public does not mean that you allowed to do with it whatever you want. Read the license for more details. 
-
 
 ## Developer
 Gil Eliyahu (gileli121@gmail.com)
