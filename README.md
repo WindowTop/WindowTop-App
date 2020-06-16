@@ -28,6 +28,9 @@ https://www.google.com/search?q=autoit+virus+false+positive
 The fact that the code is public does not mean that you allowed to do with it whatever you want.
 Read the license for more details.
 
+Contributions are welcome and will included in the paid version as well. 
+I can't promise any profit for the contributor, It is an option but do not expect anything unless otherwise explicitly agreed.
+
 ## Free Features
 * Set window on top  [ALT+Z]
 * Set window to be transparent [ALT+A]
