@@ -11,7 +11,7 @@ https://windowtop.info/
 *Only 64-bit versions (WindowTop is 64-bit only)*
 
 ## Download & Install Full Version
-[WindowTop v3.4.5 (For Windows 10 version 2004 and above)](https://github.com/gileli121/WindowTop/releases/latest) 
+[WindowTop - Latest Version (For Windows 10 version 2004 and above)](https://github.com/gileli121/WindowTop/releases/latest) 
 
 [WindowTop v3.3.10 (For Windows 10, Windows 7)](https://github.com/gileli121/WindowTop/releases/v3.3.10) 
 
