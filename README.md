@@ -9,11 +9,18 @@ Before v4.x.x you can use it on Windows 7 also.
 *Only 64-bit versions (WindowTop is 64-bit only)*
 
 ## Download & Install Full Version
+
+### Microsoft Store Version
+
+[![Get it from Microsoft](https://user-images.githubusercontent.com/17680514/127212538-33dcdab6-c3e2-4a13-97c6-d8cfa648b9dd.png)](ms-windows-store://pdp/?ProductId=9PG6GHB4CT57)
+
+
+### Desktop Version (Including FREE features)
 [WindowTop - Latest Version (For Windows 10 version 2004 and above)](https://github.com/gileli121/WindowTop/releases/latest) 
 
 [WindowTop v3.3.10 (For Windows 10, Windows 7)](https://github.com/gileli121/WindowTop/releases/v3.3.10) 
 
-## Free Features
+## Free Features (Not available in the MS Store version)
 * Set window on top  [ALT+Z]
 * Set window to be transparent [ALT+A]
 * Activate Aero feature for current window (no default hotkey)
