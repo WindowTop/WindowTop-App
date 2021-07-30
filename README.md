@@ -6,7 +6,7 @@ https://windowtop.info/
 From v4.x.x Windows 7 and before are no longer supported.
 Before v4.x.x you can use it on Windows 7 also.
 
-From v5.x.x only Windows 10 and Windows 11 are supported.
+Only Windows 10 and Windows 11 are supported.
 It my work also on Windows 8 but it never tested.
 
 *Only 64-bit versions (WindowTop is 64-bit only)*
