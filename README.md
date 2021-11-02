@@ -3,13 +3,14 @@ Set current window on top, make it dark, apply transpareny, shrink it, and more!
 https://windowtop.info/
 
 ## Supported Operating Systems
-From v4.x.x Windows 7 and before are no longer supported.
-Before v4.x.x you can use it on Windows 7 also.
+From v4.x.x, Windows 7 and before are no longer supported.
+Before v4.x.x, Windows 7 is also supported.
 
-Only Windows 10 and Windows 11 are supported.
-It my work also on Windows 8 but it never tested.
+Only Windows 10 and Windows 11 are supported for v4.x.x and later.
+It may also work on Windows 8, but it was never tested.
 
-*Only 64-bit versions (WindowTop is 64-bit only)*
+*Only 64-bit versions of Windows are supported (WindowTop is 64-bit only)*
+
 
 ## Download & Install Full Version
 
@@ -17,10 +18,10 @@ It my work also on Windows 8 but it never tested.
 
 ![Get it from Microsoft](https://user-images.githubusercontent.com/17680514/127212538-33dcdab6-c3e2-4a13-97c6-d8cfa648b9dd.png)
 
-> Search in Microsoft Store for WindowTop and install it!
+Search in Microsoft Store for WindowTop and install it!
 
 ### Desktop Version (Including FREE features)
-[WindowTop - Latest Version (For Windows 10 version 2004 and above)](https://github.com/gileli121/WindowTop/releases/latest) 
+[WindowTop - Latest Version (For Windows 10 version 2004 and later)](https://github.com/gileli121/WindowTop/releases/latest) 
 
 [WindowTop v3.3.10 (For Windows 10, Windows 7)](https://github.com/gileli121/WindowTop/releases/v3.3.10) 
 
@@ -36,9 +37,9 @@ It my work also on Windows 8 but it never tested.
 * Set window to be dark [ALT+W]
 
 ## Paid Features
-* Shrink with Live Preview mode, including automatic move (Can be disabled if you don't need it)
+* Shrink with Live Preview mode, including automatic move (can be disabled if you don't need it)
 ![windowtop-pip-auto-move-compressed](https://user-images.githubusercontent.com/17680514/124478292-b8890400-ddad-11eb-9f8b-c0e51f0a9da5.gif)
-* New way to pick windows (Can be disabled if you don't need it)
+* New way to pick windows (can be disabled if you don't need it)
 ![windowtop-anchors-compressed](https://user-images.githubusercontent.com/17680514/124478616-0d2c7f00-ddae-11eb-81f2-2dbe0f6336bf.gif)
 * Highlight top-most windows
 ![image](https://user-images.githubusercontent.com/17680514/124478818-3f3de100-ddae-11eb-94d5-ef0a5176f569.png)
