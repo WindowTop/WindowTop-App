@@ -16,7 +16,7 @@ It may also work on Windows 8, but it was never tested.
 
 ### Microsoft Store Version
 
-![Get it from Microsoft](https://user-images.githubusercontent.com/17680514/127212538-33dcdab6-c3e2-4a13-97c6-d8cfa648b9dd.png)
+[![Get it from Microsoft](https://user-images.githubusercontent.com/17680514/127212538-33dcdab6-c3e2-4a13-97c6-d8cfa648b9dd.png)](https://www.microsoft.com/en-gb/p/windowtop/9pg6ghb4ct57?cid=freshdesk&activetab=pivot:overviewtab)
 
 Search in Microsoft Store for WindowTop and install it!
 
