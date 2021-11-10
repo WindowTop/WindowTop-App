@@ -1,0 +1,1406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- TxTranslation dictionary file. Use TxEditor to edit this file. http://unclassified.software/txtranslation -->
+<translation xml:space="preserve">
+	<culture name="de">
+		<text key="__LANGUAGE_FONT__">Segoe UI</text>
+		<text key="_30 days trial started">30 Tage Testversion gestartet!</text>
+		<text key="_30_DAYS_TRIAL_EXPIRED_AND_MUST_PURCHASE_MESSAGE_TEXT_">Die 30-tägige Testversion ist abgelaufen, und die Software kann ohne Kauf nicht verwendet werden.
+
+
+Möchten Sie eine Lizenz über den Microsoft Store erwerben?</text>
+		<text key="_30_DAYS_TRIAL_EXPIRED_MESSAGE_TEXT_">Die 30-tägige Testversion ist abgelaufen und mehrere Funktionen wurden deaktiviert und die Software sollte nicht mehr in einer kommerziellen Umgebung eingesetzt werden.
+
+
+Möchten Sie jetzt einen Lizenzschlüssel erwerben?</text>
+		<text key="_30_DAYS_TRIAL_EXPIRED_NOTIFICATION_MESSAGE_">Mehrere Funktionen wurden deaktiviert und die Software sollte nicht mehr in einer kommerziellen Umgebung verwendet werden.
+
+Klicken Sie hier, um einen Aktivierungsschlüssel zu kaufen oder einzugeben</text>
+		<text key="_30_DAYS_TRIAL_STARTED_NOTIFICATION_MESSAGE_">Während dieser 30 Tage ist die gesamte WindowTop Funktionalität freigeschaltet und Sie können es in einer kommerziellen Umgebung nutzen</text>
+		<text key="_ABOUT_DESCRIPTION_">Mit WindowTop SW können Sie Ihre Fenster praktisch und effizient mit mehreren tollen Funktionen verwalten.
+
+Mit WindowTop können Sie Fenster ganz einfach mit einem Tastenklick oder über Tastenkürzel in den Vordergrund stellen. Darüber hinaus bietet WindowTop eine einzigartige Reihe von Funktionen wie einen Dunkelmodus für jedes Fenster, PIP-Modus für jedes Fenster, Deckkraft, Durchklicken und mehr.
+
+Das Ziel dieses Produkts ist es, Ihnen zu helfen, auf Ihrem Computer produktiver zu sein, indem Sie Ihre Fenster effizient verwalten</text>
+		<text key="_ACTIVATION_FAILED_DIALOG_MESSAGE_" acceptpunctuation="true">Aktivierung fehlgeschlagen
+
+Grund: {0}
+
+Falls Sie den Schlüssel auf Computern registriert haben, die Sie nicht mehr verwenden, können Sie den Aktivierungsschlüssel zurücksetzen. Dadurch werden die anderen Computer aus dem Schlüssel entfernt und das Programm wird auf diesen Computern deaktiviert. So können Sie es auf neuen Computern anstelle der alten Computer wiederverwenden.
+
+Möchten Sie den Aktivierungsschlüssel zurücksetzen?
+
+Übersetzt mit www.DeepL.com/Translator (kostenlose Version)</text>
+		<text key="_ANCHOR_FEATURE_DESCRIPTION_">Einfaches Auswählen eines beliebigen Fensters, ohne es in den Vordergrund zu stellen oder es über den Programmwechsler ALT+TAB zu suchen</text>
+		<text key="_ARE_YOU_SURE_YOU_WANT_TO_DEACTIVATE_THE_PROGRAM_">Wenn Sie das Programm deaktivieren, funktioniert es nur noch mit eingeschränkter Funktionalität.
+Außerdem ist es nicht erlaubt, das Programm in kommerziellen Umgebungen zu verwenden.
+Und es besteht auch die Möglichkeit, dass der Support eingeschränkt ist.
+
+
+Sind Sie sicher, dass Sie fortfahren möchten?</text>
+		<text key="_ASK_RUN_AS_ADMIN_DIALOG_">Es scheint, dass WindowTop nicht mit Admin-Rechten ausgeführt wird.
+Infolgedessen kann WindowTop keine Fenster kontrollieren, die sich im Besitz von Prozessen mit Admin-Rechten befinden.
+
+Um dieses Problem zu lösen, wird empfohlen, WindowTop mit Admin-Rechten auszuführen.
+
+Möchten Sie WindowTop mit Admin-Rechten ausführen?</text>
+		<text key="_CHOOSED_NOT_TO_REGISTER__AS_RESULT_NOT_ACTIVATED_">Sie haben sich dafür entschieden, diesen Computer nicht für den Lizenzschlüssel zu registrieren.
+Infolgedessen wird die Software nicht aktiviert.</text>
+		<text key="_DARK_MODE_FEATURE_DESCRIPTION_" acceptpunctuation="true">Einige Fenster verfügen nicht über einen Dunkelmodus.
+Diese Option erzwingt den Dunkelmodus für jedes Fenster, auch wenn das Fenster von sich aus nicht dunkel ist.
+</text>
+		<text key="_DEACTIVATED_BUT_RUNNING_AS_TRIAL_MODE_">WindowTop ist deaktiviert. Die 30-tägige Testphase ist noch nicht beendet,
+Es wird also weiterhin mit voller Funktionalität laufen.
+
+Sie haben noch {0} Testtage übrig.</text>
+		<text key="_DISABLE_TOOLBAR_DESCRIPTION_">Wenn diese Option deaktiviert ist, sehen Sie die Symbolleiste nicht mehr, wenn sich die Maus über dem Fenstertitel befindet.
+Sie können die Funktionen dann nur noch über Tastenkürzel nutzen.</text>
+		<text key="_FATAL_ERROR_OCCURRED_">Es ist ein schwerwiegender Fehler aufgetreten. Um diesen Fehler zu beheben, kopieren Sie bitte den folgenden Fehler und senden Sie ihn an: https://windowtop.info/contact/</text>
+		<text key="_GLASS_MODE_FEATURE_DESCRIPTION_">Diese Funktion ist ein erweiterter Transparenzeffekt.
+Im Gegensatz zur normalen Transparenz können Sie in diesem Fall die Deckkraft nur für den Hintergrund einstellen und den 
+Text so scharf und hell lassen, wie er ist.
+</text>
+		<text key="_KEY_RESET_SUCCESS_NOTIFICATION_">Der Produktschlüssel wurde erfolgreich zurückgesetzt.
+
+Alle anderen verknüpften Computer (diesen Computer nicht eingeschlossen) wurden von diesem Schlüssel entfernt</text>
+		<text key="_NOTIFY_NEED_TO_RUN_AS_ADMIN_MESSAGE_">Um diese Änderung vorzunehmen, muss WindowTop mit Admin-Rechten ausgeführt werden. 
+
+Bitte starten Sie WindowTop neu und erlauben Sie die Ausführung mit Admin-Rechten, um diese Änderung vorzunehmen</text>
+		<text key="_OPACITY_MODE_FEATURE_DESCRIPTION_">Aktivieren und Einstellen der Transparenz für alle Fenster</text>
+		<text key="_RESET_ACTIVATION_KEY_DIALOG_MESSAGE_">Wenn Sie ein Problem mit Aktivierungen haben (häufig nach BIOS-Updates usw.) und dieser Computer versehentlich als ein anderer Computer erkannt wird, können Sie diese Option verwenden.
+
+Diese Option setzt den Produktschlüssel zurück und entfernt alle verknüpften Computer (diesen Computer nicht eingeschlossen).
+
+Verwenden Sie diese Option nur im Falle eines solchen Problems.
+
+Sind Sie sicher, dass Sie fortfahren möchten?</text>
+		<text key="_SAVE_WINDOW_CONFIGURATION_FEATURE_DESCRIPTION_">Wenn Sie mit der rechten Maustaste auf den Pfeil in der Symbolleiste klicken, wird eine Option zum Speichern der Konfiguration des Fensters angezeigt.
+Das Speichern der Konfiguration bedeutet z. B., dass WindowTop das Fenster automatisch zum obersten Fenster, 
+zum Dunkelmodus usw. macht (je nachdem, welche Funktion Sie aktiviert haben)
+</text>
+		<text key="_SET_TOP_FEATURE_DESCRIPTION_">Vermeiden Sie die Situation, dass sich das Fenster hinter einem anderen Fenster befindet.
+Ein Fenster, das sich ganz oben befindet, wird sich nie hinter einem anderen Fenster befinden, das nicht ganz oben ist.
+</text>
+		<text key="_SHRINK_FEATURE_DESCRIPTION_">Anstatt das Fenster zu minimieren, können Sie es auch einfach auf eine sehr kleine Größe verkleinern, um Platz zu sparen.
+Wenn der Live-Vorschau-Modus aktiviert ist, können Sie sogar ein Video im Fenster ansehen, während es verkleinert ist.
+</text>
+		<text key="_THIS_COMPUTER_DIFFERENT__ASK_PURCHASE_TEXT_">Dieser Computer ist abweichend. Der Produktschlüssel kann auf eine bestimmte Anzahl von Computern beschränkt sein.
+
+Möchten Sie diesen Computer für den Produktschlüssel registrieren?</text>
+		<text key="_THIS_OPTION_IS_ONLY_IN_PRO_VER__ASK_ACTIVATE_OR_30_DAYS_TRIAL_">Diese Option ist leider nur für die Pro-Version verfügbar.
+Möchten Sie WindowTop aktivieren / 30 Tage Testversion starten?</text>
+		<text key="_Unavailable in Microsoft Store_">(Nicht verfügbar im Microsoft Store)</text>
+		<text key="_WINDOWTOP_SETTINGS_GENERAL_DESCRIPTION_">WindowTop ermöglicht es Ihnen, Ihre Arbeitsabläufe unter Windows zu verbessern, indem es verschiedene Funktionen bereitstellt, die Ihre Produktivität unterstützen, wie z. B. das Einstellen des Fensters im Vordergrund, das Verkleinern des Fensters, das Einstellen der Deckkraft und mehr.</text>
+		<text key="A new version has been released (X)_ would you like to download it now_">Es wurde eine neue Version gefunden ({0}), möchten Sie diese jetzt herunterladen?</text>
+		<text key="A new version has been released _X_ would you like to download it now_">Es wurde eine neue Version gefunden ({0}), möchten Sie diese jetzt herunterladen?</text>
+		<text key="A new version is available_ please update the program via Microsoft Store">Eine neue Version ist verfügbar, bitte aktualisieren Sie das Programm über den Microsoft Store</text>
+		<text key="About">Über</text>
+		<text key="About WindowTop">Über WindowTop</text>
+		<text key="Activation">Aktivierung</text>
+		<text key="Activation failed">Aktivierung fehlgeschlagen</text>
+		<text key="Activation failed_ Reason_">Aktivierung fehlgeschlagen. Grund: {0}</text>
+		<text key="Add selected">Ausgewähltes hinzufügen</text>
+		<text key="All Settings">Alle Einstellungen</text>
+		<text key="Always show title bar">Titelleiste immer anzeigen</text>
+		<text key="Anchors feature">Ankerfunktion</text>
+		<text key="Apply">Anwenden</text>
+		<text key="Arrow">Pfeil</text>
+		<text key="Automatically disable when the window is already dark">Automatisch deaktivieren, wenn das Fenster bereits dunkel ist</text>
+		<text key="Automatically move the anchor when it covers text or image">Automatisches Verschieben des Ankers, wenn er Text oder Bild verdeckt</text>
+		<text key="Automatically move the shrink item when it covers text or image">Automatisches Verschieben des verkleinerten Elements, wenn es Text oder Bild verdeckt</text>
+		<text key="Avoid inverting images colors">Vermeiden Sie die Umkehrung von Bildfarben</text>
+		<text key="Blacklist / Whitelist the following programs_">Die folgenden Programme zur Blacklist / Whitelist hinzufügen:</text>
+		<text key="Blacklist / Whitelist windows">Blacklist-/Whitelist-Fenster</text>
+		<text key="Blacklist the specified programs">Angegebenen Programme auf die Blacklist setzen</text>
+		<text key="Blur Level">Unschärfegrad:</text>
+		<text key="Brightness Level">Helligkeitsstufe:</text>
+		<text key="Buttons">Schaltflächen</text>
+		<text key="Center">Mittelpunkt</text>
+		<text key="Change toolbar location">Position der Symbolleiste ändern</text>
+		<text key="Change toolbar theme">Thema der Symbolleiste ändern</text>
+		<text key="Check for updates">Auf Updates prüfen</text>
+		<text key="Click Through mode disabled">Durchklickmodus deaktiviert</text>
+		<text key="Click Through mode disabled for window X">Durchklickmodus für Fenster deaktiviert: {0}</text>
+		<text key="Click Through mode disabled for X windows">Durchklickmodus deaktiviert für {0} Fenster</text>
+		<text key="Click Through mode enabled">Durchklickmodus aktiviert</text>
+		<text key="Click Through mode enabled for window X">Durchklickmodus für Fenster aktiviert: {0}</text>
+		<text key="Click Through mode enabled for X windows">Durchklickmodus aktiviert für {0} Fenster</text>
+		<text key="Click through transparent window">Klicken durch transparentes Fenster</text>
+		<text key="Click-Through disabled">Durchklicken deaktiviert</text>
+		<text key="Click-Through enabled">Durchklicken aktiviert</text>
+		<text key="Click-Through HotKey">Durchklicken Tastenkürzel</text>
+		<text key="Close">Schließen</text>
+		<text key="Close window">Fenster schließen</text>
+		<text key="Color_">Farbe:</text>
+		<text key="Configuration deleted">Konfiguration gelöscht</text>
+		<text key="Configuration deleted for window X">Konfiguration für Fenster {0} gelöscht</text>
+		<text key="Configuration saved">Konfiguration gespeichert</text>
+		<text key="Configuration saved for window X">Konfiguration für Fenster {0} gespeichert</text>
+		<text key="Configure anchors for windows">Anker für Fenster konfigurieren</text>
+		<text key="Configure HotKeys">Tastenkürzel konfigurieren</text>
+		<text key="Contact_">Kontakt:</text>
+		<text key="Continue execution">Ausführung fortsetzen</text>
+		<text key="Copy to clipboard">In die Zwischenablage kopieren</text>
+		<text key="Customize ToolBar">Symbolleiste anpassen</text>
+		<text key="Dark background">Dunkler Hintergrund</text>
+		<text key="Dark Mode feature">Dunkler Modus Funktion</text>
+		<text key="Deactivate">Deaktivieren</text>
+		<text key="Deactivation failed_ Reason_">Deaktivierung fehlgeschlagen. Grund: {0}</text>
+		<text key="Default offset_">Standardversatz:</text>
+		<text key="Default opacity level">Standard Trübheitsstufe</text>
+		<text key="Default shrink box size">Standardgröße für verkleinerte Fenster</text>
+		<text key="Delete window configuration">Fensterkonfiguration löschen</text>
+		<text key="Developer_">Entwickler:</text>
+		<text key="Disable Click-Through mode for all windows">Durchklickmodus für alle Fenster deaktivieren</text>
+		<text key="Disable or enable WindowTop for several windows">Deaktivieren oder Aktivieren von WindowTop für bestimmte Fenster</text>
+		<text key="Disable Set-Top mode for all windows">Vordergrund-Modus für alle Fenster deaktivieren</text>
+		<text key="Disable Shrink mode for all windows">Verkleinerungsmodus für alle Fenster deaktivieren</text>
+		<text key="Disable toolbar menu">Symbolleistenmenü deaktivieren</text>
+		<text key="Disable WindowTop only for several windows">WindowTop nur für bestimmte Fenster deaktivieren</text>
+		<text key="Disabled">Deaktiviert</text>
+		<text key="Do not show me this tip again">Diesen Tipp nicht mehr anzeigen</text>
+		<text key="Dont show me this suggestion again">Zeigen Sie mir diesen Vorschlag nicht mehr</text>
+		<text key="Dont show me this suggestion on startup">Zeigen Sie mir diesen Vorschlag nicht beim Start an</text>
+		<text key="Dynamic Opacity">Dynamische Trübung</text>
+		<text key="Enable anchors">Aktivieren von Ankern</text>
+		<text key="Enable auto move">Automatisches Verschieben aktivieren</text>
+		<text key="Enable auto position">Automatische Positionierung aktivieren</text>
+		<text key="Enable click through">Durchklicken aktivieren</text>
+		<text key="Enable Click-Through mode for the all transparent windows">Aktivieren des Durchklick-Modus für alle transparenten Fenster</text>
+		<text key="Enable dynamic opacity based on window Z-Order">Dynamische Trübung basierend auf der Z-Ordnung des Fensters einschalten</text>
+		<text key="Enable Glass (Smart Transparency) mode for the currently active window">Aktivieren des Glas-Modus (Intelligente Transparenz) für das aktuell aktive Fenster</text>
+		<text key="Enable live preview">Aktivieren der Live-Vorschau</text>
+		<text key="Enable mouse interact mode by default when shrinking windows">Mausinteraktionsmodus beim Verkleinern von Fenstern standardmäßig aktivieren</text>
+		<text key="Enable PIP / Live Preview mode when shrinking window">PIP-/Live-Vorschau-Modus beim Verkleinern des Fensters aktivieren</text>
+		<text key="Enable smart drag">Intelligentes Ziehen aktivieren</text>
+		<text key="Enable Smart Drag when mouse interact enabled">Intelligentes Ziehen aktivieren, wenn Mausinteraktion aktiviert ist</text>
+		<text key="Enable title bar">Titelleiste einschalten</text>
+		<text key="Enable Toolbar">Symbolleiste aktivieren</text>
+		<text key="Enable WindowTop only for certain windows">WindowTop nur für bestimmte Fenster aktivieren</text>
+		<text key="Enabled Shrink for X windows">Verkleinern aktiviert für</text>
+		<text key="Enter product key">Produktschlüssel eingeben:</text>
+		<text key="Exclude windows">Fenster ausschließen</text>
+		<text key="Exclusions">Ausnahmen</text>
+		<text key="Exit">Beenden</text>
+		<text key="Exit program">Programm beenden</text>
+		<text key="Failed to check for updates">Überprüfung auf Updates fehlgeschlagen</text>
+		<text key="Failed to check for updates_ Error_ X">Die Überprüfung auf Updates ist fehlgeschlagen. Fehler: {0}</text>
+		<text key="Failed to configure opacity level for images">Konfiguration der Trübheitsstufe für Bilder fehlgeschlagen</text>
+		<text key="Failed to configure opacity level for texts">Konfiguration der Trübheitsstufe für Texte fehlgeschlagen</text>
+		<text key="Failed to disable opacity for the window">Deaktivieren der Trübheit für das Fenster fehlgeschlagen</text>
+		<text key="Failed to enable click-through">Durchklicken konnte nicht aktiviert werden.</text>
+		<text key="Failed to enable dark background mode">Dunkler Hintergrundmodus konnte nicht aktiviert werden</text>
+		<text key="Failed to enable glass mode">Der Glasmodus konnte nicht aktiviert werden.</text>
+		<text key="Failed to enable opacity for the window_ Please try to run WindowTop as admin and try again">Die Trübheit für das Fenster konnte nicht aktiviert werden. Bitte versuchen Sie, WindowTop als Admin auszuführen und versuchen Sie es erneut</text>
+		<text key="Failed to get the UWP license information">Abrufen der UWP-Lizenzinformationen fehlgeschlagen</text>
+		<text key="Failed to load activation information_ The program will continue to run with limited functionality">Die Aktivierungsinformationen konnten nicht geladen werden. Das Programm wird weiterhin mit eingeschränkter Funktionalität ausgeführt.</text>
+		<text key="Failed to load the activation information_ Assuming that the program is already activated">Die Aktivierungsinformationen konnten nicht geladen werden. Es wird angenommen, dass das Programm bereits aktiviert ist.</text>
+		<text key="Failed to load the activation information_ The program cant run without it">Die Aktivierungsinformationen konnten nicht geladen werden. Das Programm kann ohne sie nicht ausgeführt werden.
+Das Programm wird jetzt beendet.</text>
+		<text key="Failed to register hot-key">Tastaturkürzel konnte nicht registriert werden:</text>
+		<text key="Failed to reset the usage count of the activation key_ Reason_">Der Nutzungszähler des Produktschlüssels konnte nicht zurückgesetzt werden. Grund: {0}</text>
+		<text key="Failed to run WindowTop as Admin_ The original process did not exited in a reasonable time">WindowTop konnte nicht als Admin ausgeführt werden. Der ursprüngliche Prozess wurde nicht in einer angemessenen Zeit beendet</text>
+		<text key="Failed to set blur level">Unschärfegrad konnte nicht eingestellt werden</text>
+		<text key="Failed to set brightness level">Einstellung des Helligkeitsgrades fehlgeschlagen</text>
+		<text key="Failed to set opacity level">Trübheitsstufe konnte nicht eingestellt werden</text>
+		<text key="Failed to set the program to start with Windows_ Failed to read registry key">Das Programm konnte nicht für den Start mit Windows eingerichtet werden. Registry-Schlüssel konnte nicht gelesen werden</text>
+		<text key="Failed to set window on top_ Please try to run WindowTop as admin and try again">Fenster im Vordergrund konnte nicht gesetzt werden. Bitte versuchen Sie, WindowTop als Admin auszuführen und versuchen Sie es erneut</text>
+		<text key="Failed to set WindowTop to start with Windows" acceptmissing="true">WindowTop zum Autostart von Windows hinzufügen ist fehlgeschlagen</text>
+		<text key="Failed to shrink window due to error">Das Fenster konnte aufgrund eines Fehlers nicht verkleinert werden:</text>
+		<text key="Failed to start the renderer process">Der Renderer-Prozess konnte nicht gestartet werden</text>
+		<text key="Feature">Funktion</text>
+		<text key="Features">Funktionen</text>
+		<text key="Features Settings">Funktionen Einstellungen</text>
+		<text key="Filter images">Bilder filtern</text>
+		<text key="Filter Images">Bilder filtern</text>
+		<text key="Font size">Schriftgröße</text>
+		<text key="FREE">KOSTENLOS</text>
+		<text key="Free _For non commercial usage_">Gratis (für nicht kommerzielle Nutzung)</text>
+		<text key="General">Allgemein</text>
+		<text key="Getting Started">Erste Schritte</text>
+		<text key="Glass">Glas</text>
+		<text key="GLASS">GLAS</text>
+		<text key="Glass / Smart Transparency HotKey">Glas / Intelligente Transparenz Tastaturkürzel</text>
+		<text key="Glass Mode feature">Glasmodus Funktion</text>
+		<text key="Got it">Verstanden</text>
+		<text key="Hide the whole toolbar and use only hot-keys instead">Die gesamte Symbolleiste ausblenden und stattdessen nur Tastenkürzel verwenden</text>
+		<text key="Hide_Unhide anchors" acceptpunctuation="true">
+Anker ausblenden/einblenden</text>
+		<text key="High">Hoch</text>
+		<text key="Highlight Color">Hervorhebungsfarbe</text>
+		<text key="Highlight the first">Hervorheben der ersten</text>
+		<text key="Highlight top most windows with red border">Oberste Fenster mit rotem Rahmen hervorheben</text>
+		<text key="HotKeys">Tastenkürzel</text>
+		<text key="HotKeys for set-top_ dark_ shrink">Tastaturkürzel für Vordergrund, Dunkel, Verkleinern</text>
+		<text key="Icon size">Symbolgröße</text>
+		<text key="Images">Bilder:</text>
+		<text key="INTERACT">BEDIENEN</text>
+		<text key="Invalid product key provided">Ungültiger Produktschlüssel angegeben</text>
+		<text key="Keep resize ratio">Größenverhältnis beibehalten</text>
+		<text key="Keep scale ratio">Maßstabsverhältnis beibehalten</text>
+		<text key="Language">Sprache</text>
+		<text key="Language changed">Sprache geändert</text>
+		<text key="Left">Links</text>
+		<text key="Left Side">Linke Seite</text>
+		<text key="License">Lizenz</text>
+		<text key="License Type">Lizenz Typ:</text>
+		<text key="Mark top-most windows with red border">Oberste Fenster mit rotem Rahmen markieren</text>
+		<text key="Max height">Maximale Höhe</text>
+		<text key="Max width">Maximale Breite</text>
+		<text key="Maximum anchors amount">Maximale Anzahl von Ankern</text>
+		<text key="Maximum shrink box size for mouse hover preview">Maximale Vorschaugröße verkleinerter Fenster beim Überfahren mit der Maus</text>
+		<text key="Medium">Mittel</text>
+		<text key="Minimize all shrunk windows">Alle verkleinerten Fenster minimieren</text>
+		<text key="Minimize all shrunk windows to the taskbar">Alle verkleinerten Fenster in die Taskleiste minimieren</text>
+		<text key="Minimize all windows">Alle Fenster minimieren</text>
+		<text key="Minimize other to taskbar">Sonstige in die Taskleiste minimieren</text>
+		<text key="Minimize to taskbar">In die Taskleiste minimieren</text>
+		<text key="Minimized">Minimiert</text>
+		<text key="Minimized only windows that had shrink mode enabled">Minimierte nur Fenster, bei denen der Verkleinerungsmodus aktiviert war</text>
+		<text key="Minimum anchor opacity">Minimale Trübung des Ankers</text>
+		<text key="More Information">Mehr Informationen</text>
+		<text key="Mouse hover preview size">Vorschaugröße beim Überfahren mit der Maus</text>
+		<text key="New version available_click to download_">Neue Version verfügbar: {0} (zum Herunterladen anklicken)</text>
+		<text key="No">Nein</text>
+		<text key="No product key provided">Kein Produktschlüssel vorhanden</text>
+		<text key="None">Keine</text>
+		<text key="Not Activated">Nicht aktiviert</text>
+		<text key="Not allowed in portable mode">Nicht erlaubt im portablen Modus</text>
+		<text key="Nothing to change_ all windows are already minimized">Nichts zu ändern, alle Fenster sind bereits minimiert</text>
+		<text key="Nothing to change_ no window was set on top before">Nichts zu ändern, es wurde vorher kein Fenster nach oben gesetzt</text>
+		<text key="Nothing to change_ no window was shrank before">Nichts zu ändern, kein Fenster wurde vorher verkleinert</text>
+		<text key="Nothing to change_ none of the windows have shrink mode enabled">Nichts zu ändern, bei keinem der Fenster ist der Verkleinerungsmodus aktiviert</text>
+		<text key="Nothing to minimize">Nichts zu minimieren</text>
+		<text key="Nothing was changed">Es wurde nichts geändert</text>
+		<text key="Opacity">Trübheit</text>
+		<text key="OPACITY">TRÜB</text>
+		<text key="Opacity feature">Trübheits Funktion</text>
+		<text key="Operation failed_ Error">Vorgang fehlgeschlagen. Fehler:</text>
+		<text key="Other configurations">Andere Konfigurationen</text>
+		<text key="Other features settings">Weitere Funktionseinstellungen</text>
+		<text key="Other HotKeys">Andere Tastenkürzel</text>
+		<text key="Picture in Picture _PIP_ mode for the shrink feature">Bild-im-Bild-Modus (PIP) für die Verkleinerungsfunktion</text>
+		<text key="Please enter a product key and try again">Bitte geben Sie einen Produktschlüssel ein und versuchen Sie es erneut</text>
+		<text key="Please restart WindowTop in order for the changes to take effect">Bitte starten Sie WindowTop neu, damit die Änderungen übernommen werden</text>
+		<text key="Preferred location">Bevorzugter Standort</text>
+		<text key="Preview">Vorschau</text>
+		<text key="Pro">Pro</text>
+		<text key="PRO">PRO</text>
+		<text key="Pro _X days left_">Pro ({0} Tage übrig)</text>
+		<text key="Pro version only">Nur Pro-Version</text>
+		<text key="Pro vs Free">Pro versus Gratis</text>
+		<text key="Product was not purchased due to a Network Error">Das Produkt wurde aufgrund eines Netzwerkfehlers nicht gekauft.</text>
+		<text key="Product was not purchased due to a Server Error">Product was not purchased due to a Server Error.</text>
+		<text key="Product was not purchased due to an Unknown Error">Das Produkt wurde aufgrund eines unbekannten Fehlers nicht gekauft.</text>
+		<text key="Product was not purchased_ it may have been canceled">Das Produkt wurde nicht gekauft, es könnte storniert worden sein.</text>
+		<text key="Purchase">Kaufen</text>
+		<text key="Purchase another key">Einen weiteren Produktschlüssel kaufen</text>
+		<text key="Regular Color">Normale Farbe</text>
+		<text key="Reset">Zurücksetzen</text>
+		<text key="Reset key usage">Produktschlüsselverwendung zurücksetzen</text>
+		<text key="Resize shrunk window">Größe des verkleinerten Fensters ändern</text>
+		<text key="Right">Rechts</text>
+		<text key="Right Side">Rechte Seite</text>
+		<text key="Save window configuration">Fensterkonfiguration speichern</text>
+		<text key="Select another process">Anderen Prozess wählen</text>
+		<text key="Select process to add_">Prozess zum Hinzufügen auswählen:</text>
+		<text key="Send error">Fehler senden</text>
+		<text key="Set Click-Through mode for the currently active window">Durchklickmodus für das aktuell aktive Fenster einstellen</text>
+		<text key="SET DARK">DUNKEL</text>
+		<text key="Set default opacity level">Standard Trübheitsstufe</text>
+		<text key="Set on top window X">Im oberen Fenster einstellen: {0}</text>
+		<text key="Set Set Product Key">Produktschlüssel eingeben</text>
+		<text key="SET TOP" acceptmissing="true">VORNE</text>
+		<text key="Set Top disabled">Vordergrund deaktiviert</text>
+		<text key="Set Top enabled">Vordergrund aktiviert</text>
+		<text key="Set Top feature">Vordergrund Funktion</text>
+		<text key="Set window dark">Dunkles Fenster einstellen/abschalten</text>
+		<text key="Set window on top">Vordergrundfenster einstellen/abschalten</text>
+		<text key="Set window opacity">Fenstertrübheit einstellen/abschalten</text>
+		<text key="Set WindowTop to start with Windows">WindowTop zum Windows Autostart hinzufügen</text>
+		<text key="Set-Dark">Dunkel einstellen</text>
+		<text key="Set-Dark HotKey">Tastenkürzel dunkel einstellen</text>
+		<text key="Settings">Einstellungen</text>
+		<text key="Set-Top">Vordergrund</text>
+		<text key="Set-Top HotKey" acceptmissing="true">Vordergrund Tastenkürzel</text>
+		<text key="Show notification when click-through toggled by hotkey">Benachrichtigung anzeigen, wenn Durchklicken per Tastaturkürzel umgeschaltet wird</text>
+		<text key="Show notification when toggled by hotkey">Benachrichtigung anzeigen, wenn per Tastaturkürzel umgeschaltet wird</text>
+		<text key="Show or hide buttons in the toolbar">Schaltflächen in der Symbolleiste ein- oder ausblenden</text>
+		<text key="Show preview on mouse hover">Vorschau bei Mausbewegung anzeigen</text>
+		<text key="Shrink">Verkleinern</text>
+		<text key="SHRINK">KLEIN</text>
+		<text key="Shrink all non minimized windows">Alle nicht minimierten Fenster verkleinern</text>
+		<text key="Shrink feature">Verkleinern Funktion</text>
+		<text key="Shrink feature _ Enable or disable mouse interact mode">Verkleinerungsfunktion - Aktivieren oder Deaktivieren des Mausinteraktionsmodus</text>
+		<text key="Shrink HotKey">Tastenkürzel verkleinern</text>
+		<text key="Shrink mode disabled for X windows">Verkleinerungsmodus deaktiviert für {0} Fenster</text>
+		<text key="Shrink mode enabled">Verkleinerungsmodus aktiviert</text>
+		<text key="Shrink window">Verkleinern/Wiederherstellen Fenster</text>
+		<text key="Shrink with auto-move mode">Verkleinern mit Auto-Move-Modus</text>
+		<text key="Shrink with interact mode">Verkleinern mit Interaktionsmodus</text>
+		<text key="Size Configurations">Größenkonfigurationen</text>
+		<text key="Smart dark mode">Intelligenter Dunkelmodus</text>
+		<text key="Smart Dark-Mode - Automatically disable dark mode when the window is already dark">Intelligenter Dunkelmodus - Automatisches Deaktivieren des Dunkelmodus, wenn das Fenster bereits dunkel ist</text>
+		<text key="Smart Transparency">Intelligente Transparenz</text>
+		<text key="Start 30 Days Trial">30 Tage Testversion starten</text>
+		<text key="Start with admin privileges">Mit Admin-Rechten ausführen</text>
+		<text key="Start with Windows">Mit Windows starten</text>
+		<text key="Successfully disabled SET-TOP mode for X windows">Erfolgreich den Vordergrund-Modus für {0} Fenster deaktiviert</text>
+		<text key="Successfully disabled Shrink mode for X windows">Erfolgreich den Verkleinerungsmodus für {0} Fenster deaktiviert</text>
+		<text key="Suitable for company usage">Geeignet für den gewerblichen Einsatz</text>
+		<text key="Support the developer">Unterstützen Sie den Entwickler</text>
+		<text key="Temporary enable or disable toolbar menu">Temporäres aktivieren oder deaktivieren des Symbolleistenmenüs</text>
+		<text key="Tested programs_ Google Chrome_ Chromium Edge_ and Firefox">Getestete Programme: Google Chrome, Chromium Edge und Firefox</text>
+		<text key="TEXT_You already bought this app">Sie haben diese Anwendung bereits gekauft und besitzen eine voll lizenzierte Version.
+Die Software wird jetzt reaktiviert</text>
+		<text key="TEXT_Your purchase was successful">Ihr Kauf war erfolgreich!
+Die Software wird jetzt aktiviert</text>
+		<text key="Texts">Texte:</text>
+		<text key="The language changed to">Die Sprache wurde geändert in</text>
+		<text key="The toolbar will no longer show when moving the mouse to the title bar of windows">Die Symbolleiste wird nicht mehr angezeigt, wenn die Maus auf die Titelleiste von Fenstern bewegt wird</text>
+		<text key="The toolbar will now show when moving the mouse to the title bar of windows">Die Symbolleiste wird von nun an angezeigt, wenn Sie die Maus auf die Titelleiste von Fenstern bewegen</text>
+		<text key="The trial period already started for this product" acceptmissing="true">Die Testperiode dieses Produkts hat bereits begonnen</text>
+		<text key="The trial period was not started due to a Network Error">Die Testperiode wurde aufgrund eines Netzwerkfehlers nicht gestartet</text>
+		<text key="The trial period was not started due to a Server Error">Die Testperiode wurde aufgrund eines Serverfehlers nicht gestartet</text>
+		<text key="The trial period was not started due to an Unknown Error">Die Testperiode wurde aufgrund eines Unbekannten Fehlers nicht gestartet</text>
+		<text key="The trial period was not started_ it may have been canceled">Die Testperiode wurde nicht gestartet. Sie könnte abgebrochen worden sein</text>
+		<text key="Theme">Thema</text>
+		<text key="This hot-key may be in use by another program">Dieses Tastaturkürzel wird möglicherweise von einem anderen Programm verwendet.</text>
+		<text key="This option is enabled by default when the software installed and cant turned off">Diese Option ist bei der Installation der Software standardmäßig aktiviert und kann nicht ausgeschaltet werden</text>
+		<text key="This option will damage rendering performance_ Use this option __">HINWEIS: Diese Option beeinträchtigt die Rendering-Leistung. Verwenden Sie diese Option für Fenster, die zusätzlich zum Text auch Bilder anzeigen</text>
+		<text key="To drag the window_ make sure that the cursor is not above text">Um das Fenster zu ziehen, stellen Sie sicher, dass sich der Cursor nicht über dem Text befindet</text>
+		<text key="ToolBar">Symbolleiste</text>
+		<text key="Toolbar disabled">Symbolleiste deaktiviert</text>
+		<text key="Toolbar enabled">Symbolleiste aktiviert</text>
+		<text key="Toolbar Preview">Symbolleisten-Vorschau</text>
+		<text key="Tx:date.day">d.</text>
+		<text key="Tx:date.day.tab">dd.</text>
+		<text key="Tx:date.month.abbr">MMM.</text>
+		<text key="Tx:date.month day">d.M.</text>
+		<text key="Tx:date.month day.abbr">d. MMM.</text>
+		<text key="Tx:date.month day.long">d. MMMM</text>
+		<text key="Tx:date.month day.tab">dd.MM.</text>
+		<text key="Tx:date.year month">M'/'yyyy</text>
+		<text key="Tx:date.year month.abbr">MMM. yyyy</text>
+		<text key="Tx:date.year month.tab">MM'/'yyyy</text>
+		<text key="Tx:date.year month day">d.M.yyyy</text>
+		<text key="Tx:date.year month day.abbr">d. MMM. yyyy</text>
+		<text key="Tx:date.year month day.long">d. MMMM yyyy</text>
+		<text key="Tx:enum.and.combiner">, </text>
+		<text key="Tx:enum.and.last combiner"> und </text>
+		<text key="Tx:enum.or.combiner">, </text>
+		<text key="Tx:enum.or.last combiner"> oder </text>
+		<text key="Tx:number.group separator"> </text>
+		<text key="Tx:number.group separator threshold">10000</text>
+		<text key="Tx:number.negative">−</text>
+		<text key="Tx:number.ordinal">{#}.</text>
+		<text key="Tx:number.unit separator"> </text>
+		<text key="Tx:quote begin">„</text>
+		<text key="Tx:quote end">“</text>
+		<text key="Tx:quote nested begin">‚</text>
+		<text key="Tx:quote nested end">‘</text>
+		<text key="Tx:time.hour">H "Uhr"</text>
+		<text key="Tx:time.hour.tab">HH "Uhr"</text>
+		<text key="Tx:time.hour minute">HH:mm</text>
+		<text key="Tx:time.hour minute.tab">HH:mm</text>
+		<text key="Tx:time.hour minute second">HH:mm:ss</text>
+		<text key="Tx:time.hour minute second.tab">HH:mm:ss</text>
+		<text key="Tx:time.hour minute second ms">HH:mm:ss.fff</text>
+		<text key="Tx:time.hour minute second ms.tab">HH:mm:ss.fff</text>
+		<text key="Tx:time.never">nie</text>
+		<text key="Tx:time.now">jetzt</text>
+		<text key="Tx:time.relative">in {interval}</text>
+		<text key="Tx:time.relative.days">{#} Tagen</text>
+		<text key="Tx:time.relative.days" count="1">{#} Tag</text>
+		<text key="Tx:time.relative.days.single">{#} Tagen</text>
+		<text key="Tx:time.relative.days.single" count="1">einem Tag</text>
+		<text key="Tx:time.relative.hours">{#} Stunden</text>
+		<text key="Tx:time.relative.hours" count="1">{#} Stunde</text>
+		<text key="Tx:time.relative.hours.single">{#} Stunden</text>
+		<text key="Tx:time.relative.hours.single" count="1">einer Stunde</text>
+		<text key="Tx:time.relative.minutes">{#} Minuten</text>
+		<text key="Tx:time.relative.minutes" count="1">{#} Minute</text>
+		<text key="Tx:time.relative.minutes.single">{#} Minuten</text>
+		<text key="Tx:time.relative.minutes.single" count="1">einer Minute</text>
+		<text key="Tx:time.relative.months">{#} Monaten</text>
+		<text key="Tx:time.relative.months" count="1">{#} Monat</text>
+		<text key="Tx:time.relative.months.single">{#} Monaten</text>
+		<text key="Tx:time.relative.months.single" count="1">einem Monat</text>
+		<text key="Tx:time.relative.seconds">{#} Sekunden</text>
+		<text key="Tx:time.relative.seconds" count="1">{#} Sekunde</text>
+		<text key="Tx:time.relative.seconds.single">{#} Sekunden</text>
+		<text key="Tx:time.relative.seconds.single" count="1">einer Sekunde</text>
+		<text key="Tx:time.relative.years">{#} Jahren</text>
+		<text key="Tx:time.relative.years" count="1">{#} Jahr</text>
+		<text key="Tx:time.relative.years.single">{#} Jahren</text>
+		<text key="Tx:time.relative.years.single" count="1">einem Jahr</text>
+		<text key="Tx:time.relative neg">vor {interval}</text>
+		<text key="Tx:time.relative neg.days">{#} Tagen</text>
+		<text key="Tx:time.relative neg.days" count="1">{#} Tag</text>
+		<text key="Tx:time.relative neg.days.single">{#} Tagen</text>
+		<text key="Tx:time.relative neg.days.single" count="1">einem Tag</text>
+		<text key="Tx:time.relative neg.hours">{#} Stunden</text>
+		<text key="Tx:time.relative neg.hours" count="1">{#} Stunde</text>
+		<text key="Tx:time.relative neg.hours.single">{#} Stunden</text>
+		<text key="Tx:time.relative neg.hours.single" count="1">einer Stunde</text>
+		<text key="Tx:time.relative neg.minutes">{#} Minuten</text>
+		<text key="Tx:time.relative neg.minutes" count="1">{#} Minute</text>
+		<text key="Tx:time.relative neg.minutes.single">{#} Minuten</text>
+		<text key="Tx:time.relative neg.minutes.single" count="1">einer Minute</text>
+		<text key="Tx:time.relative neg.months">{#} Monaten</text>
+		<text key="Tx:time.relative neg.months" count="1">{#} Monat</text>
+		<text key="Tx:time.relative neg.months.single">{#} Monaten</text>
+		<text key="Tx:time.relative neg.months.single" count="1">einem Monat</text>
+		<text key="Tx:time.relative neg.seconds">{#} Sekunden</text>
+		<text key="Tx:time.relative neg.seconds" count="1">{#} Sekunde</text>
+		<text key="Tx:time.relative neg.seconds.single">{#} Sekunden</text>
+		<text key="Tx:time.relative neg.seconds.single" count="1">einer Sekunde</text>
+		<text key="Tx:time.relative neg.years">{#} Jahren</text>
+		<text key="Tx:time.relative neg.years" count="1">{#} Jahr</text>
+		<text key="Tx:time.relative neg.years.single">{#} Jahren</text>
+		<text key="Tx:time.relative neg.years.single" count="1">einem Jahr</text>
+		<text key="Tx:time.relative span">{interval} später</text>
+		<text key="Tx:time.relative span.days">{#} Tage</text>
+		<text key="Tx:time.relative span.days" count="1">{#} Tag</text>
+		<text key="Tx:time.relative span.days.single">{#} Tage</text>
+		<text key="Tx:time.relative span.days.single" count="1">einen Tag</text>
+		<text key="Tx:time.relative span.hours">{#} Stunden</text>
+		<text key="Tx:time.relative span.hours" count="1">{#} Stunde</text>
+		<text key="Tx:time.relative span.hours.single">{#} Stunden</text>
+		<text key="Tx:time.relative span.hours.single" count="1">eine Stunde</text>
+		<text key="Tx:time.relative span.minutes">{#} Minuten</text>
+		<text key="Tx:time.relative span.minutes" count="1">{#} Minute</text>
+		<text key="Tx:time.relative span.minutes.single">{#} Minuten</text>
+		<text key="Tx:time.relative span.minutes.single" count="1">eine Minute</text>
+		<text key="Tx:time.relative span.months">{#} Monate</text>
+		<text key="Tx:time.relative span.months" count="1">{#} Monat</text>
+		<text key="Tx:time.relative span.months.single">{#} Monate</text>
+		<text key="Tx:time.relative span.months.single" count="1">einen Monat</text>
+		<text key="Tx:time.relative span.seconds">{#} Sekunden</text>
+		<text key="Tx:time.relative span.seconds" count="1">{#} Sekunde</text>
+		<text key="Tx:time.relative span.seconds.single">{#} Sekunden</text>
+		<text key="Tx:time.relative span.seconds.single" count="1">eine Sekunde</text>
+		<text key="Tx:time.relative span.years">{#} Jahre</text>
+		<text key="Tx:time.relative span.years" count="1">{#} Jahr</text>
+		<text key="Tx:time.relative span.years.single">{#} Jahre</text>
+		<text key="Tx:time.relative span.years.single" count="1">ein Jahr</text>
+		<text key="Tx:time.relative span neg">{interval} vorher</text>
+		<text key="Tx:time.relative span neg.days">{#} Tage</text>
+		<text key="Tx:time.relative span neg.days" count="1">{#} Tag</text>
+		<text key="Tx:time.relative span neg.days.single">{#} Tage</text>
+		<text key="Tx:time.relative span neg.days.single" count="1">einen Tag</text>
+		<text key="Tx:time.relative span neg.hours">{#} Stunden</text>
+		<text key="Tx:time.relative span neg.hours" count="1">{#} Stunde</text>
+		<text key="Tx:time.relative span neg.hours.single">{#} Stunden</text>
+		<text key="Tx:time.relative span neg.hours.single" count="1">eine Stunde</text>
+		<text key="Tx:time.relative span neg.minutes">{#} Minuten</text>
+		<text key="Tx:time.relative span neg.minutes" count="1">{#} Minute</text>
+		<text key="Tx:time.relative span neg.minutes.single">{#} Minuten</text>
+		<text key="Tx:time.relative span neg.minutes.single" count="1">eine Minute</text>
+		<text key="Tx:time.relative span neg.months">{#} Monate</text>
+		<text key="Tx:time.relative span neg.months" count="1">{#} Monat</text>
+		<text key="Tx:time.relative span neg.months.single">{#} Monate</text>
+		<text key="Tx:time.relative span neg.months.single" count="1">einen Monat</text>
+		<text key="Tx:time.relative span neg.seconds">{#} Sekunden</text>
+		<text key="Tx:time.relative span neg.seconds" count="1">{#} Sekunde</text>
+		<text key="Tx:time.relative span neg.seconds.single">{#} Sekunden</text>
+		<text key="Tx:time.relative span neg.seconds.single" count="1">eine Sekunde</text>
+		<text key="Tx:time.relative span neg.years">{#} Jahre</text>
+		<text key="Tx:time.relative span neg.years" count="1">{#} Jahr</text>
+		<text key="Tx:time.relative span neg.years.single">{#} Jahre</text>
+		<text key="Tx:time.relative span neg.years.single" count="1">ein Jahr</text>
+		<text key="Tx:time.span">für {interval}</text>
+		<text key="Tx:time.span.days">{#} Tage</text>
+		<text key="Tx:time.span.days" count="1">{#} Tag</text>
+		<text key="Tx:time.span.days.single">{#} Tage</text>
+		<text key="Tx:time.span.days.single" count="1">einen Tag</text>
+		<text key="Tx:time.span.hours">{#} Stunden</text>
+		<text key="Tx:time.span.hours" count="1">{#} Stunde</text>
+		<text key="Tx:time.span.hours.single">{#} Stunden</text>
+		<text key="Tx:time.span.hours.single" count="1">eine Stunde</text>
+		<text key="Tx:time.span.minutes">{#} Minuten</text>
+		<text key="Tx:time.span.minutes" count="1">{#} Minute</text>
+		<text key="Tx:time.span.minutes.single">{#} Minuten</text>
+		<text key="Tx:time.span.minutes.single" count="1">eine Minute</text>
+		<text key="Tx:time.span.months">{#} Monate</text>
+		<text key="Tx:time.span.months" count="1">{#} Monat</text>
+		<text key="Tx:time.span.months.single">{#} Monate</text>
+		<text key="Tx:time.span.months.single" count="1">einen Monat</text>
+		<text key="Tx:time.span.seconds">{#} Sekunden</text>
+		<text key="Tx:time.span.seconds" count="1">{#} Sekunde</text>
+		<text key="Tx:time.span.seconds.single">{#} Sekunden</text>
+		<text key="Tx:time.span.seconds.single" count="1">eine Sekunde</text>
+		<text key="Tx:time.span.years">{#} Jahre</text>
+		<text key="Tx:time.span.years" count="1">{#} Jahr</text>
+		<text key="Tx:time.span.years.single">{#} Jahre</text>
+		<text key="Tx:time.span.years.single" count="1">ein Jahr</text>
+		<text key="Tx:time.span neg">seit {interval}</text>
+		<text key="Tx:time.span neg.days">{#} Tagen</text>
+		<text key="Tx:time.span neg.days" count="1">{#} Tag</text>
+		<text key="Tx:time.span neg.days.single">{#} Tagen</text>
+		<text key="Tx:time.span neg.days.single" count="1">einem Tag</text>
+		<text key="Tx:time.span neg.hours">{#} Stunden</text>
+		<text key="Tx:time.span neg.hours" count="1">{#} Stunde</text>
+		<text key="Tx:time.span neg.hours.single">{#} Stunden</text>
+		<text key="Tx:time.span neg.hours.single" count="1">einer Stunde</text>
+		<text key="Tx:time.span neg.minutes">{#} Minuten</text>
+		<text key="Tx:time.span neg.minutes" count="1">{#} Minute</text>
+		<text key="Tx:time.span neg.minutes.single">{#} Minuten</text>
+		<text key="Tx:time.span neg.minutes.single" count="1">einer Minute</text>
+		<text key="Tx:time.span neg.months">{#} Monaten</text>
+		<text key="Tx:time.span neg.months" count="1">{#} Monat</text>
+		<text key="Tx:time.span neg.months.single">{#} Monaten</text>
+		<text key="Tx:time.span neg.months.single" count="1">einem Monat</text>
+		<text key="Tx:time.span neg.seconds">{#} Sekunden</text>
+		<text key="Tx:time.span neg.seconds" count="1">{#} Sekunde</text>
+		<text key="Tx:time.span neg.seconds.single">{#} Sekunden</text>
+		<text key="Tx:time.span neg.seconds.single" count="1">einer Sekunde</text>
+		<text key="Tx:time.span neg.years">{#} Jahren</text>
+		<text key="Tx:time.span neg.years" count="1">{#} Jahr</text>
+		<text key="Tx:time.span neg.years.single">{#} Jahren</text>
+		<text key="Tx:time.span neg.years.single" count="1">einem Jahr</text>
+		<text key="Unset on top window X">Im oberen Fenster nicht eingestellt: {0}</text>
+		<text key="Unset WindowTop to start with Windows">Windows Autostart von WindowTop deaktivieren</text>
+		<text key="Unshrink all windows">Alle Fenster lösen</text>
+		<text key="Untop all windows">Alle Fenster aus dem Vordergrund entfernen</text>
+		<text key="Use GPU acceleration (NVIDIA GPU only)">GPU-Beschleunigung verwenden (nur NVIDIA-GPU)</text>
+		<text key="Use highlight color">Hervorhebungsfarbe benutzen</text>
+		<text key="Use this option to disable / enable WindowTop for certain programs">Verwenden Sie diese Option, um WindowTop für bestimmte Programme zu deaktivieren / aktivieren</text>
+		<text key="Version Information">Versionsinformationen</text>
+		<text key="Version_">Version: </text>
+		<text key="Visibility Configurations">Sichtbarkeits-Konfigurationen</text>
+		<text key="Website_">Website:</text>
+		<text key="Welcome to WindowTop settings page_">Willkommen auf der WindowTop-Einstellungsseite!</text>
+		<text key="Whitelist the specified programs">Angegebene Programme der Whitelist hinzufügen</text>
+		<text key="Window anchors">Fenster-Anker</text>
+		<text key="windows">Fenster</text>
+		<text key="windows minimized">{0} Fenster minimiert</text>
+		<text key="windows were untoped">{0} Fenster wurden aus dem Vordergrund entfernt</text>
+		<text key="WindowTop 30 days trial expired">WindowTop 30 Tage Testversion abgelaufen</text>
+		<text key="WindowTop has been successfully activated by Microsoft Store">WindowTop wurde erfolgreich im Microsoft Store aktiviert</text>
+		<text key="WindowTop has been successfully activated by the product key">WindowTop wurde erfolgreich mit dem Produktschlüssel aktiviert</text>
+		<text key="WindowTop is activated!">WindowTop ist aktiviert!</text>
+		<text key="WindowTop is deactivated_ The key may be used in other computers">WindowTop ist deaktiviert. Der Produktschlüssel könnte auf anderen Computern in Benutzung sein</text>
+		<text key="WindowTop is FREE_ However you will not get the best from the free version">WindowTop ist KOSTENLOS. Sie werden jedoch nicht das Beste aus der kostenlosen Version herausholen!</text>
+		<text key="WindowTop is not activated">WindowTop ist nicht aktiviert</text>
+		<text key="WindowTop is not activated _ As a result the the color was not changed_">WindowTop ist nicht aktiviert. Infolgedessen wurde die Farbe nicht geändert.</text>
+		<text key="WindowTop is not activated _ As a result the the theme was not activated_">WindowTop ist nicht aktiviert. Infolgedessen wurde das Thema nicht aktiviert.</text>
+		<text key="WindowTop is now deactivated and will no run with limited functionality">WindowTop ist nun deaktiviert und wird mit eingeschränkter Funktionalität ausgeführt</text>
+		<text key="WindowTop must be installed to make it start with Windows">WindowTop muss installiert sein, damit es mit Windows startet</text>
+		<text key="WindowTop Settings">WindowTop Einstellungen</text>
+		<text key="WindowTop Tip">WindowTop Tipp!</text>
+		<text key="WindowTop will be deactivate in any other computer due to activation reset request_">WindowTop wird auf allen anderen Computern aufgrund einer Aktivierungs-Rücksetzanfrage deaktiviert!
+
+Sie müssen diesen Produktschlüssel auf jedem anderen Computer, auf dem Sie die volle Funktionalität nutzen möchten, erneut eingeben</text>
+		<text key="Would you like WindowTop to start with Windows">Möchten Sie, dass WindowTop mit Windows startet?</text>
+		<text key="Yes">Ja</text>
+		<text key="You have the last version">Sie haben die aktuelle Version</text>
+	</culture>
+	<culture name="en" primary="true">
+		<text key="__LANGUAGE_FONT__">Segoe UI</text>
+		<text key="_30 days trial started">30 days trial started!</text>
+		<text key="_30_DAYS_TRIAL_EXPIRED_AND_MUST_PURCHASE_MESSAGE_TEXT_">30 days trial expired, and the software can't be used without purchasing it.
+
+
+Would you like to purchase a license via Microsoft Store?</text>
+		<text key="_30_DAYS_TRIAL_EXPIRED_MESSAGE_TEXT_">30 days trial expired and multiple features have been disabled, and the software should not be used in a commercial environment anymore.
+
+
+Would you like to purchase a license key now?</text>
+		<text key="_30_DAYS_TRIAL_EXPIRED_NOTIFICATION_MESSAGE_">Multiple features have been disabled, and the software should not be used in a commercial environment anymore.
+
+Click here to purchase or set an activation key</text>
+		<text key="_30_DAYS_TRIAL_STARTED_NOTIFICATION_MESSAGE_">During these 30 days, all WindowTop functionality is unlocked and you can use it in a commercial environment</text>
+		<text key="_ABOUT_DESCRIPTION_">WindowTop SW enables you to manage your windows practically and efficiently with several awesome features.
+
+With WindowTop you can easily set windows on top with one button click or via hot-keys. In addition, WindowTop also provides a unique set of features such as a dark mode for any window, PIP mode for any window, opacity, click-through, and more.
+
+The goal of this product is to help you be more productive on your computer by managing your windows efficiently</text>
+		<text key="_ACTIVATION_FAILED_DIALOG_MESSAGE_">Activation failed
+
+Reason: {0}
+
+In case you registered the key with computers that you no longer use, you can reset the activation key. It will deactivate the program in these computers. So you can reuse it again in new computers instead of the old computers.
+
+Do you want to reset the activation key?</text>
+		<text key="_ANCHOR_FEATURE_DESCRIPTION_">Easily pick any window without having to set it on top or finding it via the ALT+TAB program switcher</text>
+		<text key="_ARE_YOU_SURE_YOU_WANT_TO_DEACTIVATE_THE_PROGRAM_">Deactivating the program will cause it to work with limited functionality.
+In Addition, it is not allowed to use the program in commercial environments.
+And there is also a possibility of limited support.
+
+
+Are you sure you want to continue?</text>
+		<text key="_ASK_RUN_AS_ADMIN_DIALOG_">Seems that WindowTop is not running with admin privileges.
+As a result, WindowTop will not able to control any windows owned by processes with admin privileges.
+
+To solve this issue, it is recommended to run WindowTop with admin privileges.
+
+Would you like to run WindowTop with admin privileges?</text>
+		<text key="_CHOOSED_NOT_TO_REGISTER__AS_RESULT_NOT_ACTIVATED_">You choose to not register this computer for the license key.
+As a result, the software is not activated.</text>
+		<text key="_DARK_MODE_FEATURE_DESCRIPTION_">Some windows do not have a dark mode.
+This option force dark mode for any window, even if the window is not dark by its own.
+</text>
+		<text key="_DEACTIVATED_BUT_RUNNING_AS_TRIAL_MODE_">WindowTop is deactivated. The 30 days trial has not ended yet,
+So it will keep running with full functionality.
+
+You have {0} trial days left.</text>
+		<text key="_DISABLE_TOOLBAR_DESCRIPTION_">If this option is disabled, you will no longer see the toolbar when the mouse is above the window title.
+You will only able to use the features via hot-keys.</text>
+		<text key="_FATAL_ERROR_OCCURRED_">Sorry, a fatal error has occurred. To help to solve this bug, please copy the following error and send it to: https://windowtop.info/contact/</text>
+		<text key="_GLASS_MODE_FEATURE_DESCRIPTION_">This feature is an advanced transparency effect.
+Unlike regular transparency, in this case, you can set opacity only for the background and keep the
+text as sharp and bright as it is.
+</text>
+		<text key="_KEY_RESET_SUCCESS_NOTIFICATION_">The activation key has been successfully reset.
+
+Any other associated computers (not including this computer) removed from this key</text>
+		<text key="_NOTIFY_NEED_TO_RUN_AS_ADMIN_MESSAGE_">To make this change, WindowTop needs to run with admin privileges. 
+
+Please restart WindowTop and allow it to run with admin privileges in order to make this change</text>
+		<text key="_OPACITY_MODE_FEATURE_DESCRIPTION_">Enable and adjust transparency for any window</text>
+		<text key="_RESET_ACTIVATION_KEY_DIALOG_MESSAGE_">If you have an issue with activations (common after updating BIOS, etc) and this computer is detected as another computer by mistake, you can use this option.
+
+The option will reset the activation key and will remove any associated computers (not including this computer).
+
+Use this option only in case of such an issue.
+
+Are you sure you want to continue?</text>
+		<text key="_SAVE_WINDOW_CONFIGURATION_FEATURE_DESCRIPTION_">When you right-click on the toolbar arrow, you will see an option to save the configuration of the window.
+Saving the configuration means for example that WindowTop will automatically make the window topmost,
+dark mode, etc (according to what feature you enabled)
+</text>
+		<text key="_SET_TOP_FEATURE_DESCRIPTION_">Avoid the situation when the window is behind another window.
+A topmost window will never be behind another non-topmost window.
+</text>
+		<text key="_SHRINK_FEATURE_DESCRIPTION_">Instead of minimizing the window, you can also just shrink the window to a very small size to save you space.
+When live preview mode is enabled, you can even watch a video in the window while its size is reduced.
+</text>
+		<text key="_THIS_COMPUTER_DIFFERENT__ASK_PURCHASE_TEXT_">This computer is different. The serial key might be limited to the amount of computers it can used for.
+
+Would you like to register this computer for the license key?</text>
+		<text key="_THIS_OPTION_IS_ONLY_IN_PRO_VER__ASK_ACTIVATE_OR_30_DAYS_TRIAL_">Sorry, this option is available only for the pro version.
+Would you like to activate WindowTop / Start 30 days trial?</text>
+		<text key="_Unavailable in Microsoft Store_">(Unavailable in Microsoft Store)</text>
+		<text key="_WINDOWTOP_SETTINGS_GENERAL_DESCRIPTION_">WindowTop allows you to improve your workflow on Windows by providing several features that can help your productivity such as setting window on top, shrinking it, set opacity and more.</text>
+		<text key="A new version has been released (X)_ would you like to download it now_">A new version has been released ({0}), would you like to download it now?</text>
+		<text key="A new version has been released _X_ would you like to download it now_">A new version has been released ({0}), would you like to download it now?</text>
+		<text key="A new version is available_ please update the program via Microsoft Store">A new version is available, please update the program via Microsoft Store</text>
+		<text key="About">About</text>
+		<text key="About WindowTop">About WindowTop</text>
+		<text key="Activation">Activation</text>
+		<text key="Activation failed">Activation failed</text>
+		<text key="Activation failed_ Reason_">Activation failed. Reason: {0}</text>
+		<text key="Add selected">Add selected</text>
+		<text key="All Settings">All Settings</text>
+		<text key="Always show title bar">Always show title bar</text>
+		<text key="Anchors feature">Anchors feature</text>
+		<text key="Apply">Apply</text>
+		<text key="Arrow">Arrow</text>
+		<text key="Automatically disable when the window is already dark">Automatically disable when the window is already dark</text>
+		<text key="Automatically move the anchor when it covers text or image">Stay away from text or image</text>
+		<text key="Automatically move the shrink item when it covers text or image">Stay away from text or image</text>
+		<text key="Avoid inverting images colors">Avoid inverting images colors</text>
+		<text key="Blacklist / Whitelist the following programs_">Blacklist / Whitelist the following programs:</text>
+		<text key="Blacklist / Whitelist windows">Blacklist / Whitelist windows</text>
+		<text key="Blacklist the specified programs">Blacklist the specified programs</text>
+		<text key="Blur Level">Blur Level:</text>
+		<text key="Brightness Level">Brightness Level:</text>
+		<text key="Buttons">Buttons</text>
+		<text key="Center">Center</text>
+		<text key="Change toolbar location">Change toolbar location</text>
+		<text key="Change toolbar theme">Change toolbar theme</text>
+		<text key="Check for updates">Check for updates</text>
+		<text key="Click Through mode disabled">Click Through mode disabled</text>
+		<text key="Click Through mode disabled for window X">Click Through mode disabled for window: {0}</text>
+		<text key="Click Through mode disabled for X windows">Click Through mode disabled for {0} window(s)</text>
+		<text key="Click Through mode enabled">Click Through mode enabled</text>
+		<text key="Click Through mode enabled for window X">Click Through mode enabled for window: {0}</text>
+		<text key="Click Through mode enabled for X windows">Click Through mode enabled for {0} window(s)</text>
+		<text key="Click through transparent window">Click through transparent window</text>
+		<text key="Click-Through disabled">Click-Through disabled</text>
+		<text key="Click-Through enabled">Click-Through enabled</text>
+		<text key="Click-Through HotKey">Click-Through HotKey</text>
+		<text key="Close">Close</text>
+		<text key="Close window">Close window</text>
+		<text key="Color_">Color:</text>
+		<text key="Configuration deleted">Configuration deleted</text>
+		<text key="Configuration deleted for window X">Configuration deleted for window {0}</text>
+		<text key="Configuration saved">Configuration saved</text>
+		<text key="Configuration saved for window X">Configuration saved for window {0}</text>
+		<text key="Configure anchors for windows">Configure anchors for windows</text>
+		<text key="Configure HotKeys">Configure HotKeys</text>
+		<text key="Contact_">Contact:</text>
+		<text key="Continue execution">Continue execution</text>
+		<text key="Copy to clipboard">Copy to clipboard</text>
+		<text key="Customize ToolBar">Customize ToolBar</text>
+		<text key="Dark background">Dark background</text>
+		<text key="Dark Mode feature">Dark Mode feature</text>
+		<text key="Deactivate">Deactivate</text>
+		<text key="Deactivation failed_ Reason_">Deactivation failed. Reason: {0}</text>
+		<text key="Default offset_">Default offset:</text>
+		<text key="Default opacity level">Default opacity level</text>
+		<text key="Default shrink box size">Default shrink box size</text>
+		<text key="Delete window configuration">Delete window configuration</text>
+		<text key="Developer_">Developer:</text>
+		<text key="Disable Click-Through mode for all windows">Disable Click-Through mode for all windows</text>
+		<text key="Disable or enable WindowTop for several windows">Disable or enable WindowTop for several windows</text>
+		<text key="Disable Set-Top mode for all windows">Disable Set-Top mode for all windows</text>
+		<text key="Disable Shrink mode for all windows">Disable Shrink mode for all windows</text>
+		<text key="Disable toolbar menu">Disable toolbar menu</text>
+		<text key="Disable WindowTop only for several windows">Disable WindowTop only for several windows</text>
+		<text key="Disabled">Disabled</text>
+		<text key="Do not show me this tip again">Do not show me this tip again</text>
+		<text key="Dont show me this suggestion again">Don't show me this suggestion again</text>
+		<text key="Dont show me this suggestion on startup">Don't show me this suggestion on startup</text>
+		<text key="Dynamic Opacity">Dynamic Opacity</text>
+		<text key="Enable anchors">Enable anchors</text>
+		<text key="Enable auto move">Enable auto move</text>
+		<text key="Enable auto position">Enable auto position</text>
+		<text key="Enable click through">Enable click through</text>
+		<text key="Enable Click-Through mode for the all transparent windows">Enable Click-Through mode for the all transparent windows</text>
+		<text key="Enable dynamic opacity based on window Z-Order">Enable dynamic opacity based on window Z-Order</text>
+		<text key="Enable Glass (Smart Transparency) mode for the currently active window">Enable Glass (Smart Transparency) mode for the currently active window</text>
+		<text key="Enable live preview">Enable live preview</text>
+		<text key="Enable mouse interact mode by default when shrinking windows">Enable mouse interact mode by default when shrinking windows</text>
+		<text key="Enable PIP / Live Preview mode when shrinking window">Enable PIP / Live Preview mode when shrinking window</text>
+		<text key="Enable smart drag">Enable smart drag</text>
+		<text key="Enable Smart Drag when mouse interact enabled">Enable Smart Drag when mouse interact enabled</text>
+		<text key="Enable title bar">Enable title bar</text>
+		<text key="Enable Toolbar">Enable Toolbar</text>
+		<text key="Enable WindowTop only for certain windows">Enable WindowTop only for certain windows</text>
+		<text key="Enabled Shrink for X windows">Enabled Shrink for</text>
+		<text key="Enter product key">Enter product key:</text>
+		<text key="Exclude windows">Exclude windows</text>
+		<text key="Exclusions">Exclusions</text>
+		<text key="Exit">Exit</text>
+		<text key="Exit program">Exit program</text>
+		<text key="Failed to check for updates">Failed to check for updates</text>
+		<text key="Failed to check for updates_ Error_ X">Failed to check for updates. Error: {0}</text>
+		<text key="Failed to configure opacity level for images">Failed to configure opacity level for images</text>
+		<text key="Failed to configure opacity level for texts">Failed to configure opacity level for texts</text>
+		<text key="Failed to disable opacity for the window">Failed to disable opacity for the window</text>
+		<text key="Failed to enable click-through">Failed to enable click-through.</text>
+		<text key="Failed to enable dark background mode">Failed to enable dark background mode</text>
+		<text key="Failed to enable glass mode">Failed to enable glass mode.</text>
+		<text key="Failed to enable opacity for the window_ Please try to run WindowTop as admin and try again">Failed to enable opacity for the window. Please try to run WindowTop as admin and try again</text>
+		<text key="Failed to get the UWP license information">Failed to get the UWP license information</text>
+		<text key="Failed to load activation information_ The program will continue to run with limited functionality">Failed to load activation information. The program will continue to run with limited functionality.</text>
+		<text key="Failed to load the activation information_ Assuming that the program is already activated">Failed to load the activation information, Assuming that the program is already activated.</text>
+		<text key="Failed to load the activation information_ The program cant run without it">Failed to load the activation information. The program can't run without it.
+The program will exit now.</text>
+		<text key="Failed to register hot-key">Failed to register hot-key:</text>
+		<text key="Failed to reset the usage count of the activation key_ Reason_">Failed to reset the usage count of the activation key. Reason: {0}</text>
+		<text key="Failed to run WindowTop as Admin_ The original process did not exited in a reasonable time">Failed to run WindowTop as Admin. The original process did not exited in a reasonable time</text>
+		<text key="Failed to set blur level">Failed to set blur level</text>
+		<text key="Failed to set brightness level">Failed to set brightness level</text>
+		<text key="Failed to set opacity level">Failed to set opacity level</text>
+		<text key="Failed to set the program to start with Windows_ Failed to read registry key">Failed to set the program to start with Windows. Failed to read registry key</text>
+		<text key="Failed to set window on top_ Please try to run WindowTop as admin and try again">Failed to set window on top. Please try to run WindowTop as admin and try again</text>
+		<text key="Failed to set WindowTop to start with Windows">Failed to set WindowTop to start with Windows</text>
+		<text key="Failed to shrink window due to error">Failed to shrink window due to error:</text>
+		<text key="Failed to start the renderer process">Failed to start the renderer process</text>
+		<text key="Feature">Feature</text>
+		<text key="Features">Features</text>
+		<text key="Features Settings">Features Settings</text>
+		<text key="Filter images">Filter images</text>
+		<text key="Filter Images">Filter Images</text>
+		<text key="Font size">Font size</text>
+		<text key="FREE">FREE</text>
+		<text key="Free _For non commercial usage_">Free (For non commercial usage)</text>
+		<text key="General">General</text>
+		<text key="Getting Started">Getting Started</text>
+		<text key="Glass">Glass</text>
+		<text key="GLASS">GLASS</text>
+		<text key="Glass / Smart Transparency HotKey">Glass / Smart Transparency HotKey</text>
+		<text key="Glass Mode feature">Glass Mode feature</text>
+		<text key="Got it">Got it</text>
+		<text key="Hide the whole toolbar and use only hot-keys instead">Hide the whole toolbar and use only hot-keys instead</text>
+		<text key="Hide_Unhide anchors">Hide/Unhide anchors</text>
+		<text key="High">High</text>
+		<text key="Highlight Color">Highlight Color</text>
+		<text key="Highlight the first">Highlight the first</text>
+		<text key="Highlight top most windows with red border">Highlight top most windows with red border</text>
+		<text key="HotKeys">HotKeys</text>
+		<text key="HotKeys for set-top_ dark_ shrink">HotKeys for set-top, dark, shrink</text>
+		<text key="Icon size">Icon size</text>
+		<text key="Images">Images:</text>
+		<text key="INTERACT">INTERACT</text>
+		<text key="Invalid product key provided">Invalid product key provided</text>
+		<text key="Keep resize ratio">Keep resize ratio</text>
+		<text key="Keep scale ratio">Keep scale ratio</text>
+		<text key="Language">Language</text>
+		<text key="Language changed">Language changed</text>
+		<text key="Left">Left</text>
+		<text key="Left Side">Left Side</text>
+		<text key="License">License</text>
+		<text key="License Type">License Type:</text>
+		<text key="Mark top-most windows with red border">Mark top-most windows with red border</text>
+		<text key="Max height">Max height</text>
+		<text key="Max width">Max width</text>
+		<text key="Maximum anchors amount">Maximum anchors amount</text>
+		<text key="Maximum shrink box size for mouse hover preview">Maximum shrink box size for mouse hover preview</text>
+		<text key="Medium">Medium</text>
+		<text key="Minimize all shrunk windows">Minimize all shrunk windows</text>
+		<text key="Minimize all shrunk windows to the taskbar">Minimize all shrunk windows to the taskbar</text>
+		<text key="Minimize all windows">Minimize all windows</text>
+		<text key="Minimize other to taskbar">Minimize other to taskbar</text>
+		<text key="Minimize to taskbar">Minimize to taskbar</text>
+		<text key="Minimized">Minimized</text>
+		<text key="Minimized only windows that had shrink mode enabled">Minimized only windows that had shrink mode enabled</text>
+		<text key="Minimum anchor opacity">Minimum anchor opacity</text>
+		<text key="More Information">More Information</text>
+		<text key="Mouse hover preview size">Mouse hover preview size</text>
+		<text key="New version available_click to download_">New version available: {0} (click to download)</text>
+		<text key="No">No</text>
+		<text key="No product key provided">No product key provided</text>
+		<text key="None">None</text>
+		<text key="Not Activated">Not Activated</text>
+		<text key="Not allowed in portable mode">Not allowed in portable mode</text>
+		<text key="Nothing to change_ all windows are already minimized">Nothing to change, all windows are already minimized</text>
+		<text key="Nothing to change_ no window was set on top before">Nothing to change, no window was set on top before</text>
+		<text key="Nothing to change_ no window was shrank before">Nothing to change, no window was shrank before</text>
+		<text key="Nothing to change_ none of the windows have shrink mode enabled">Nothing to change, none of the windows have shrink mode enabled</text>
+		<text key="Nothing to minimize">Nothing to minimize</text>
+		<text key="Nothing was changed">Nothing was changed</text>
+		<text key="Opacity">Opacity</text>
+		<text key="OPACITY">OPACITY</text>
+		<text key="Opacity feature">Opacity feature</text>
+		<text key="Operation failed_ Error">Operation failed. Error:</text>
+		<text key="Other configurations">Other configurations</text>
+		<text key="Other features settings">Other features settings</text>
+		<text key="Other HotKeys">Other HotKeys</text>
+		<text key="Picture in Picture _PIP_ mode for the shrink feature">Picture in Picture (PIP) mode for the shrink feature</text>
+		<text key="Please enter a product key and try again">Please enter a product key and try again</text>
+		<text key="Please restart WindowTop in order for the changes to take effect">Please restart WindowTop in order for the changes to take effect</text>
+		<text key="Preferred location">Preferred location</text>
+		<text key="Preview">Preview</text>
+		<text key="Pro">Pro</text>
+		<text key="PRO">PRO</text>
+		<text key="Pro _X days left_">Pro ({0} days left)</text>
+		<text key="Pro version only">Pro version only</text>
+		<text key="Pro vs Free">Pro vs Free</text>
+		<text key="Product was not purchased due to a Network Error">Product was not purchased due to a Network Error.</text>
+		<text key="Product was not purchased due to a Server Error">Product was not purchased due to a Server Error.</text>
+		<text key="Product was not purchased due to an Unknown Error">Product was not purchased due to an Unknown Error.</text>
+		<text key="Product was not purchased_ it may have been canceled">Product was not purchased, it may have been canceled.</text>
+		<text key="Purchase">Purchase</text>
+		<text key="Purchase another key">Purchase another key</text>
+		<text key="Regular Color">Regular Color</text>
+		<text key="Reset">Reset</text>
+		<text key="Reset key usage">Reset key usage</text>
+		<text key="Resize shrunk window">Resize shrunk window</text>
+		<text key="Right">Right</text>
+		<text key="Right Side">Right Side</text>
+		<text key="Save window configuration">Save window configuration</text>
+		<text key="Select another process">Select another process</text>
+		<text key="Select process to add_">Select process to add:</text>
+		<text key="Send error">Send error</text>
+		<text key="Set Click-Through mode for the currently active window">Set Click-Through mode for the currently active window</text>
+		<text key="SET DARK">SET DARK</text>
+		<text key="Set default opacity level">Set default opacity level</text>
+		<text key="Set on top window X">Set on top window: {0}</text>
+		<text key="Set Set Product Key">Set Product Key</text>
+		<text key="SET TOP">SET TOP</text>
+		<text key="Set Top disabled">Set Top disabled</text>
+		<text key="Set Top enabled">Set Top enabled</text>
+		<text key="Set Top feature">Set Top feature</text>
+		<text key="Set window dark">Set/Unset window dark</text>
+		<text key="Set window on top">Set/Unset window on top</text>
+		<text key="Set window opacity">Set/Unset window opacity</text>
+		<text key="Set WindowTop to start with Windows">Set WindowTop to start with Windows</text>
+		<text key="Set-Dark">Set-Dark</text>
+		<text key="Set-Dark HotKey">Set-Dark HotKey</text>
+		<text key="Settings">Settings</text>
+		<text key="Set-Top">Set-Top</text>
+		<text key="Set-Top HotKey">Set-Top HotKey</text>
+		<text key="Show notification when click-through toggled by hotkey">Show notification when click-through toggled by hotkey</text>
+		<text key="Show notification when toggled by hotkey">Show notification when toggled by hotkey</text>
+		<text key="Show or hide buttons in the toolbar">Show or hide buttons in the toolbar</text>
+		<text key="Show preview on mouse hover">Show preview on mouse hover</text>
+		<text key="Shrink">Shrink</text>
+		<text key="SHRINK">SHRINK</text>
+		<text key="Shrink all non minimized windows">Shrink all non minimized windows</text>
+		<text key="Shrink feature">Shrink feature</text>
+		<text key="Shrink feature _ Enable or disable mouse interact mode">Shrink feature - Enable or disable mouse interact mode</text>
+		<text key="Shrink HotKey">Shrink HotKey</text>
+		<text key="Shrink mode disabled for X windows">Shrink mode disabled for {0} window(s)</text>
+		<text key="Shrink mode enabled">Shrink mode enabled</text>
+		<text key="Shrink window">Shrink/Unshrink window</text>
+		<text key="Shrink with auto-move mode">Shrink with auto-move mode</text>
+		<text key="Shrink with interact mode">Shrink with interact mode</text>
+		<text key="Size Configurations">Size Configurations</text>
+		<text key="Smart dark mode">Smart dark mode</text>
+		<text key="Smart Dark-Mode - Automatically disable dark mode when the window is already dark">Smart Dark-Mode - Automatically disable dark mode when the window is already dark</text>
+		<text key="Smart Transparency">Smart Transparency</text>
+		<text key="Start 30 Days Trial">Start 30 Days Trial</text>
+		<text key="Start with admin privileges">Start with admin privileges</text>
+		<text key="Start with Windows">Start with Windows</text>
+		<text key="Successfully disabled SET-TOP mode for X windows">Successfully disabled SET-TOP mode for {0} window(s)</text>
+		<text key="Successfully disabled Shrink mode for X windows">Successfully disabled Shrink mode for {0} window(s)</text>
+		<text key="Suitable for company usage">Suitable for company usage</text>
+		<text key="Support the developer">Support the developer</text>
+		<text key="Temporary enable or disable toolbar menu">Temporary enable or disable toolbar menu</text>
+		<text key="Tested programs_ Google Chrome_ Chromium Edge_ and Firefox">Tested programs: Google Chrome, Chromium Edge, and Firefox</text>
+		<text key="TEXT_You already bought this app">You already bought this app and have a fully-licensed version.
+The software will be reactivated now</text>
+		<text key="TEXT_Your purchase was successful">Your purchase was successful!
+The software will activate now</text>
+		<text key="Texts">Texts:</text>
+		<text key="The language changed to">The language changed to</text>
+		<text key="The toolbar will no longer show when moving the mouse to the title bar of windows">The toolbar will no longer show when moving the mouse to the title bar of windows</text>
+		<text key="The toolbar will now show when moving the mouse to the title bar of windows">The toolbar will now show when moving the mouse to the title bar of windows</text>
+		<text key="The trial period already started for this product">The trial period already started for this product</text>
+		<text key="The trial period was not started due to a Network Error">The trial period was not started due to a Network Error</text>
+		<text key="The trial period was not started due to a Server Error">The trial period was not started due to a Server Error</text>
+		<text key="The trial period was not started due to an Unknown Error">The trial period was not started due to a Unknown Error</text>
+		<text key="The trial period was not started_ it may have been canceled">The trial period was not started. it may have been canceled</text>
+		<text key="Theme">Theme</text>
+		<text key="This hot-key may be in use by another program">This hot-key may be in use by another program.</text>
+		<text key="This option is enabled by default when the software installed and cant turned off">This option is enabled by default when the software installed and can't be turned off</text>
+		<text key="This option will damage rendering performance_ Use this option __">NOTE: This option will damage rendering performance. Use this option for windows that show images in addition to text</text>
+		<text key="To drag the window_ make sure that the cursor is not above text">To drag the window, make sure that the cursor is not above text</text>
+		<text key="ToolBar">ToolBar</text>
+		<text key="Toolbar disabled">Toolbar disabled</text>
+		<text key="Toolbar enabled">Toolbar enabled</text>
+		<text key="Toolbar Preview">Toolbar Preview</text>
+		<text key="Unset on top window X">Unset on top window: {0}</text>
+		<text key="Unset WindowTop to start with Windows">Unset WindowTop to start with Windows</text>
+		<text key="Unshrink all windows">Unshrink all windows</text>
+		<text key="Untop all windows">Untop all windows</text>
+		<text key="Use GPU acceleration (NVIDIA GPU only)">Use GPU acceleration (NVIDIA GPU only)</text>
+		<text key="Use highlight color">Use highlight color</text>
+		<text key="Use this option to disable / enable WindowTop for certain programs">Use this option to disable / enable WindowTop for certain programs</text>
+		<text key="Version Information">Version Information</text>
+		<text key="Version_">Version: </text>
+		<text key="Visibility Configurations">Visibility Configurations</text>
+		<text key="Website_">Website:</text>
+		<text key="Welcome to WindowTop settings page_">Welcome to WindowTop settings page!</text>
+		<text key="Whitelist the specified programs">Whitelist the specified programs</text>
+		<text key="Window anchors">Window anchors</text>
+		<text key="windows">windows</text>
+		<text key="windows minimized">{0} window(s) minimized</text>
+		<text key="windows were untoped">{0} window(s) were untoped</text>
+		<text key="WindowTop 30 days trial expired">WindowTop 30 days trial expired</text>
+		<text key="WindowTop has been successfully activated by Microsoft Store">WindowTop has been successfully activated by Microsoft Store</text>
+		<text key="WindowTop has been successfully activated by the product key">WindowTop has been successfully activated by the product key</text>
+		<text key="WindowTop is activated!">WindowTop is activated!</text>
+		<text key="WindowTop is deactivated_ The key may be used in other computers">WindowTop is deactivated. The key may be used in other computers</text>
+		<text key="WindowTop is FREE_ However you will not get the best from the free version">WindowTop is FREE. However, you will not get the best from the free version!</text>
+		<text key="WindowTop is not activated">WindowTop is not activated</text>
+		<text key="WindowTop is not activated _ As a result the the color was not changed_">WindowTop is not activated. As a result the the color was not changed.</text>
+		<text key="WindowTop is not activated _ As a result the the theme was not activated_">WindowTop is not activated. As a result the the theme was not activated.</text>
+		<text key="WindowTop is now deactivated and will no run with limited functionality">WindowTop is now deactivated and will now run with limited functionality</text>
+		<text key="WindowTop must be installed to make it start with Windows">WindowTop must be installed to make it start with Windows</text>
+		<text key="WindowTop Settings">WindowTop Settings</text>
+		<text key="WindowTop Tip">WindowTop Tip!</text>
+		<text key="WindowTop will be deactivate in any other computer due to activation reset request_">WindowTop will be deactivated in any other computer due to an activation reset request!
+
+You will need to enter this key again in any other computer that you want to use the full functionality</text>
+		<text key="Would you like WindowTop to start with Windows">Would you like WindowTop to start with Windows?</text>
+		<text key="Yes">Yes</text>
+		<text key="You have the last version">You have the last version</text>
+	</culture>
+	<culture name="zh-CN">
+		<text key="__LANGUAGE_FONT__">Microsoft YaHei</text>
+		<text key="_30 days trial started">30 天试用已开始!</text>
+		<text key="_30_DAYS_TRIAL_EXPIRED_AND_MUST_PURCHASE_MESSAGE_TEXT_" acceptpunctuation="true">30 天试用已结束，需购买软件后才能继续使用
+
+
+您想通过 Microsoft Store 购买许可证吗？</text>
+		<text key="_30_DAYS_TRIAL_EXPIRED_MESSAGE_TEXT_">30 天试用期已结束，多项功能已被禁用，且软件不再允许用于商业环境
+
+
+为了获得最佳的体验，您想要立即购买许可证密钥吗?</text>
+		<text key="_30_DAYS_TRIAL_EXPIRED_NOTIFICATION_MESSAGE_">多项功能已被禁用，且软件不能再用于商业环境
+
+请点击此处购买或输入激活码</text>
+		<text key="_30_DAYS_TRIAL_STARTED_NOTIFICATION_MESSAGE_">在这 30 天试用期内，所有功能全部解锁，且可商用</text>
+		<text key="_ABOUT_DESCRIPTION_">WindowTop SW 可让您通过几项很赞的功能来切实有效地管理软件窗口
+
+有了 WindowTop, 您可以轻松一键 (按钮或快捷键) 置顶窗口。此外，WindowTop 还提供了一组非常独特的功能，例如：暗黑化任何窗口、画中画模式 (PIP)、透明度、点击穿透等等
+
+本软件的目标是通过有效管理窗口来帮助您提高使用计算机的工作效率</text>
+		<text key="_ACTIVATION_FAILED_DIALOG_MESSAGE_" acceptpunctuation="true">激活失败
+
+原因：{0}
+
+如果您在不再使用的计算机上注册了密钥，您可以重置激活密钥，它将停用这些计算机中的程序许可证。这样您就可以在新计算机中再次使用它了。 
+
+是否要重置激活密钥？</text>
+		<text key="_ANCHOR_FEATURE_DESCRIPTION_">无需通过置顶窗口或通过 ALT+TAB (快速切换当前打开的窗口) 实现快速查找或切换程序</text>
+		<text key="_ARE_YOU_SURE_YOU_WANT_TO_DEACTIVATE_THE_PROGRAM_" acceptpunctuation="true">停用许可证将使程序的功能受限
+此外，程序不可以再用于商业环境
+并且也可能只会获得有限的支持服务
+
+
+您确定要继续吗？</text>
+		<text key="_ASK_RUN_AS_ADMIN_DIALOG_">WindowTop 似乎没有”以管理员身份运行“
+这样 WindowTop 将无法控制任何具有管理员权限进程的窗口（权限限制）
+
+要想解决此问题，建议以管理员身份运行 WindowTop
+
+您是否要以管理员身份运行 WindowTop?</text>
+		<text key="_CHOOSED_NOT_TO_REGISTER__AS_RESULT_NOT_ACTIVATED_" acceptpunctuation="true">您选择不在此计算机上注册该许可证密钥
+因此软件未激活</text>
+		<text key="_DARK_MODE_FEATURE_DESCRIPTION_" acceptpunctuation="true">某些窗口没有暗黑模式
+此选项能强制任何窗口变成暗黑模式，即使它本身未支持暗黑主题
+</text>
+		<text key="_DEACTIVATED_BUT_RUNNING_AS_TRIAL_MODE_" acceptpunctuation="true">WindowTop 许可证已停用。30 天的试用期尚未结束，
+因此它将继续以完整的功能运行
+
+您还有 {0} 天的试用期</text>
+		<text key="_DISABLE_TOOLBAR_DESCRIPTION_" acceptpunctuation="true">如果禁用此选项，则当鼠标悬停在窗口标题栏上方时不会再出现工具栏
+您将只能通过热键使用这些功能</text>
+		<text key="_FATAL_ERROR_OCCURRED_">抱歉，发生了致命错误。为帮助解决此BUG，请复制以下错误信息并将其发送至：https://windowtop.info/contact/</text>
+		<text key="_GLASS_MODE_FEATURE_DESCRIPTION_" acceptpunctuation="true">此功能能实现高级透明效果
+与常规透明方式不同，在这里，您可以只设置背景的透明度，并保持文本的锐利度和亮度
+</text>
+		<text key="_KEY_RESET_SUCCESS_NOTIFICATION_">激活密钥已成功重置
+
+将移除任何同此密钥关联的电脑（本机除外）</text>
+		<text key="_NOTIFY_NEED_TO_RUN_AS_ADMIN_MESSAGE_">要进行此更改，WindowTop 需要以管理员身份运行
+
+请重启 WindowTop 并允许其以管理员身份运行以实现更改</text>
+		<text key="_OPACITY_MODE_FEATURE_DESCRIPTION_">启用并调整任何窗口的透明度</text>
+		<text key="_RESET_ACTIVATION_KEY_DIALOG_MESSAGE_" acceptpunctuation="true">如果您遇到激活问题（常见于更新 BIOS 等之后）并且这台计算机被错误地检测为另一台计算机，您可以使用此选项
+
+该选项将重置激活密钥并移除所有关联的计算机（本机除外）
+
+请仅在出现此类问题时才使用此选项
+
+您确定要继续吗？</text>
+		<text key="_SAVE_WINDOW_CONFIGURATION_FEATURE_DESCRIPTION_">右键工具栏小箭头时，将看到一个”保存窗口配置“的选项
+保存配置是指，例如 WindowTop 会自动将窗口置顶、设为暗黑等 (视您启用的功能而定)
+</text>
+		<text key="_SET_TOP_FEATURE_DESCRIPTION_" acceptpunctuation="true">为避免某个窗口被其他窗口遮住
+置顶的窗口将永远会在非置顶窗口之上
+</text>
+		<text key="_SHRINK_FEATURE_DESCRIPTION_" acceptpunctuation="true">除了最小化窗口，您还可以将窗口微缩至非常小的尺寸以节省屏幕空间
+启用实时预览模式后，您甚至可以在微缩的窗口中观看视频
+</text>
+		<text key="_THIS_COMPUTER_DIFFERENT__ASK_PURCHASE_TEXT_">这是另一台电脑, 该序列号可能受限于其能激活的计算机数量;
+
+您想要在此计算机上注册许可证密钥吗?</text>
+		<text key="_THIS_OPTION_IS_ONLY_IN_PRO_VER__ASK_ACTIVATE_OR_30_DAYS_TRIAL_">抱歉, 此选项仅适用于专业版;
+您想要激活 WindowTop 或是开始 30 天免费试用吗?</text>
+		<text key="_Unavailable in Microsoft Store_">（未上架微软应用商店）</text>
+		<text key="_WINDOWTOP_SETTINGS_GENERAL_DESCRIPTION_" acceptpunctuation="true">WindowTop 通过提供一些有助于提高工作效率的功能来改善您在 Windows 上的工作流程，例如置顶窗口、微缩窗口、设置透明度等等</text>
+		<text key="A new version has been released (X)_ would you like to download it now_">发现新版本 ({0}), 要立即下载吗?</text>
+		<text key="A new version has been released _X_ would you like to download it now_">发现新版本 ({0}), 要立即下载吗?</text>
+		<text key="A new version is available_ please update the program via Microsoft Store">发现新版本，请通过 Microsoft Store 更新程序</text>
+		<text key="About">关于</text>
+		<text key="About WindowTop">关于 WindowTop</text>
+		<text key="Activation">激活</text>
+		<text key="Activation failed">激活失败</text>
+		<text key="Activation failed_ Reason_">激活失败，原因：{0}</text>
+		<text key="Add selected">添加选定项</text>
+		<text key="All Settings">所有设置</text>
+		<text key="Always show title bar">始终显示标题栏</text>
+		<text key="Anchors feature">锚点功能</text>
+		<text key="Apply">应用</text>
+		<text key="Arrow">小箭头</text>
+		<text key="Automatically disable when the window is already dark">当窗口已是暗黑主题时自动禁用</text>
+		<text key="Automatically move the anchor when it covers text or image">自动避开文本或图像</text>
+		<text key="Automatically move the shrink item when it covers text or image">自动避开文本或图像</text>
+		<text key="Avoid inverting images colors">避免反转图像颜色</text>
+		<text key="Blacklist / Whitelist the following programs_">将以下程序列入黑/白名单:</text>
+		<text key="Blacklist / Whitelist windows">黑/白名单</text>
+		<text key="Blacklist the specified programs">将指定程序列入黑名单</text>
+		<text key="Blur Level">模糊等级:</text>
+		<text key="Brightness Level">亮度等级:</text>
+		<text key="Buttons">按钮</text>
+		<text key="Center">居中</text>
+		<text key="Change toolbar location">更改工具栏位置</text>
+		<text key="Change toolbar theme">更改工具栏主题</text>
+		<text key="Check for updates">检查更新</text>
+		<text key="Click Through mode disabled">点击穿透模式已禁用</text>
+		<text key="Click Through mode disabled for window X">已禁用点击穿透模式的窗口: {0}</text>
+		<text key="Click Through mode disabled for X windows">已为 {0} 个窗口禁用点击穿透模式</text>
+		<text key="Click Through mode enabled">点击穿透模式已启用</text>
+		<text key="Click Through mode enabled for window X">已启用点击穿透模式的窗口: {0}</text>
+		<text key="Click Through mode enabled for X windows">已为 {0} 个窗口启用点击穿透模式</text>
+		<text key="Click through transparent window">点击穿透透明窗口</text>
+		<text key="Click-Through disabled">点击穿透已禁用</text>
+		<text key="Click-Through enabled">点击穿透已启用</text>
+		<text key="Click-Through HotKey">点击穿透 热键</text>
+		<text key="Close">关闭</text>
+		<text key="Close window">关闭窗口</text>
+		<text key="Color_" acceptpunctuation="true">颜色：</text>
+		<text key="Configuration deleted">配置已删除</text>
+		<text key="Configuration deleted for window X">已删除窗口的配置: {0}</text>
+		<text key="Configuration saved">配置已保存</text>
+		<text key="Configuration saved for window X">已保存窗口的配置: {0}</text>
+		<text key="Configure anchors for windows">配置窗口锚点</text>
+		<text key="Configure HotKeys">配置热键</text>
+		<text key="Contact_">联系:</text>
+		<text key="Continue execution">继续执行</text>
+		<text key="Copy to clipboard">复制到剪贴板</text>
+		<text key="Customize ToolBar">自定义工具栏</text>
+		<text key="Dark background">暗色背景</text>
+		<text key="Dark Mode feature">暗黑模式功能</text>
+		<text key="Deactivate">停用许可证</text>
+		<text key="Deactivation failed_ Reason_">停用失败，原因：{0}</text>
+		<text key="Default offset_" acceptpunctuation="true">默认偏移量：</text>
+		<text key="Default opacity level">默认不透明度等级</text>
+		<text key="Default shrink box size">默认微缩框尺寸</text>
+		<text key="Delete window configuration">删除窗口配置</text>
+		<text key="Developer_">作者:</text>
+		<text key="Disable Click-Through mode for all windows">禁用所有窗口的点击穿透模式</text>
+		<text key="Disable or enable WindowTop for several windows">为多个窗口启用或禁用 WindowTop (黑白名单)</text>
+		<text key="Disable Set-Top mode for all windows">禁用所有窗口的置顶模式</text>
+		<text key="Disable Shrink mode for all windows">禁用所有窗口的微缩模式</text>
+		<text key="Disable toolbar menu">禁用工具栏</text>
+		<text key="Disable WindowTop only for several windows">为多个窗口禁用 WindowTop (黑名单)</text>
+		<text key="Disabled">已禁用</text>
+		<text key="Do not show me this tip again">不再显示此提示</text>
+		<text key="Dont show me this suggestion again">不再显示此消息</text>
+		<text key="Dont show me this suggestion on startup">不要再在启动时显示此消息</text>
+		<text key="Dynamic Opacity">动态透明度</text>
+		<text key="Enable anchors">启用锚点</text>
+		<text key="Enable auto move">自动移动</text>
+		<text key="Enable auto position">启用自动定位</text>
+		<text key="Enable click through">启用点击穿透</text>
+		<text key="Enable Click-Through mode for the all transparent windows">启用所有透明窗口的点击穿透模式</text>
+		<text key="Enable dynamic opacity based on window Z-Order">启用基于窗口 Z-Order 的动态透明度</text>
+		<text key="Enable Glass (Smart Transparency) mode for the currently active window">启用当前活动窗口的毛玻璃特效</text>
+		<text key="Enable live preview">启用实时预览</text>
+		<text key="Enable mouse interact mode by default when shrinking windows">微缩窗口后默认启用鼠标交互模式</text>
+		<text key="Enable PIP / Live Preview mode when shrinking window">启用微缩窗口的画中画(PIP)/实时预览模式</text>
+		<text key="Enable smart drag">启用智能拖拽</text>
+		<text key="Enable Smart Drag when mouse interact enabled">鼠标交互开启时启用智能拖拽</text>
+		<text key="Enable title bar">启用标题栏</text>
+		<text key="Enable Toolbar">启用工具栏</text>
+		<text key="Enable WindowTop only for certain windows">为多个窗口启用 WindowTop (白名单)</text>
+		<text key="Enabled Shrink for X windows">已启用微缩</text>
+		<text key="Enter product key">请输入产品密钥:</text>
+		<text key="Exclude windows">排除窗口</text>
+		<text key="Exclusions">黑白名单</text>
+		<text key="Exit">退出</text>
+		<text key="Exit program">退出程序</text>
+		<text key="Failed to check for updates">无法检查更新</text>
+		<text key="Failed to check for updates_ Error_ X">无法检查更新，错误: {0}</text>
+		<text key="Failed to configure opacity level for images">无法配置图像的透明度等级</text>
+		<text key="Failed to configure opacity level for texts">无法配置文本的透明度等级</text>
+		<text key="Failed to disable opacity for the window">无法禁用窗口的透明度</text>
+		<text key="Failed to enable click-through" acceptpunctuation="true">无法启用点击穿透</text>
+		<text key="Failed to enable dark background mode">无法启用暗色背景模式</text>
+		<text key="Failed to enable glass mode" acceptpunctuation="true">无法启用毛玻璃特效</text>
+		<text key="Failed to enable opacity for the window_ Please try to run WindowTop as admin and try again">无法启用窗口的透明度，请尝试以管理员身份运行 WindowTop 然后重试</text>
+		<text key="Failed to get the UWP license information">获取 UWP 许可证信息失败</text>
+		<text key="Failed to load activation information_ The program will continue to run with limited functionality" acceptpunctuation="true">激活信息加载失败，程序将继续以有限的功能运行</text>
+		<text key="Failed to load the activation information_ Assuming that the program is already activated" acceptpunctuation="true">激活信息加载失败，假设程序已经激活</text>
+		<text key="Failed to load the activation information_ The program cant run without it" acceptpunctuation="true">激活信息加载失败，因此程序无法运行
+程序将立即退出</text>
+		<text key="Failed to register hot-key">无法注册热键:</text>
+		<text key="Failed to reset the usage count of the activation key_ Reason_">无法重置激活密钥的使用次数，原因：{0}</text>
+		<text key="Failed to run WindowTop as Admin_ The original process did not exited in a reasonable time">无法以管理员身份运行 WindowTop, 原进程未正常退出</text>
+		<text key="Failed to set blur level">无法设置模糊等级</text>
+		<text key="Failed to set brightness level">无法设置亮度等级</text>
+		<text key="Failed to set opacity level">无法设置透明度等级</text>
+		<text key="Failed to set the program to start with Windows_ Failed to read registry key">无法设为开机自启，无法读取注册表项</text>
+		<text key="Failed to set window on top_ Please try to run WindowTop as admin and try again">无法置顶窗口。请尝试以管理员身份运行 WindowTop 然后重试</text>
+		<text key="Failed to set WindowTop to start with Windows">无法将 WindowTop 设置为开机自启</text>
+		<text key="Failed to shrink window due to error">无法微缩窗口，出错原因:</text>
+		<text key="Failed to start the renderer process">无法启动渲染器进程</text>
+		<text key="Feature">功能</text>
+		<text key="Features">功能</text>
+		<text key="Features Settings">功能设置</text>
+		<text key="Filter images">过滤图片</text>
+		<text key="Filter Images">过滤图片</text>
+		<text key="Font size">字体大小</text>
+		<text key="FREE">免费版</text>
+		<text key="Free _For non commercial usage_">免费版 (不可商用)</text>
+		<text key="General">常规</text>
+		<text key="Getting Started">入门</text>
+		<text key="Glass">毛玻璃特效</text>
+		<text key="GLASS">毛玻璃</text>
+		<text key="Glass / Smart Transparency HotKey">毛玻璃特效 热键</text>
+		<text key="Glass Mode feature">毛玻璃特效功能</text>
+		<text key="Got it">知道了</text>
+		<text key="Hide the whole toolbar and use only hot-keys instead">隐藏整个工具栏，仅使用热键</text>
+		<text key="Hide_Unhide anchors">隐藏/显示锚点</text>
+		<text key="High">高</text>
+		<text key="Highlight Color">高亮颜色</text>
+		<text key="Highlight the first">高亮显示前</text>
+		<text key="Highlight top most windows with red border">通过“红框”高亮置顶窗口</text>
+		<text key="HotKeys">热键</text>
+		<text key="HotKeys for set-top_ dark_ shrink">置顶、设为暗黑、微缩热键</text>
+		<text key="Icon size">图标大小</text>
+		<text key="Images">图片:</text>
+		<text key="INTERACT">交互</text>
+		<text key="Invalid product key provided">提供了无效的产品密钥</text>
+		<text key="Keep resize ratio">保持原始比例尺寸</text>
+		<text key="Keep scale ratio">保持原始比例尺寸</text>
+		<text key="Language">界面语言</text>
+		<text key="Language changed">界面语言已更改</text>
+		<text key="Left">靠左</text>
+		<text key="Left Side">靠左</text>
+		<text key="License">许可证</text>
+		<text key="License Type">许可证类型:</text>
+		<text key="Mark top-most windows with red border">红框标记置顶窗口</text>
+		<text key="Max height">最大高度</text>
+		<text key="Max width">最大宽度</text>
+		<text key="Maximum anchors amount">最大锚点数</text>
+		<text key="Maximum shrink box size for mouse hover preview">能进行鼠标悬停预览的微缩框阈值</text>
+		<text key="Medium">中等</text>
+		<text key="Minimize all shrunk windows">最小化所有微缩窗口</text>
+		<text key="Minimize all shrunk windows to the taskbar">微缩的窗口 --&gt; 最小化到任务栏</text>
+		<text key="Minimize all windows">最小化所有窗口</text>
+		<text key="Minimize other to taskbar">最小化其他窗口到任务栏</text>
+		<text key="Minimize to taskbar">最小化到任务栏</text>
+		<text key="Minimized">已最小化</text>
+		<text key="Minimized only windows that had shrink mode enabled">仅最小化已启用微缩模式的窗口</text>
+		<text key="Minimum anchor opacity">锚点最低不透明度</text>
+		<text key="More Information">更多信息</text>
+		<text key="Mouse hover preview size">鼠标悬停预览尺寸</text>
+		<text key="New version available_click to download_">发现新版本: {0} (点击下载)</text>
+		<text key="No">否</text>
+		<text key="No product key provided">未提供产品密钥</text>
+		<text key="None">无</text>
+		<text key="Not Activated">未激活</text>
+		<text key="Not allowed in portable mode">绿色版中不可用</text>
+		<text key="Nothing to change_ all windows are already minimized">未做更改，所有窗口均已最小化</text>
+		<text key="Nothing to change_ no window was set on top before">未做更改，先前无置顶窗口</text>
+		<text key="Nothing to change_ no window was shrank before">未做更改，先前无微缩窗口</text>
+		<text key="Nothing to change_ none of the windows have shrink mode enabled">未做更改，先前无微缩窗口</text>
+		<text key="Nothing to minimize">没有需要最小化的窗口</text>
+		<text key="Nothing was changed">未做更改</text>
+		<text key="Opacity">透明度</text>
+		<text key="OPACITY">透明</text>
+		<text key="Opacity feature">透明度功能</text>
+		<text key="Operation failed_ Error">操作失败，错误:</text>
+		<text key="Other configurations">其他配置</text>
+		<text key="Other features settings">其他功能设置</text>
+		<text key="Other HotKeys">其他 热键</text>
+		<text key="Picture in Picture _PIP_ mode for the shrink feature">微缩功能的画中画 (PIP) 模式</text>
+		<text key="Please enter a product key and try again">请输入产品密钥然后重试</text>
+		<text key="Please restart WindowTop in order for the changes to take effect">请重新启动 WindowTop 以使更改生效</text>
+		<text key="Preferred location">首选位置</text>
+		<text key="Preview">预览</text>
+		<text key="Pro">专业版</text>
+		<text key="PRO">专业版</text>
+		<text key="Pro _X days left_">专业版 (剩余 {0} 天)</text>
+		<text key="Pro version only">仅适用于专业版</text>
+		<text key="Pro vs Free">专业版 vs 免费版</text>
+		<text key="Product was not purchased due to a Network Error" acceptpunctuation="true">产品未购买（网络错误）</text>
+		<text key="Product was not purchased due to a Server Error" acceptpunctuation="true">产品未购买（服务器错误）</text>
+		<text key="Product was not purchased due to an Unknown Error" acceptpunctuation="true">产品未购买（未知错误）</text>
+		<text key="Product was not purchased_ it may have been canceled" acceptpunctuation="true">产品未购买，可能已取消</text>
+		<text key="Purchase">购买</text>
+		<text key="Purchase another key">购买新的许可证</text>
+		<text key="Regular Color">基础颜色</text>
+		<text key="Reset">重置</text>
+		<text key="Reset key usage">重置许可证</text>
+		<text key="Resize shrunk window">调整微缩窗口尺寸</text>
+		<text key="Right">靠右</text>
+		<text key="Right Side">靠右</text>
+		<text key="Save window configuration">保存窗口配置</text>
+		<text key="Select another process">选择另一进程</text>
+		<text key="Select process to add_">请选择要添加的进程:</text>
+		<text key="Send error">发送错误</text>
+		<text key="Set Click-Through mode for the currently active window">设置当前活动窗口的点击穿透模式</text>
+		<text key="SET DARK">暗黑</text>
+		<text key="Set default opacity level">设置默认透明度</text>
+		<text key="Set on top window X">已置顶窗口: {0}</text>
+		<text key="Set Set Product Key">输入产品密钥</text>
+		<text key="SET TOP">置顶</text>
+		<text key="Set Top disabled">已禁用置顶</text>
+		<text key="Set Top enabled">已启用置顶</text>
+		<text key="Set Top feature">置顶功能</text>
+		<text key="Set window dark">(取消)设置暗黑窗口</text>
+		<text key="Set window on top">(取消)置顶窗口</text>
+		<text key="Set window opacity">(取消)设置窗口透明度</text>
+		<text key="Set WindowTop to start with Windows">将 WindowTop 设置为开机自启</text>
+		<text key="Set-Dark">设为暗黑</text>
+		<text key="Set-Dark HotKey">设为暗黑 热键</text>
+		<text key="Settings">设置</text>
+		<text key="Set-Top">置顶窗口</text>
+		<text key="Set-Top HotKey">置顶 热键</text>
+		<text key="Show notification when click-through toggled by hotkey">通过热键切换点击穿透时显示通知</text>
+		<text key="Show notification when toggled by hotkey">通过热键切换时显示通知</text>
+		<text key="Show or hide buttons in the toolbar">显示或隐藏工具栏按钮</text>
+		<text key="Show preview on mouse hover">鼠标悬停时显示预览</text>
+		<text key="Shrink">微缩窗口</text>
+		<text key="SHRINK">微缩</text>
+		<text key="Shrink all non minimized windows">微缩所有未最小化的窗口</text>
+		<text key="Shrink feature">微缩功能</text>
+		<text key="Shrink feature _ Enable or disable mouse interact mode">启用/禁用鼠标交互模式</text>
+		<text key="Shrink HotKey">微缩 热键</text>
+		<text key="Shrink mode disabled for X windows">已为 {0} 个窗口禁用点击穿透模式</text>
+		<text key="Shrink mode enabled">微缩模式已启用</text>
+		<text key="Shrink window">(取消)微缩窗口</text>
+		<text key="Shrink with auto-move mode">微缩后自动移动</text>
+		<text key="Shrink with interact mode">微缩下的交互模式</text>
+		<text key="Size Configurations">尺寸配置</text>
+		<text key="Smart dark mode">智能暗黑模式</text>
+		<text key="Smart Dark-Mode - Automatically disable dark mode when the window is already dark">智能暗黑模式 - 当窗口已是暗黑主题时自动禁用</text>
+		<text key="Smart Transparency">智能透明</text>
+		<text key="Start 30 Days Trial">开始 30 天试用</text>
+		<text key="Start with admin privileges">以管理员身份运行</text>
+		<text key="Start with Windows">开机启动</text>
+		<text key="Successfully disabled SET-TOP mode for X windows">已成功为 {0} 个窗口禁用置顶模式</text>
+		<text key="Successfully disabled Shrink mode for X windows">已成功为 {0} 个窗口禁用微缩模式</text>
+		<text key="Suitable for company usage">适合公司使用</text>
+		<text key="Support the developer">支持开发人员</text>
+		<text key="Temporary enable or disable toolbar menu">临时启用或禁用工具栏</text>
+		<text key="Tested programs_ Google Chrome_ Chromium Edge_ and Firefox">已测试过的软件: Google Chrome, Chromium Edge, and Firefox</text>
+		<text key="TEXT_You already bought this app">您已购买了本程序并拥有全套许可证
+软件将立即重新激活</text>
+		<text key="TEXT_Your purchase was successful">购买成功！
+程序将立即激活</text>
+		<text key="Texts">文本:</text>
+		<text key="The language changed to">界面语言已更改为</text>
+		<text key="The toolbar will no longer show when moving the mouse to the title bar of windows">将鼠标移至窗口标题栏时，工具栏将不再显示</text>
+		<text key="The toolbar will now show when moving the mouse to the title bar of windows">现在，将鼠标移至窗口标题栏时，工具栏将显示</text>
+		<text key="The trial period already started for this product">本产品的试用期已开始</text>
+		<text key="The trial period was not started due to a Network Error">试用期尚未开始（网络错误）</text>
+		<text key="The trial period was not started due to a Server Error">试用期尚未开始（服务器错误）</text>
+		<text key="The trial period was not started due to an Unknown Error">试用期尚未开始（未知错误）</text>
+		<text key="The trial period was not started_ it may have been canceled">试用期尚未开始，可能已被取消</text>
+		<text key="Theme">主题</text>
+		<text key="This hot-key may be in use by another program" acceptpunctuation="true">此热键可能被其他程序占用</text>
+		<text key="This option is enabled by default when the software installed and cant turned off">软件安装后默认开启此选项，且无法关闭</text>
+		<text key="This option will damage rendering performance_ Use this option __">请注意：此选项会损害渲染性能。对于显示除文字之外还显示图像的窗口，请使用此选项</text>
+		<text key="To drag the window_ make sure that the cursor is not above text">要想在交互模式下拖动窗口，请确保光标不在文本上方</text>
+		<text key="ToolBar">工具栏</text>
+		<text key="Toolbar disabled">工具栏已禁用</text>
+		<text key="Toolbar enabled">工具栏已启用</text>
+		<text key="Toolbar Preview">工具栏预览</text>
+		<text key="Unset on top window X">已取消置顶窗口: {0}</text>
+		<text key="Unset WindowTop to start with Windows">取消设置 WindowTop 为开机自启</text>
+		<text key="Unshrink all windows">取消所有窗口微缩</text>
+		<text key="Untop all windows">取消所有窗口置顶</text>
+		<text key="Use GPU acceleration (NVIDIA GPU only)">开启 GPU 加速 (仅适用于 NVIDIA GPU)</text>
+		<text key="Use highlight color">启用高亮颜色</text>
+		<text key="Use this option to disable / enable WindowTop for certain programs">使用此选项为某些程序启用/禁用 WindowTop</text>
+		<text key="Version Information">版本信息</text>
+		<text key="Version_">版本号: </text>
+		<text key="Visibility Configurations">可视性配置</text>
+		<text key="Website_">官网:</text>
+		<text key="Welcome to WindowTop settings page_">欢迎来到 WindowTop 设置页面!</text>
+		<text key="Whitelist the specified programs">将指定程序列入白名单</text>
+		<text key="Window anchors">窗口锚点</text>
+		<text key="windows">窗口</text>
+		<text key="windows minimized">已最小化 {0} 个窗口</text>
+		<text key="windows were untoped">已为 {0} 个窗口取消置顶</text>
+		<text key="WindowTop 30 days trial expired">WindowTop 30 天免费试用已结束</text>
+		<text key="WindowTop has been successfully activated by Microsoft Store">WindowTop 已通过 Microsoft Store 成功激活</text>
+		<text key="WindowTop has been successfully activated by the product key">已通过产品密钥成功激活 WindowTop</text>
+		<text key="WindowTop is activated!">WindowTop 已激活!</text>
+		<text key="WindowTop is deactivated_ The key may be used in other computers">WindowTop 许可证已停用，密钥可以在其他电脑上使用</text>
+		<text key="WindowTop is FREE_ However you will not get the best from the free version">WindowTop 提供免费版，但是免费版无法获得最佳体验!</text>
+		<text key="WindowTop is not activated">WindowTop 未激活</text>
+		<text key="WindowTop is not activated _ As a result the the color was not changed_" acceptpunctuation="true">WindowTop 未激活，未能更改颜色</text>
+		<text key="WindowTop is not activated _ As a result the the theme was not activated_" acceptpunctuation="true">WindowTop 未激活，未能应用主题</text>
+		<text key="WindowTop is now deactivated and will no run with limited functionality">WindowTop 现已停用，且不会以有限的功能运行</text>
+		<text key="WindowTop must be installed to make it start with Windows">必须安装 WindowTop 才能使其开机自启</text>
+		<text key="WindowTop Settings">WindowTop 设置</text>
+		<text key="WindowTop Tip" acceptpunctuation="true">WindowsTop 使用小技巧！</text>
+		<text key="WindowTop will be deactivate in any other computer due to activation reset request_">由于激活重置请求，WindowTop 将在任何其他计算机上停用！
+
+您需要在要使用完整功能的任何其他计算机中重新输入此密钥</text>
+		<text key="Would you like WindowTop to start with Windows">您想要 WindowTop 开机自启吗?</text>
+		<text key="Yes">是</text>
+		<text key="You have the last version">无需更新，当前已是最新版</text>
+	</culture>
+</translation>
