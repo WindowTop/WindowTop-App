@@ -44,9 +44,11 @@ https://windowtop.info/
 ![image](https://user-images.githubusercontent.com/17680514/148622631-219d9215-4d62-4d0d-b1cc-0c6238600528.png)
 ![image](https://user-images.githubusercontent.com/17680514/148622647-cbcf7aa3-0c63-4c3a-b1d4-e0a5f633a2e4.png)
 
+## HotKeys
+![image](https://user-images.githubusercontent.com/17680514/148622776-8ba75053-4b99-4963-aa4b-fc12c9b57eda.png)
 
-### Desktop Version (Including FREE features)
-
+## Disable on Game Mode & Exclude/Include programs
+![image](https://user-images.githubusercontent.com/17680514/148622891-e8e1af33-b5e4-4d9d-a22d-06fe394c3466.png)
 
 
 
