@@ -20,6 +20,7 @@ https://windowtop.info/
 ## Anchors
 ![anchor_settings_demo  ](https://user-images.githubusercontent.com/17680514/148612345-13182b75-2b4a-49de-ba0f-44354ebaf2dd.gif)
 ![anchors_demo](https://user-images.githubusercontent.com/17680514/148513474-4ddbeee7-3a34-4c6d-96cb-e2aae0934688.gif)
+![drag_to_anchor_demo](https://user-images.githubusercontent.com/17680514/147726013-d712ce33-0858-465b-aaaf-0a786afebab0.gif)
 
 ## PiP
 ![pip_settings_demo](https://user-images.githubusercontent.com/17680514/148621655-c24821a5-69bb-4984-a03e-1d5a69efad21.gif)
