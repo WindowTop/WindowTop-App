@@ -1,5 +1,5 @@
 # WindowTop
-Set current window on top, make it dark, apply transpareny, shrink it, and more!  
+Set current window on top, make it dark, apply transparency, shrink it, and more!  
 https://windowtop.info/
 
 ![Get it from Microsoft](https://user-images.githubusercontent.com/17680514/127212538-33dcdab6-c3e2-4a13-97c6-d8cfa648b9dd.png)
