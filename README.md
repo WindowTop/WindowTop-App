@@ -6,7 +6,7 @@ https://windowtop.info/
 
 > Search in Microsoft Store for WindowTop and install it!
 
-[WindowTop - Latest Version (For Windows 10 version 2004 and later)](https://github.com/gileli121/WindowTop/releases/latest) 
+[WindowTop - Latest Version (For Windows 10 version 2004 and later, and for Windows 11)](https://github.com/gileli121/WindowTop/releases/latest) 
 
 [WindowTop v3.3.10 (For Windows 10, Windows 7)](https://github.com/gileli121/WindowTop/releases/v3.3.10) 
 
