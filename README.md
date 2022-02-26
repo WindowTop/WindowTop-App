@@ -2,9 +2,7 @@
 Set current window on top, make it dark, apply transparency, shrink it, and more!  
 https://windowtop.info/
 
-![Get it from Microsoft](https://user-images.githubusercontent.com/17680514/127212538-33dcdab6-c3e2-4a13-97c6-d8cfa648b9dd.png)
-
-> Search in Microsoft Store for WindowTop and install it!
+[![Get it from Microsoft](https://user-images.githubusercontent.com/17680514/127212538-33dcdab6-c3e2-4a13-97c6-d8cfa648b9dd.png)](https://www.microsoft.com/p/windowtop/9pg6ghb4ct57?cid=freshdesk&activetab=pivot:overviewtab)
 
 [WindowTop - Latest Version (For Windows 10 version 2004 and later, and for Windows 11)](https://github.com/gileli121/WindowTop/releases/latest) 
 
