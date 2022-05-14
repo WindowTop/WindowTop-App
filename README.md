@@ -13,7 +13,7 @@ https://windowtop.info/
 
 ## Set window on top
 ![set_top_preview_demo](https://user-images.githubusercontent.com/17680514/147696937-fb742ddf-6c2d-4da4-a265-dca29a6465d4.gif)
-![set_top_demo1](https://user-images.githubusercontent.com/17680514/148621410-d955bd7e-7e84-4056-9493-6cb640a741ee.gif)
+![set-window-on-top-demo-new](https://user-images.githubusercontent.com/17680514/168451780-3524568d-edc9-4571-a68f-5fb5b0512159.gif)
 
 ## Anchors
 ![anchor_settings_demo  ](https://user-images.githubusercontent.com/17680514/148612345-13182b75-2b4a-49de-ba0f-44354ebaf2dd.gif)
