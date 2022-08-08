@@ -9,6 +9,9 @@ https://windowtop.info/
 [WindowTop v3.3.10 (For Windows 10, Windows 7)](https://github.com/gileli121/WindowTop/releases/v3.3.10) 
 
 
+# Piracy Statement
+## [!!!] Avoid WindowTop cracked version or risk this project's future (#254) [!!!] 
+
 # Features
 
 ## Set window on top
