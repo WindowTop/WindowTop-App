@@ -10,7 +10,7 @@ https://windowtop.info/
 
 
 # Piracy Statement
-## [!!!] Avoid WindowTop cracked version or risk this project's future (#254) [!!!] 
+## [!!!] Avoid WindowTop cracked version or risk this project's future ([#254](https://github.com/BiGilSoft/WindowTop/issues/254)) [!!!] 
 
 # Features
 
