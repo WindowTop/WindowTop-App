@@ -37,6 +37,7 @@ https://windowtop.info/
 ![dark-mode-demo-pro](https://user-images.githubusercontent.com/17680514/199317062-e3eb3eaf-e7b6-4c14-8774-4f5259d77569.gif)
 
 ## Glass Mode
+![image](https://user-images.githubusercontent.com/17680514/199322258-39ab01ba-983b-43e0-8efd-6757a6279efa.png)
 ![glass-mode](https://user-images.githubusercontent.com/17680514/199318670-d25565de-1816-47e0-ae5d-5e8855a84cf9.gif)
 
 ## Simple Toolbar
