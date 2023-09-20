@@ -1,25 +1,23 @@
-Copyright (c) 2019, gileli121@gmail.com
+Copyright (c) 2017-2023, WindowTop.Info
 All rights reserved.
 
 You are NOT allowed to:
-1. Redistribute any modifed source code that not located in \Include_Third_Party .
-2. Redistribute modified version of the program.
-3. Share not via internet a modified version of the program with others.
-4. Bypass activation check and unlock the full functionality without purchasing activation code.
+1. Decompile or reverse-engineering the software product
+2. Redistribute the modified version of the program.
+3. Share not via the internet a modified version of the program with others.
+4. Bypass the activation check and unlock the full functionality without purchasing the activation code.
 5. Redistribute activation code.
-6. Create derivative work based on the code.
+6. Use the software in a commercial environment without purchasing a license
 
 You are allowed to:
-1. Read the source code to be convinced that there is no any malicious code in program.
-2. Rebuild the source code as it is or without any changes that bypass activation check.
-3. Run the source code without build it (using Autoit).
+1. Use the software
+2. Use the software in a commercial environment if you purchased a license
 
 NOTES:
-1. None of the restrictions apply to any files under \Include_Third_Party .
-2. You may granted specific COPY permissions from the original developer (gileli121@gmail.com or "gil900"),
-in such a case, the restrictions above may partially or fully removed.
-3. "modifed source" includes any modifed text, including text that is not a code.
-4. Any restriction that violates the legal law on your country may not apply and shall be considered as removed.
+1. You may granted specific COPY permissions from the original developer (gileli121@gmail.com),
+in such a case, the restrictions above may be partially or fully removed.
+2. "modifed source" includes any modified text, including text that is not a code.
+3. Any restriction that violates the legal law of your country may not apply and shall be considered as removed.
 
 DISCLAIMER:
 THIS SOFTWARE IS PROVIDED BY gileli121@gmail.com ''AS IS'' AND ANY
