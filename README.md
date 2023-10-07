@@ -51,11 +51,16 @@ https://windowtop.info/
 [Read more about PiP (Picture-in-Picture) and Crop](https://windowtop.info/features/pip-picture-in-picture-crop)
 
 ## Opacity
-| ![Opacity-feature-demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/78eb33db-c896-4209-a49e-af7145ae9753)  Easily adjust window transparency and even enable click-throws, and there is an additional option to temporarily turn off transparency when the mouse is above the window. These options can be enabled via hotkeys. | ![Opacity-Click-Through-Demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/02c6e38f-8369-4e23-ab35-d6d133a440d2)  Use case example of transparency with click-through enabled. |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+![Opacity-feature-demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/78eb33db-c896-4209-a49e-af7145ae9753)
+
+Easily adjust window transparency and even enable click-throws, and there is an additional option to temporarily turn off transparency when the mouse is above the window. These options can be enabled via hotkeys.
+
+![Opacity-Click-Through-Demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/02c6e38f-8369-4e23-ab35-d6d133a440d2)
+
+Use case example of transparency with click-through enabled.
 
 [Read more about Opacity](https://windowtop.info/features/opacity)
-
 
 
 ## Dark Mode
