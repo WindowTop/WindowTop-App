@@ -75,9 +75,6 @@ Use case example of transparency with click-through enabled.
 
 [Read more about Glass Mode](https://windowtop.info/features/glass-mode/)
 
-## Simple Toolbar
-![image](https://user-images.githubusercontent.com/17680514/148622437-7b5a82ff-3cff-457c-a5a6-340369909ad4.png)
-![image](https://user-images.githubusercontent.com/17680514/148622533-8f2e1b6a-1070-4a61-8905-5650984c445c.png)
 
 ## More Toolbars
 ![image](https://user-images.githubusercontent.com/17680514/148622571-89150de9-80ac-4295-b356-071bebf8d75e.png)
@@ -92,7 +89,6 @@ Use case example of transparency with click-through enabled.
 
 ## Disable on Game Mode & Exclude/Include programs
 ![image](https://user-images.githubusercontent.com/17680514/148622891-e8e1af33-b5e4-4d9d-a22d-06fe394c3466.png)
-
 
 
 ## Supported Operating Systems
