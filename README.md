@@ -18,17 +18,18 @@ https://windowtop.info/
 | ![Toolbar example](https://github.com/WindowTop/WindowTop-App/assets/17680514/89362438-5e28-41e1-9a91-371edc6a91f7)  Quicky enable features via simple toolbar | ![Always on Top via toolbar](https://github.com/WindowTop/WindowTop-App/assets/17680514/cfd21740-53eb-48d4-aa30-167757c42d3a)  Use Always on Top via toolbar |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-### Hotkeys settings
-![Hotkeys](https://github.com/WindowTop/WindowTop-App/assets/17680514/d5850bcc-1b9f-4f89-9725-074939478ef1)
-
 
 
 # Features
 
 ## Set window on top
 
-| ![set-top](https://github.com/WindowTop/WindowTop-App/assets/17680514/43ed6dec-0f72-4b94-bddd-c0f8c16b7e4b) | ![set_top_preview_demo](https://user-images.githubusercontent.com/17680514/147696937-fb742ddf-6c2d-4da4-a265-dca29a6465d4.gif) |
-|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| ![set-top](https://github.com/WindowTop/WindowTop-App/assets/17680514/43ed6dec-0f72-4b94-bddd-c0f8c16b7e4b)  Toggle Always-on-Top via toolbar. You can also use the hotkey ALT+Z or change it in settings | ![set-top-disable-when-maximized](https://github.com/WindowTop/WindowTop-App/assets/17680514/7ab50cb8-1352-45ea-a963-232d0b0e98b8)  Toggle option to temporarily disable AOT when the window is maximized. This option can be enabled by default   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+[Read more about Always on Top](https://windowtop.info/features/always-on-top/)
+
+
 
 ## Anchors
 
@@ -62,8 +63,9 @@ https://windowtop.info/
 ![image](https://user-images.githubusercontent.com/17680514/148622631-219d9215-4d62-4d0d-b1cc-0c6238600528.png)
 ![image](https://user-images.githubusercontent.com/17680514/148622647-cbcf7aa3-0c63-4c3a-b1d4-e0a5f633a2e4.png)
 
-## HotKeys
-![image](https://user-images.githubusercontent.com/17680514/148622776-8ba75053-4b99-4963-aa4b-fc12c9b57eda.png)
+### Hotkeys settings
+![Hotkeys](https://github.com/WindowTop/WindowTop-App/assets/17680514/d5850bcc-1b9f-4f89-9725-074939478ef1)
+
 
 ## Disable on Game Mode & Exclude/Include programs
 ![image](https://user-images.githubusercontent.com/17680514/148622891-e8e1af33-b5e4-4d9d-a22d-06fe394c3466.png)
