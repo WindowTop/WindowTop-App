@@ -51,8 +51,11 @@ https://windowtop.info/
 [Read more about PiP (Picture-in-Picture) and Crop](https://windowtop.info/features/pip-picture-in-picture-crop)
 
 ## Opacity
-| ![opacity_demo](https://user-images.githubusercontent.com/17680514/148622060-0b20c8f1-d087-44c6-8853-72f41babde0f.gif) | ![opacity_settings_demo](https://user-images.githubusercontent.com/17680514/148622026-136039fe-2a21-4341-a7cb-e9e8effe0dae.gif) |
-|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| ![Opacity-feature-demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/fbb6424b-5721-40d5-9809-7109eb465b82)  Easily adjust window transparency and even enable click-throws, and there is an additional option to temporarily turn off transparency when the mouse is above the window. These options can be enabled via hotkeys. | ![Opacity-Click-Through-Demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/02c6e38f-8369-4e23-ab35-d6d133a440d2)  Use case example of transparency with click-through enabled. |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+[Read more about Opacity](https://windowtop.info/features/opacity)
+
 
 ## Dark Mode
 | ![dark-mode-demo-pro](https://user-images.githubusercontent.com/17680514/199317062-e3eb3eaf-e7b6-4c14-8774-4f5259d77569.gif) | ![dark_mode_settings](https://user-images.githubusercontent.com/17680514/148622213-f05f11f5-d4e6-4b5a-8c86-c98667d03f3f.gif) |
