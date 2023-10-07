@@ -1,8 +1,10 @@
 # WindowTop
-Set current window on top, make it dark, apply transparency, shrink it, and more!  
+
+Optimize your productivity by making windows Always-On-Top. By switching windows super fast using Anchors. By using & watching multiple windows at the same time using Picture-In-Picture (PiP) mode and enabling night mode (dark-mode) for any window.
+
 https://windowtop.info/
 
-[![Get it from Microsoft](https://user-images.githubusercontent.com/17680514/127212538-33dcdab6-c3e2-4a13-97c6-d8cfa648b9dd.png)](https://www.microsoft.com/p/windowtop/9pg6ghb4ct57?cid=freshdesk&activetab=pivot:overviewtab)
+[![Get it from Microsoft](https://user-images.githubusercontent.com/17680514/127212538-33dcdab6-c3e2-4a13-97c6-d8cfa648b9dd.png)](https://apps.microsoft.com/store/detail/windowtop/9PG6GHB4CT57?hl=en-us&gl=us)
 
 [WindowTop - Latest Version (For Windows 10 version 2004 and later, and for Windows 11)](https://github.com/gileli121/WindowTop/releases/latest) 
 
@@ -15,8 +17,9 @@ https://windowtop.info/
 # Features
 
 ## Set window on top
-![set_top_preview_demo](https://user-images.githubusercontent.com/17680514/147696937-fb742ddf-6c2d-4da4-a265-dca29a6465d4.gif)
-![set-window-on-top-demo-new](https://user-images.githubusercontent.com/17680514/168451780-3524568d-edc9-4571-a68f-5fb5b0512159.gif)
+
+| ![set-top](https://github.com/WindowTop/WindowTop-App/assets/17680514/43ed6dec-0f72-4b94-bddd-c0f8c16b7e4b) | ![set_top_preview_demo](https://user-images.githubusercontent.com/17680514/147696937-fb742ddf-6c2d-4da4-a265-dca29a6465d4.gif) |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 
 ## Anchors
 ![anchor_settings_demo  ](https://user-images.githubusercontent.com/17680514/148612345-13182b75-2b4a-49de-ba0f-44354ebaf2dd.gif)
