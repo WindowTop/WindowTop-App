@@ -18,6 +18,10 @@ https://windowtop.info/
 | ![Toolbar example](https://github.com/WindowTop/WindowTop-App/assets/17680514/89362438-5e28-41e1-9a91-371edc6a91f7)  Quickly set window on top from simple toolbar | ![Always on Top via toolbar](https://github.com/WindowTop/WindowTop-App/assets/17680514/cfd21740-53eb-48d4-aa30-167757c42d3a)  Use Always on Top via toolbar |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+### Hotkeys settings
+![Hotkeys](https://github.com/WindowTop/WindowTop-App/assets/17680514/d5850bcc-1b9f-4f89-9725-074939478ef1)
+
+
 # Features
 
 ## Set window on top
