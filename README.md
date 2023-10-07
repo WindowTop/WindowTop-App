@@ -17,7 +17,7 @@ https://windowtop.info/
 
 # Features
 
-## Set window on top
+## Set window on top (Always on Top)
 
 | ![set-top](https://github.com/WindowTop/WindowTop-App/assets/17680514/43ed6dec-0f72-4b94-bddd-c0f8c16b7e4b)  Toggle Always-on-Top via toolbar. You can also use the hotkey ALT+Z or change it in settings | ![set-top-disable-when-maximized](https://github.com/WindowTop/WindowTop-App/assets/17680514/7ab50cb8-1352-45ea-a963-232d0b0e98b8)  Toggle option to temporarily disable AOT when the window is maximized. This option can be enabled by default   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -25,10 +25,7 @@ https://windowtop.info/
 [Read more about Always on Top](https://windowtop.info/features/always-on-top/)
 
 
-
-
-
-## Anchors
+## Anchors (Alt-Tab alternative)
 
 | ![anchors_demo](https://user-images.githubusercontent.com/17680514/148513474-4ddbeee7-3a34-4c6d-96cb-e2aae0934688.gif)  Easily switch between windows using anchors. You can also configure a hotkey to toggle it on/off. | ![anchors-drag-demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/c5c77f40-ab7b-43ed-bdc1-5bd8946904f0)  You can drag a file to the floating icon. This will bring its window to the foreground so you can drag the file to that window.  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -38,7 +35,7 @@ https://windowtop.info/
 [Read more about Anchors](https://windowtop.info/features/anchors/)
 
 
-## PiP - Picture-in-Picture
+## PiP (Picture in Picture)
 | ![pip_and_crop_demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/053c8569-6349-4991-8a96-7a2fa097db10)  With PiP, you can easily change the window to an interactive thumbnail, control it with the mouse and keyboard, and crop it.              | ![pip_interact_readmode_new](https://github.com/WindowTop/WindowTop-App/assets/17680514/11e51d72-2383-407f-a5b9-a4d8ebb2d66e)  Interact mode lets you see a bigger preview with your mouse cursor above the window. So you don’t have to make the PiP bigger to see where you click or read.  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![pip_hide_original_window](https://github.com/WindowTop/WindowTop-App/assets/17680514/cd707c24-a9d2-4806-86da-d2ef97d55c40)  PiP also allows hiding the original window (*Default)                                                                              | ![pip_show_original_window](https://github.com/WindowTop/WindowTop-App/assets/17680514/51d9284e-8922-4eca-937c-ac1e6f8fde56)  Or you can configure it so as not to hide the original window. You can configure the default behavior and also toggle it via the toolbar.                       |
