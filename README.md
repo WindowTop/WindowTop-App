@@ -26,6 +26,8 @@ https://windowtop.info/
 
 
 
+
+
 ## Anchors
 
 | ![anchors_demo](https://user-images.githubusercontent.com/17680514/148513474-4ddbeee7-3a34-4c6d-96cb-e2aae0934688.gif)  Easily switch between windows using anchors. You can also configure a hotkey to toggle it on/off. | ![anchors-drag-demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/c5c77f40-ab7b-43ed-bdc1-5bd8946904f0)  You can drag a file to the floating icon. This will bring its window to the foreground so you can drag the file to that window.  |
@@ -37,8 +39,11 @@ https://windowtop.info/
 
 
 ## PiP
-| ![pip_shrink_demo](https://user-images.githubusercontent.com/17680514/148619398-b3bae0bb-8585-47b8-be47-a63ed20ce699.gif) | ![pip_settings_demo](https://user-images.githubusercontent.com/17680514/148621655-c24821a5-69bb-4984-a03e-1d5a69efad21.gif) |
-|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| ![pip_and_crop_demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/053c8569-6349-4991-8a96-7a2fa097db10)  With PiP, you can easily change the window to an interactive thumbnail, control it with the mouse and keyboard, and crop it.              | ![pip_interact_readmode_new](https://github.com/WindowTop/WindowTop-App/assets/17680514/11e51d72-2383-407f-a5b9-a4d8ebb2d66e)  Interact mode lets you see a bigger preview with your mouse cursor above the window. So you don’t have to make the PiP bigger to see where you click or read.  |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![pip_hide_original_window](https://github.com/WindowTop/WindowTop-App/assets/17680514/cd707c24-a9d2-4806-86da-d2ef97d55c40)  PiP also allows hiding the original window (*Default)                                                                              | ![pip_show_original_window](https://github.com/WindowTop/WindowTop-App/assets/17680514/51d9284e-8922-4eca-937c-ac1e6f8fde56)  Or you can configure it so as not to hide the original window. You can configure the default behavior and also toggle it via the toolbar.                       |
+| ![pip_smart_drag](https://github.com/WindowTop/WindowTop-App/assets/17680514/d44444c0-d59e-487e-8dc9-932bf1566b0b)  You can drag the PiP view when the mouse is not above some text. The function treats it as a text-selection operation when it is above text. | ![PiP-Auto-Move-demo-1](https://github.com/WindowTop/WindowTop-App/assets/17680514/f188e80a-2158-4651-9db0-7f16b6cf1368)  PiP also includes an auto-move function that automatically moves the PiP view away from any text or image on the screen.                                            |
+
 
 ## Opacity
 | ![opacity_demo](https://user-images.githubusercontent.com/17680514/148622060-0b20c8f1-d087-44c6-8853-72f41babde0f.gif) | ![opacity_settings_demo](https://user-images.githubusercontent.com/17680514/148622026-136039fe-2a21-4341-a7cb-e9e8effe0dae.gif) |
