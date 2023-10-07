@@ -22,26 +22,25 @@ https://windowtop.info/
 |-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 
 ## Anchors
-![anchor_settings_demo  ](https://user-images.githubusercontent.com/17680514/148612345-13182b75-2b4a-49de-ba0f-44354ebaf2dd.gif)
-![anchors_demo](https://user-images.githubusercontent.com/17680514/148513474-4ddbeee7-3a34-4c6d-96cb-e2aae0934688.gif)
-![drag_to_anchor_demo](https://user-images.githubusercontent.com/17680514/147726013-d712ce33-0858-465b-aaaf-0a786afebab0.gif)
+
+| ![anchors_demo](https://user-images.githubusercontent.com/17680514/148513474-4ddbeee7-3a34-4c6d-96cb-e2aae0934688.gif) | ![anchor_settings_demo  ](https://user-images.githubusercontent.com/17680514/148612345-13182b75-2b4a-49de-ba0f-44354ebaf2dd.gif) |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 
 ## PiP
-![pip_settings_demo](https://user-images.githubusercontent.com/17680514/148621655-c24821a5-69bb-4984-a03e-1d5a69efad21.gif)
-![pip_shrink_demo](https://user-images.githubusercontent.com/17680514/148619398-b3bae0bb-8585-47b8-be47-a63ed20ce699.gif)
+| ![pip_shrink_demo](https://user-images.githubusercontent.com/17680514/148619398-b3bae0bb-8585-47b8-be47-a63ed20ce699.gif) | ![pip_settings_demo](https://user-images.githubusercontent.com/17680514/148621655-c24821a5-69bb-4984-a03e-1d5a69efad21.gif) |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 
 ## Opacity
-![opacity_settings_demo](https://user-images.githubusercontent.com/17680514/148622026-136039fe-2a21-4341-a7cb-e9e8effe0dae.gif)
-![opacity_demo](https://user-images.githubusercontent.com/17680514/148622060-0b20c8f1-d087-44c6-8853-72f41babde0f.gif)
+| ![opacity_demo](https://user-images.githubusercontent.com/17680514/148622060-0b20c8f1-d087-44c6-8853-72f41babde0f.gif) | ![opacity_settings_demo](https://user-images.githubusercontent.com/17680514/148622026-136039fe-2a21-4341-a7cb-e9e8effe0dae.gif) |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 
 ## Dark Mode
-![dark_mode_settings](https://user-images.githubusercontent.com/17680514/148622213-f05f11f5-d4e6-4b5a-8c86-c98667d03f3f.gif)
-![dark_mode_demo](https://user-images.githubusercontent.com/17680514/148622379-5a91ca55-bceb-43f5-9be1-9cfffe3750b4.gif)
-![dark-mode-demo-pro](https://user-images.githubusercontent.com/17680514/199317062-e3eb3eaf-e7b6-4c14-8774-4f5259d77569.gif)
+| ![dark-mode-demo-pro](https://user-images.githubusercontent.com/17680514/199317062-e3eb3eaf-e7b6-4c14-8774-4f5259d77569.gif) | ![dark_mode_settings](https://user-images.githubusercontent.com/17680514/148622213-f05f11f5-d4e6-4b5a-8c86-c98667d03f3f.gif) |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 
 ## Glass Mode
-![image](https://user-images.githubusercontent.com/17680514/199322258-39ab01ba-983b-43e0-8efd-6757a6279efa.png)
-![glass-mode](https://user-images.githubusercontent.com/17680514/199318670-d25565de-1816-47e0-ae5d-5e8855a84cf9.gif)
+| ![glass-mode](https://user-images.githubusercontent.com/17680514/199318670-d25565de-1816-47e0-ae5d-5e8855a84cf9.gif) | ![image](https://user-images.githubusercontent.com/17680514/199322258-39ab01ba-983b-43e0-8efd-6757a6279efa.png) |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 
 ## Simple Toolbar
 ![image](https://user-images.githubusercontent.com/17680514/148622437-7b5a82ff-3cff-457c-a5a6-340369909ad4.png)
