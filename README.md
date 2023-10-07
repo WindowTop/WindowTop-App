@@ -28,8 +28,13 @@ https://windowtop.info/
 
 ## Anchors
 
-| ![anchors_demo](https://user-images.githubusercontent.com/17680514/148513474-4ddbeee7-3a34-4c6d-96cb-e2aae0934688.gif) | ![anchor_settings_demo  ](https://user-images.githubusercontent.com/17680514/148612345-13182b75-2b4a-49de-ba0f-44354ebaf2dd.gif) |
-|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| ![anchors_demo](https://user-images.githubusercontent.com/17680514/148513474-4ddbeee7-3a34-4c6d-96cb-e2aae0934688.gif)  Easily switch between windows using anchors. You can also configure a hotkey to toggle it on/off. | ![anchors-drag-demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/c5c77f40-ab7b-43ed-bdc1-5bd8946904f0)  You can drag a file to the floating icon. This will bring its window to the foreground so you can drag the file to that window.  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![anchors_close_shortcut-demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/0c7ce0e0-d174-44b7-859a-2f0daa28abb0)  Mouse middle-click (wheel button): this will close the window (*Default)                 | ![anchors_minimize_shortcut-demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/a5b07b6c-f4b3-4dbc-8c7f-d6c85f9b4f00)  Mouse right-click: this will minimize the window (*Default)                                                         |
+| ![anchor-pip-icon-demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/aaf6b31c-c833-474d-bcaa-3b8eddcc64e6)  Anchor for PiP window without cropping enabled                                                  | ![anchors-crop-icon-demo](https://github.com/WindowTop/WindowTop-App/assets/17680514/7b4e7dfd-5a2e-4002-a483-7917588d278a)  Anchor for PiP window with cropping enabled                                                                                 |
+
+[Read more about Anchors](https://windowtop.info/features/anchors/)
+
 
 ## PiP
 | ![pip_shrink_demo](https://user-images.githubusercontent.com/17680514/148619398-b3bae0bb-8585-47b8-be47-a63ed20ce699.gif) | ![pip_settings_demo](https://user-images.githubusercontent.com/17680514/148621655-c24821a5-69bb-4984-a03e-1d5a69efad21.gif) |
