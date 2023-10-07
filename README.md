@@ -67,9 +67,13 @@ Use case example of transparency with click-through enabled.
 | ![dark-mode-demo-pro](https://user-images.githubusercontent.com/17680514/199317062-e3eb3eaf-e7b6-4c14-8774-4f5259d77569.gif) | ![dark_mode_settings](https://user-images.githubusercontent.com/17680514/148622213-f05f11f5-d4e6-4b5a-8c86-c98667d03f3f.gif) |
 |-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 
+[Read more about Dark Mode](https://windowtop.info/features/dark-mode/)
+
 ## Glass Mode
 | ![glass-mode](https://user-images.githubusercontent.com/17680514/199318670-d25565de-1816-47e0-ae5d-5e8855a84cf9.gif) | ![image](https://user-images.githubusercontent.com/17680514/199322258-39ab01ba-983b-43e0-8efd-6757a6279efa.png) |
 |-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+
+[Read more about Glass Mode](https://windowtop.info/features/glass-mode/)
 
 ## Simple Toolbar
 ![image](https://user-images.githubusercontent.com/17680514/148622437-7b5a82ff-3cff-457c-a5a6-340369909ad4.png)
