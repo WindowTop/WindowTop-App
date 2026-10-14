@@ -1,0 +1,40 @@
+# NEW FILE - manual only. Starts the Request Planner cloud agent for one issue of this repository.
+name: Request Planner
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number in this repository (digits only, for example 498)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  issues: read
+
+concurrency:
+  group: request-planner-${{ inputs.issue_number }}
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the planner scripts only
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/scripts/request-planner
+          persist-credentials: false
+
+      - name: Fetch the issue and start the Request Planner agent
+        shell: pwsh
+        env:
+          ISSUE_NUMBER: ${{ inputs.issue_number }}
+          REPO: ${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+          PLANNER_WEBHOOK_URL: ${{ secrets.PLANNER_WEBHOOK_URL }}
+          PLANNER_WEBHOOK_KEY: ${{ secrets.PLANNER_WEBHOOK_KEY }}
+          PLANNER_MAINTAINERS: ${{ vars.PLANNER_MAINTAINERS }}
+        run: ./.github/scripts/request-planner/fetch-issue.ps1 -Repo $env:REPO -IssueNumber $env:ISSUE_NUMBER
